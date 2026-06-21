@@ -1,7 +1,7 @@
 # Migration Journal: NetworkServicesEdgeCacheService
 
 ## Current Step
-Step 3: Create a Round-Trip KRM Fuzzer
+Step 4: Ensure MockGCP matches real gcp behavior
 
 ## Progress Tracking
 
@@ -9,11 +9,12 @@ Step 3: Create a Round-Trip KRM Fuzzer
 |---|---|---|---|---|---|
 | Step 1: Direct API Types | [Issue #10613](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10613) | [PR #10616](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10616) | Completed | 2026-06-21 | 2026-06-21 |
 | Step 2: Identity and Reference Types Pattern | [Issue #10618](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10618) | [PR #10620](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10620) | Completed | 2026-06-21 | 2026-06-21 |
-| Step 3: Create a Round-Trip KRM Fuzzer | [Issue #10644](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10644) | [PR #10653](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10653) | PR Created | 2026-06-21 | - |
-| Step 4: Ensure MockGCP matches real gcp behavior | - | - | - | - | - |
+| Step 3: Create a Round-Trip KRM Fuzzer | [Issue #10644](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10644) | [PR #10653](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10653) | Completed | 2026-06-21 | 2026-06-21 |
+| Step 4: Ensure MockGCP matches real gcp behavior | [Issue #10658](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10658) | - | Open | 2026-06-21 | - |
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Completed Step 3 (Create a Round-Trip KRM Fuzzer). Pull Request [PR #10653](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10653) was successfully merged. Initiated Step 4 (Ensure MockGCP matches real gcp behavior) by opening [Issue #10658](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10658) to implement/verify MockGCP behavior for `NetworkServicesEdgeCacheService`.
 - **2026-06-21**: Re-verified migration progress. All CI checks are completely green (passed), and PR #10653 is approved and remains queued in the GitHub Merge Queue. Still waiting for the merge queue to finalize and merge the PR before we can proceed to Step 4.
 - **2026-06-21**: Checked migration progress. Verified that all CI checks for PR #10653 (Step 3) have successfully passed. The PR is approved, LGTM'd, and is currently queued to merge. Waiting for the merge to complete before proceeding to Step 4.
 - **2026-06-21**: Checked migration progress. Verified that PR #10653 (Step 3) is approved by reviewers. Currently, 2 CI checks (`tests-e2e-fixtures-compute` and `tests-e2e-fixtures-bigquery`) remain pending, and all other completed CI checks have passed successfully. We are waiting for the remaining CI checks to complete and for the PR to be merged before proceeding to Step 4.
