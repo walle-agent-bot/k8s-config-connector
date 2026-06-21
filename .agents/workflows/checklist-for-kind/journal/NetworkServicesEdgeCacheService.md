@@ -14,6 +14,7 @@ Step 3: Create a Round-Trip KRM Fuzzer
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Re-verified migration progress. All CI checks are completely green (passed), and PR #10653 is approved and remains queued in the GitHub Merge Queue. Still waiting for the merge queue to finalize and merge the PR before we can proceed to Step 4.
 - **2026-06-21**: Checked migration progress. Verified that all CI checks for PR #10653 (Step 3) have successfully passed. The PR is approved, LGTM'd, and is currently queued to merge. Waiting for the merge to complete before proceeding to Step 4.
 - **2026-06-21**: Checked migration progress. Verified that PR #10653 (Step 3) is approved by reviewers. Currently, 2 CI checks (`tests-e2e-fixtures-compute` and `tests-e2e-fixtures-bigquery`) remain pending, and all other completed CI checks have passed successfully. We are waiting for the remaining CI checks to complete and for the PR to be merged before proceeding to Step 4.
 - **2026-06-21**: Checked migration progress. Detected that Pull Request [PR #10653](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10653) has been opened for Step 3 (Round-Trip KRM Fuzzer) by `lovelace-coder-bot`. All completed CI checks are passing, with several checks currently pending. We are waiting for CI checks to complete and for the PR to be approved and merged before we can proceed to Step 4.
