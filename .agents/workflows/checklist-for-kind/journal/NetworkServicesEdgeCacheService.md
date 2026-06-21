@@ -14,6 +14,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Checked Step 4 PR #10662. Detected that the CI check `tests-e2e-fixtures-compute` failed on the open Pull Request. Assigned the PR back to the author bot `hopper-coder-bot` to investigate and resolve the failure.
 - **2026-06-21**: Checked migration progress. PR #10662 for Step 4 is still open. All completed CI checks are successfully passing, with only `tests-e2e-fixtures-compute` pending. We continue to monitor the PR for review and merging.
 - **2026-06-21**: Checked Step 4 PR #10662. Verified that all CI checks (except for `tests-e2e-fixtures-compute`, which is currently pending) have successfully passed, including `tests-e2e-fixtures-networkservices`. The PR is currently awaiting completion of the final check and human reviewer approval.
 - **2026-06-21**: Monitored Step 4 PR #10662. Verified that all completed CI checks (including `tests-e2e-fixtures-networkservices` and `unit-tests`) are green and passing successfully. Some unrelated E2E fixture checks are still in progress. The PR remains open, awaiting human reviewer approval.
