@@ -14,6 +14,7 @@ Step 2: Identity and Reference Types Pattern
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Checked migration progress. Re-verified that all 151 CI checks have passed successfully on PR #10620 (Step 2). The PR remains open, awaiting human reviewer approval and merging.
 - **2026-06-21**: Checked migration progress. Verified that all 173 active CI checks (and 4 skipped checks) continue to pass successfully on PR #10620 (Step 2). The PR remains open, awaiting human reviewer approval and merging.
 - **2026-06-21**: Monitored migration progress. Verified that all 116 CI checks are passing successfully on PR #10620 (Step 2). The PR remains open and blocked, awaiting human reviewer approval and merging.
 - **2026-06-21**: Re-verified migration progress. All 177 CI checks continue to pass successfully on PR #10620 (Step 2). The PR remains open, awaiting human reviewer approval and merging.
