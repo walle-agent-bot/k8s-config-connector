@@ -14,5 +14,6 @@ Step 1: Direct API Types
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Checked migration status. Issue #10613 is currently in progress (assigned to `hopper-coder-bot` in sandbox). No Pull Request has been submitted yet.
 - **2026-06-21**: `hopper-coder-bot` has started working on implementing direct KRM types and `generate.sh` (Issue #10613).
 - **2026-06-21**: Started migration orchestration for `NetworkServicesEdgeCacheService`. Opened Step 1 issue [Issue #10613](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10613) to implement direct KRM types and `generate.sh`. Status is Open.
