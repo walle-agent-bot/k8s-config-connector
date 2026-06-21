@@ -8,12 +8,13 @@ Step 2: Identity and Reference Types Pattern
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types | [Issue #10613](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10613) | [PR #10616](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10616) | Completed | 2026-06-21 | 2026-06-21 |
-| Step 2: Identity and Reference Types Pattern | [Issue #10618](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10618) | - | In Progress | 2026-06-21 | - |
+| Step 2: Identity and Reference Types Pattern | [Issue #10618](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10618) | [PR #10620](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10620) | PR Created | 2026-06-21 | - |
 | Step 3: Create a Round-Trip KRM Fuzzer | - | - | - | - | - |
 | Step 4: Ensure MockGCP matches real gcp behavior | - | - | - | - | - |
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Monitored migration progress. Detected that Pull Request [PR #10620](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10620) has been opened for Step 2 by `lovelace-coder-bot`. Verified that all completed CI checks are passing; awaiting completion of remaining pending checks.
 - **2026-06-21**: Continued monitoring migration progress. Issue #10618 (Step 2) remains Open. Lovelace-coder-bot is working on it in the sandbox, and we are waiting for the corresponding Pull Request to be opened.
 - **2026-06-21**: Monitored migration progress. Verified that PR #10616 (Step 1) is successfully merged. Issue #10618 (Step 2) is currently Open and assigned to `lovelace-coder-bot` in the sandbox; waiting for the Pull Request to be opened.
 - **2026-06-21**: Completed Step 1 (Direct API Types). Pull Request [PR #10616](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10616) successfully merged. Initiated Step 2 (Identity and Reference Types Pattern) by opening [Issue #10618](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10618) to move `NetworkServicesEdgeCacheService` to the identity and reference pattern.
