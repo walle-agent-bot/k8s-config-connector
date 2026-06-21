@@ -14,6 +14,7 @@ Step 2: Identity and Reference Types Pattern
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Continued monitoring migration progress. Issue #10618 (Step 2) remains Open. Lovelace-coder-bot is working on it in the sandbox, and we are waiting for the corresponding Pull Request to be opened.
 - **2026-06-21**: Monitored migration progress. Verified that PR #10616 (Step 1) is successfully merged. Issue #10618 (Step 2) is currently Open and assigned to `lovelace-coder-bot` in the sandbox; waiting for the Pull Request to be opened.
 - **2026-06-21**: Completed Step 1 (Direct API Types). Pull Request [PR #10616](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10616) successfully merged. Initiated Step 2 (Identity and Reference Types Pattern) by opening [Issue #10618](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10618) to move `NetworkServicesEdgeCacheService` to the identity and reference pattern.
 - **2026-06-21**: Verified that PR #10616 is still open. Re-confirmed `hopper-coder-bot` is assigned to address the failing unrelated flake in `tests-e2e-fixtures-containerattached` and progress the merge queue.
