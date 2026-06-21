@@ -1,19 +1,20 @@
 # Migration Journal: NetworkServicesEdgeCacheService
 
 ## Current Step
-Step 2: Identity and Reference Types Pattern
+Step 3: Create a Round-Trip KRM Fuzzer
 
 ## Progress Tracking
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types | [Issue #10613](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10613) | [PR #10616](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10616) | Completed | 2026-06-21 | 2026-06-21 |
-| Step 2: Identity and Reference Types Pattern | [Issue #10618](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10618) | [PR #10620](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10620) | PR Created | 2026-06-21 | - |
-| Step 3: Create a Round-Trip KRM Fuzzer | - | - | - | - | - |
+| Step 2: Identity and Reference Types Pattern | [Issue #10618](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10618) | [PR #10620](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10620) | Completed | 2026-06-21 | 2026-06-21 |
+| Step 3: Create a Round-Trip KRM Fuzzer | [Issue #10644](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10644) | - | Open | 2026-06-21 | - |
 | Step 4: Ensure MockGCP matches real gcp behavior | - | - | - | - | - |
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Completed Step 2 (Identity and Reference Types Pattern). Pull Request [PR #10620](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10620) successfully merged. Initiated Step 3 (Create a Round-Trip KRM Fuzzer) by opening [Issue #10644](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10644) to implement the fuzzer.
 - **2026-06-21**: Checked migration progress. Re-verified that PR #10620 (Step 2) is approved, all CI checks have passed, and the PR is currently queued to merge in GitHub. Waiting for merge to complete before initiating Step 3.
 - **2026-06-21**: Checked migration progress. Verified that all CI checks continue to pass successfully and PR #10620 is APPROVED by human reviewer `barney-s`. The PR is currently queued to merge in GitHub.
 - **2026-06-21**: Monitored migration progress. Checked CI checks for Step 2 PR #10620 and verified that all 151 CI checks continue to pass successfully. The PR remains open, awaiting human reviewer approval before we can proceed to Step 3.
