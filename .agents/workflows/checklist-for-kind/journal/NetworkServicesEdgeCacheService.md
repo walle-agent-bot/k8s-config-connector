@@ -14,6 +14,7 @@ Step 3: Create a Round-Trip KRM Fuzzer
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Checked migration progress. Issue #10644 (Step 3: Create a Round-Trip KRM Fuzzer) is still open and being worked on by `lovelace-coder-bot` in the sandbox. No Pull Request has been opened yet. We are waiting for the fuzzer PR to be submitted before proceeding to Step 4.
 - **2026-06-21**: Checked migration progress. Verified that lovelace-coder-bot is currently working on Step 3 (Round-Trip KRM Fuzzer) under [Issue #10644](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10644) in the sandbox. No Pull Request has been opened in the main repository yet. Waiting for the PR to be submitted.
 - **2026-06-21**: Completed Step 2 (Identity and Reference Types Pattern). Pull Request [PR #10620](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10620) successfully merged. Initiated Step 3 (Create a Round-Trip KRM Fuzzer) by opening [Issue #10644](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10644) to implement the fuzzer.
 - **2026-06-21**: Checked migration progress. Re-verified that PR #10620 (Step 2) is approved, all CI checks have passed, and the PR is currently queued to merge in GitHub. Waiting for merge to complete before initiating Step 3.
