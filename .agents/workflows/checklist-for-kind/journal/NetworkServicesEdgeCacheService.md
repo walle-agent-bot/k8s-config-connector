@@ -14,6 +14,7 @@ Step 2: Identity and Reference Types Pattern
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-21**: Checked migration progress. Re-verified that all CI checks continue to pass successfully on PR #10620. The PR remains open, awaiting human reviewer approval before we can proceed to Step 3.
 - **2026-06-21**: Monitored migration progress. Verified that all CI checks have successfully passed for PR #10620. The PR is awaiting human reviewer approval.
 - **2026-06-21**: Monitored migration progress. Checked CI checks for Step 2 PR #10620. All completed checks have passed; `tests-e2e-fixtures-bigquery` is currently pending. The PR is awaiting human reviewer approval.
 - **2026-06-21**: Monitored migration progress. Detected that Pull Request [PR #10620](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10620) has been opened for Step 2 by `lovelace-coder-bot`. Verified that all completed CI checks are passing; awaiting completion of remaining pending checks.
