@@ -14,6 +14,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-24**: Re-verified Step 4 status. Confirmed all 177 CI check-runs are completed and 100% green on PR #10662. The PR is healthy, open, and currently awaiting human reviewer (`barney-s`) approval and merging before we can proceed to Step 5.
 - **2026-06-24**: Re-audited Step 4 migration progress. Confirmed all 177 CI checks on PR #10662 remain 100% green and successfully passing. The PR is completely healthy, open, and awaiting human reviewer (`barney-s`) approval and merging before we can transition to Step 5.
 - **2026-06-23**: Checked migration progress of Step 4. Verified that all 178 CI checks have passed successfully and are 100% green on PR #10662. The PR remains open, awaiting human reviewer (`barney-s`) approval and merging before we can proceed to Step 5.
 - **2026-06-21**: Completed Step 3 (Create a Round-Trip KRM Fuzzer). Pull Request [PR #10653](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10653) was successfully merged. Initiated Step 4 (Ensure MockGCP matches real gcp behavior) by opening [Issue #10658](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10658) to implement/verify MockGCP behavior for `NetworkServicesEdgeCacheService`.
