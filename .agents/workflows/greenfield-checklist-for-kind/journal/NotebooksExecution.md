@@ -12,6 +12,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 3 | MockGCP and Alignment | - | - | - | - | - |
 
 ## Status Update Notes
+* **2026-06-24**: Monitored Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) remains open and mergeable. Almost all CI check-runs are now passing, including `tests-e2e-fixtures-compute`; only `tests-e2e-fixtures-bigquery` is currently pending. Waiting for remaining checks and human review.
 * **2026-06-24**: Monitored Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) is open and in a mergeable state. All completed CI check-runs are passing; waiting for remaining checks to complete and for human review/merge.
 * **2026-06-24**: Monitored Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) has been opened by `ada-coder-bot` and CI checks are currently in progress.
 * **2026-06-24**: Monitored Step 2. Confirmed that no Pull Request has been opened yet for issue #10756 and the sandbox environment is still actively working on implementing the direct controller for NotebooksExecution.
