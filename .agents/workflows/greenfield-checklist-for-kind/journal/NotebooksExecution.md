@@ -12,6 +12,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 3 | MockGCP and Alignment | - | - | - | - | - |
 
 ## Status Update Notes
+* **2026-06-25**: Detected that Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) has merge conflicts ("mergeable_state": "dirty"). Assigned the PR back to the author bot `ada-coder-bot` via the GitHub REST API to perform a rebase and resolve the conflicts. All 192 CI check-runs are successfully completed and passing.
 * **2026-06-25**: Monitored Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) remains open, healthy, and fully mergeable. Confirmed that 100% of the 192 CI status checks are successfully completed and passing with zero failures. Awaiting human OWNER review, approval, and merge to complete Step 2.
 * **2026-06-25**: Monitored Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) remains open, healthy, and fully mergeable. Verified that 100% of the 192 CI status checks are successfully completed and passing. Still awaiting human OWNER review, approval, and merge before transitioning to Step 3.
 * **2026-06-25**: Monitored Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) remains open, healthy, and fully mergeable. Confirmed that 100% of the 192 CI check-runs are successfully completed and passing. Awaiting human OWNER review, approval, and merge before transitioning to Step 3.
