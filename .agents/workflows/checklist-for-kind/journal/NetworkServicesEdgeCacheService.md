@@ -14,6 +14,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-06-25**: Re-verified Step 4 status. Checked all CI checks on PR #10662 and confirmed they remain 100% green and successfully passing. The PR remains open, awaiting human reviewer (`barney-s`) approval and merge before we can proceed to Step 5.
 - **2026-06-25**: Verified PR #10662 remains open and healthy. Ran a precise paginated check verifying all 177 CI check-runs are 100% green and successfully completed. Awaiting human reviewer (`barney-s`) approval and merge.
 - **2026-06-25**: Monitored Step 4 migration progress. Checked all 177 CI checks on open PR #10662 and confirmed they remain 100% green and passing. The PR is healthy and continues to await human reviewer (`barney-s`) approval and merge.
 - **2026-06-25**: Monitored Step 4 progress. Checked all CI checks on PR #10662 and confirmed they are 100% green and passing. The PR is open and awaiting merge from human owners before we can proceed to Step 5.
