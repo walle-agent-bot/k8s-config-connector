@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update History
+- **2026-06-30**: Monitored Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). The PR remains open with unresolved CI failures (`unit-tests`, `unit-tests-operator`, `validate-generated-files`, and `validations`). `argus-watcher-bot` has acknowledged the failures, and `ada-coder-bot` remains assigned. Re-assigned to ensure active triage.
 - **2026-06-30**: Checked progress of Step 1. Pull request [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) is open with failing CI checks (`unit-tests`, `unit-tests-operator`, `validate-generated-files`, and `validations`). `ada-coder-bot` is assigned, and `argus-watcher-bot` has initiated an automated investigation into the CI failures.
 - **2026-06-30**: Checked progress of Step 1. Pull request [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) is open but has failing CI checks (`unit-tests-operator`, `validate-generated-files`, and `validations`). Assigned the PR back to the author bot `ada-coder-bot` to resolve the failures.
 - **2026-06-30**: Checked progress of Step 1 issue [#10298](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10298). The issue is still `Open` and assigned to `codebot-robot` and `ada-coder-bot`. AI Factory is working on implementing direct types, and no PR has been opened yet.
