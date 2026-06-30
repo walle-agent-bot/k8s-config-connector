@@ -1,18 +1,19 @@
 # SQLAdminBackup Greenfield Migration Journal
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern**
+**Step 2: Direct Controller, E2E fixtures and Fuzzer**
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types and Identity | [#10298](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10298) | [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) | PR Created | 2026-06-29 | - |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | - | - | - |
+| 1 | Direct API Types and Identity | [#10298](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10298) | [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) | Merged | 2026-06-29 | 2026-06-30 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) | - | Open | 2026-06-30 | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update History
+- **2026-06-30**: Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) has been successfully merged! Completed Step 1. Created Step 2 tracking issue [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) to implement the direct controller, E2E fixtures, and fuzzer.
 - **2026-06-30**: Checked Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). Confirmed that all 193 CI checks are fully completed and passing. The PR is officially **APPROVED** and has `lgtm` and `approved` labels, and remains in a clean, mergeable state. Awaiting automated merge by Prow/Tide before we can proceed to Step 2.
 - **2026-06-30**: Checked progress of Step 1. Re-verified that all 188 CI checks are fully completed and successfully passing. The PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) remains open and has been officially **APPROVED** by owner @acpana. Awaiting automated merge by Prow/Tide before we can proceed to Step 2.
 - **2026-06-30**: Checked progress of Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). Confirmed that the PR has been officially **APPROVED** by owner @acpana and all 188 CI checks are successfully passing. The PR is in a clean, mergeable state, and is now awaiting Prow/Tide to merge it before we can proceed to Step 2.
@@ -35,7 +36,7 @@
 - **2026-06-30**: Re-verified the status of Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). Confirmed all 188 CI check-runs are completely and successfully passing. The PR is open, clean, mergeable, and ready. Awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-06-30**: Checked the status of Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). Verified that all 188 CI checks are completed and successfully passing. The PR remains open, clean, mergeable, and fully ready. No further action is required; awaiting human OWNER review and merge approval.
 - **2026-06-30**: Verified the current status of Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). Checked all 188 check-runs and confirmed that they are all fully completed and successfully passing. The PR remains open, clean, mergeable, and ready, waiting for human OWNER review and approval to merge.
-- **2026-06-30**: Monitored Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). Confirmed all 188 CI checks continue to pass successfully. The PR is in a clean, mergeable state, and all previous review comments have been fully addressed by the author bot. Awaiting human OWNER review and merge approval.
+- **2026-06-30**: Monitored Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). Confirmed all 188 CI checks continue to pass successfully on the open PR. Verified it is in a clean, mergeable state and all previous review comments have been fully addressed by the author bot. Awaiting human OWNER review and merge approval.
 - **2026-06-30**: Checked progress of Step 1. Verified that all 188 CI checks have passed successfully and no further actions are required from the bot. The PR #10986 remains open, clean, and mergeable, awaiting human OWNER review and merge.
 - **2026-06-30**: Verified that all 188 CI checks continue to pass successfully on the open Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). The PR remains clean, mergeable, and fully ready, awaiting human OWNER review and merge approval.
 - **2026-06-30**: Verified Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) remains open with all 188 CI checks fully completed and passing. The PR is in a clean, mergeable state, and all previous review comments have been fully addressed. Awaiting human OWNER review and merge approval.
