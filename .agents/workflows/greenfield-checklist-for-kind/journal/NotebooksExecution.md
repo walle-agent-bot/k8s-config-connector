@@ -1,17 +1,18 @@
 # Migration Journal: NotebooksExecution
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: MockGCP and Alignment
 
 ## Migration Progress
 
 | Step | Step Name | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 |------|-----------|--------------|-----------|--------|--------------|----------------|
 | 1 | Direct KRM Types & Identity | [#9241](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9241) | [#9315](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9315) | Merged | 2026-06-05 | 2026-06-05 |
-| 2 | Direct Controller, E2E & Fuzzer | [#10756](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10756) | [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) | Approved | 2026-06-24 | - |
-| 3 | MockGCP and Alignment | - | - | - | - | - |
+| 2 | Direct Controller, E2E & Fuzzer | [#10756](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10756) | [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) | Merged | 2026-06-24 | 2026-06-30 |
+| 3 | MockGCP and Alignment | [#11088](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11088) | - | Open | 2026-06-30 | - |
 
 ## Status Update Notes
+* **2026-06-30 (23:45 UTC)**: Completed Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) has been successfully merged into upstream master by Tide! Initiating Step 3: MockGCP and Alignment by creating GitHub Issue [#11088](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11088).
 * **2026-06-30 (23:31 UTC)**: Monitored Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) remains **APPROVED** by human OWNER `acpana` and is fully mergeable with 100% of the 192 CI check-runs passing successfully. It continues to await automated merge by Tide. We will transition to Step 3 (MockGCP and Alignment) once the merge is finalized.
 * **2026-06-30 (23:11 UTC)**: Checked Step 2 status. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) remains **APPROVED** by human OWNER `acpana` and has both `lgtm` and `approved` labels applied. All 192 status checks continue to pass successfully with a 100% success rate (100% green). The PR is fully mergeable and currently awaiting automated merge by Tide. We will proceed to Step 3 (MockGCP and Alignment) once the merge is finalized.
 * **2026-06-30 (22:58 UTC)**: Monitored Step 2. Pull Request [#10760](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10760) remains **APPROVED** by human OWNER `acpana` and has both `lgtm` and `approved` labels. All 192 status checks are passing successfully. The PR is fully mergeable and is currently awaiting the automated merge by Tide. We will transition to Step 3 (MockGCP and Alignment) once the merge completes.
