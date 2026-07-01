@@ -8,11 +8,12 @@
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct API Types and Identity | [#10298](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10298) | [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) | Merged | 2026-06-29 | 2026-06-30 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) | - | Open | 2026-06-30 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) | [#11092](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11092) | PR Created | 2026-06-30 | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update History
+- **2026-07-01**: Checked Step 2 progress. Pull Request [#11092](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11092) has been opened by `hopper-coder-bot`. Detected three failing CI checks: `fuzz-roundtrippers`, `validate-generated-files`, and `validations`. Assigned the PR back to the author bot `hopper-coder-bot` to trigger active triage and fix the failures.
 - **2026-07-01**: Audited Step 2 progress. Confirmed that the sandbox remains active for issue [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) and that no branch or Pull Request has been pushed by `hopper-coder-bot` yet. Continuing to monitor and wait for the direct controller PR.
 - **2026-07-01**: Re-verified Step 2. Audited GitHub and confirmed that the sandbox is active but no branch or Pull Request has been pushed by `hopper-coder-bot` yet. Issue [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) remains open and assigned. Awaiting first PR.
 - **2026-07-01**: Monitored Step 2. Checked git branches and pull requests related to SQLAdminBackup. Verified that no active branch or PR has been pushed by `hopper-coder-bot` yet. The tracking issue [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) remains open and the sandbox is active. Continuing to await the first Pull Request.
