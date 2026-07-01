@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update History
+- **2026-07-01**: Re-verified Step 2. Audited GitHub and confirmed that the sandbox is active but no branch or Pull Request has been pushed by `hopper-coder-bot` yet. Issue [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) remains open and assigned. Awaiting first PR.
 - **2026-07-01**: Monitored Step 2. Checked git branches and pull requests related to SQLAdminBackup. Verified that no active branch or PR has been pushed by `hopper-coder-bot` yet. The tracking issue [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) remains open and the sandbox is active. Continuing to await the first Pull Request.
 - **2026-06-30**: Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986) has been successfully merged! Completed Step 1. Created Step 2 tracking issue [#11087](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11087) to implement the direct controller, E2E fixtures, and fuzzer.
 - **2026-06-30**: Checked Step 1 PR [#10986](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10986). Confirmed that all 193 CI checks are fully completed and passing. The PR is officially **APPROVED** and has `lgtm` and `approved` labels, and remains in a clean, mergeable state. Awaiting automated merge by Prow/Tide before we can proceed to Step 2.
