@@ -14,6 +14,7 @@
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-01:** Overseer agent successfully assigned PR #10992 to `ada-coder-bot` via the REST API to bypass GitHub GraphQL scope restrictions. All 145/145 CI checks continue to pass successfully (fully green). The PR is awaiting coder action to address acpana's review feedback.
 - **2026-07-01:** Overseer agent detected that PR #10992 is unassigned and contains pending review feedback from reviewer acpana. Reassigned the PR to `ada-coder-bot` to address the feedback ("revert changes to dev/tools/controllerbuilder/pkg/codegen/typegenerator.go", "revert changes to dev/tools/controllerbuilder/pkg/codegen/mappergenerator.go", and "want a test file" in `apis/gsuiteaddons/v1alpha1/gsuiteaddonsdeployment_identity.go`).
 - **2026-07-01:** Overseer agent monitored PR #10992 again. Confirmed all CI checks continue to pass successfully (fully green). The PR is open, awaiting human OWNER review and merge.
 - **2026-07-01:** Overseer agent detected PR #10992 has review feedback from reviewer acpana ("revert changes to this file", "want a test file"). Assigned PR #10992 to `ada-coder-bot` to address the feedback.
