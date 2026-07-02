@@ -16,6 +16,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Status Update Notes
 
+- **2026-07-02**: Monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed that the remaining E2E checks (`tests-e2e-fixtures-compute` and `tests-e2e-fixtures-bigquery`) are still in progress, while all other validations have successfully passed. Waiting for the PR to merge.
 - **2026-07-02**: Checked CI status of PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Verified that the previously failing checks (`unit-tests` and `fuzz-roundtrippers`) have now successfully passed, and the remaining E2E checks are in progress with no failures.
 - **2026-07-02**: Checked CI status of Pull Request [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Detected failing checks: `unit-tests` and `fuzz-roundtrippers`. Confirmed that the PR is currently assigned to `codebot-robot` for triage and resolution.
 - **2026-07-02**: Detected failing CI check `fuzz-roundtrippers` on Pull Request [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Assigned the PR back to the author bot `codebot-robot` to trigger triage and fixes.
