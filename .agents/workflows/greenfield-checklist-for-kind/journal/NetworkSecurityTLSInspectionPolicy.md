@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-02**: Checked CI check-runs for PR #8474. Core `validations` and `unit-tests` checks have both passed successfully. Downstream integration and E2E fixture checks are currently running and pending.
 - **2026-07-02**: Monitored PR #8474. Verified that the validations CI failure for commit bb7ebb31 was due to out-of-date `aiplatformmodels` CRD manifests. De-assigned and re-assigned `codebot-robot` via the GitHub REST API to ensure the author bot re-triggers and regenerates the manifests.
 - **2026-07-02**: Monitored PR #8474. Observed that the `validations` CI check failed and there was no active assignee. Re-assigned the author bot `codebot-robot` back to the PR via GitHub REST API to trigger manifest regeneration and CI failure resolution.
 - **2026-07-02**: Monitored the PR #8474. Noted that the `validations` check failed on the last run (at 07:42Z) due to out-of-date `aiplatformmodels` CRD manifests, and no new commit has been pushed by `codebot-robot` yet. Re-assigned `codebot-robot` to PR #8474 to re-trigger the automated manifest regeneration.
