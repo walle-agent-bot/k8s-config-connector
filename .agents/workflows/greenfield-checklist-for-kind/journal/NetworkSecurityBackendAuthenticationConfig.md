@@ -10,6 +10,7 @@ Current step of the migration: **Step 2: Direct Controller, E2E fixtures and Fuz
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-02**: Checked progress of Step 2. Child issue #8862 is active and remains assigned to `hopper-coder-bot`. Verified that no Pull Request has been opened yet. Step 2 remains in progress.
 - **2026-07-02**: Monitored Step 2 progress. Verified that child issue #8862 is currently assigned to `hopper-coder-bot` (assigned at 14:45 UTC). Checked repository and verified that no new Pull Request has been opened yet. Step 2 remains in progress.
 - **2026-07-02**: Monitored Step 2 progress. To restart Step 2, manually assigned `hopper-coder-bot` to child issue #8862 to delegate the implementation of the direct controller, E2E fixtures, and fuzzer. Step 2 is in progress.
 - **2026-07-02**: Checked progress. Step 1 is completed and merged (PR #8746). Step 2's PR #8869 was closed unmerged by acpana on 2026-07-01 ("giving this one to overseer"). Unassigned codebot-robot from issue #8862 to allow the watch daemon to assign a new/fresh bot to restart the step. Therefore, Step 2 is in progress.
