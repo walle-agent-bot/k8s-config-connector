@@ -7,10 +7,11 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types and Identity | [#11159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11159) | N/A | Open | 2026-07-02 | |
+| Step 1: Direct API Types and Identity | [#11159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11159) | [#8474](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8474) | PR Created | 2026-07-02 | |
 | Step 2: Direct Controller and E2E fixtures | | | Pending | | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-02**: Monitored progress. Identified pre-existing approved PR #8474 for Step 1. Linked PR #8474 to child issue #11159 and assigned the author bot `codebot-robot` to PR #8474 to trigger a rebase and address merge conflicts.
 - **2026-07-02**: Initialized Greenfield migration checklist for `NetworkSecurityTLSInspectionPolicy`. Created child issue #11159 for Step 1.
