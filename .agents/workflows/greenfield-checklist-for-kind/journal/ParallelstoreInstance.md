@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-02**: Re-evaluated the latest CI run for PR #11175. Verified that all other checks (including all end-to-end fixtures, unit tests, and linters) have successfully passed. The only remaining failure is the `validations` check, which requires the manifests to be regenerated. The PR remains assigned to `ada-coder-bot` to address this manifest issue.
 - **2026-07-02**: Monitored PR #11175 and verified that all checks have passed except for `validations`, which failed because manifests need to be regenerated (specifically `config/crds/resources/apiextensions.k8s.io_v1_customresourcedefinition_aiplatformmodels.aiplatform.cnrm.cloud.google.com.yaml`). Assigned the PR back to `ada-coder-bot` to resolve this failure.
 - **2026-07-02**: Verified that PR #11175 is open but has no assignees. Because the `validations` CI check is failing, assigned the PR back to `ada-coder-bot` to investigate and resolve the failure.
 - **2026-07-02**: Monitored PR #11175 and detected that the `validations` CI check failed because manifests need to be regenerated (specifically `config/crds/resources/apiextensions.k8s.io_v1_customresourcedefinition_aiplatformmodels.aiplatform.cnrm.cloud.google.com.yaml`). The PR remains assigned to `ada-coder-bot` to resolve this failure.
