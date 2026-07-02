@@ -14,6 +14,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-07-02**: Checked Step 4 status (at 08:34 UTC). PR #10662 remains OPEN with all 177/177 CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
 - **2026-07-01**: Checked Step 4 status (at 14:00 UTC). PR #10662 remains OPEN with all 177/177 CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
 - **2026-07-01**: Checked Step 4 status (at 13:44 UTC). PR #10662 remains OPEN with all 177/177 CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
 - **2026-07-01**: Checked Step 4 status (at 13:10 UTC). PR #10662 remains OPEN with all 177/177 CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
@@ -110,7 +111,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 - **2026-06-30**: Checked Step 4 status (at 08:22 UTC). PR #10662 remains OPEN with all CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
 - **2026-06-30**: Checked Step 4 status (at 08:01 UTC). PR #10662 remains OPEN with all CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
 - **2026-06-30**: Checked Step 4 status (at 07:46 UTC). PR #10662 remains OPEN with all CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
-- **2026-06-30**: Checked Step 4 status (at 07:23 UTC). PR #10662 remains OPEN with all CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
+- **2026-06-30**: Checked Step 4 status (at 07:23 UTC). PR #10662 remains OPEN with all CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step to 5.
 - **2026-06-30**: Checked Step 4 status (at 07:11 UTC). PR #10662 remains OPEN with all CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
 - **2026-06-30**: Checked Step 4 status (at 06:50 UTC). PR #10662 remains OPEN with all CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
 - **2026-06-30**: Checked Step 4 status (at 06:37 UTC). PR #10662 remains OPEN with all CI checks passing (100% green). It continues to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
