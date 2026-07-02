@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-02**: Checked the status of Pull Request [#11169](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11169) and retrieved the log of the failed `validate-generated-files` job. Identified that the generated CRD schema for `aiplatformmodels` is out-of-date. Re-assigned the PR author `lovelace-coder-bot` to the PR to resolve this failure.
 - **2026-07-02**: Re-verified CI check statuses on Pull Request [#11169](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11169). Confirmed that `unit-tests`, `validate-generated-files`, and `validations` checks remain in a failed state. Assigned the PR author `lovelace-coder-bot` to the PR to resume active investigation and troubleshooting.
 - **2026-07-02**: Checked the latest commit `eefaf70b6e58387f46abb749474de6a7f7ef73d0` on Pull Request [#11169](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11169). Confirmed that the `unit-tests`, `validate-generated-files`, and `validations` CI checks are still failing. Re-assigned `lovelace-coder-bot` to the PR to investigate and resolve these persistent failures.
 - **2026-07-02**: Confirmed that the `validate-generated-files` and `validations` CI checks are failing on Pull Request [#11169](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11169). Re-assigned `lovelace-coder-bot` to the PR to investigate and resolve these issues.
