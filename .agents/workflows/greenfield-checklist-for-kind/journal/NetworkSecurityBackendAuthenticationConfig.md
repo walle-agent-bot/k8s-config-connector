@@ -32,3 +32,4 @@ Current step of the migration: **Step 2: Direct Controller, E2E fixtures and Fuz
 - **2026-07-02**: Checked progress. Found child issue #8862 was unassigned and had no active Pull Request (the previous PR #8869 was closed unmerged by acpana on 2026-07-01). Assigned `codebot-robot` back to issue #8862 to restart and continue Step 2.
 - **2026-07-02**: Monitored progress of Step 2. The child issue #8862 is currently assigned to `codebot-robot`. Step 2 is active, waiting for a new Pull Request to be opened.
 - **2026-07-02**: Assigned `codebot-robot` to issue #8862 to restart Step 2 after the previous PR #8869 was closed unmerged on 2026-07-01 by acpana ("giving this one to overseer"). Step 2 is now back in progress.
+- **2026-07-02**: Monitored Step 2 progress. Confirmed child issue #8862 remains open and is currently assigned to `hopper-coder-bot`. Checked for any active Pull Request and verified that none is open yet. Step 2 remains in progress.
