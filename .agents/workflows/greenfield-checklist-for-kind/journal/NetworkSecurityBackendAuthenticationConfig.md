@@ -10,4 +10,4 @@ Current step of the migration: **Step 2: Direct Controller, E2E fixtures and Fuz
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
-- **2026-07-02**: Checked progress. Step 1 is already completed and merged (PR #8746). Step 2's issue #8862 is open, but its PR #8869 was closed without merging. Therefore, Step 2 is currently in progress.
+- **2026-07-02**: Checked progress. Step 1 is completed and merged (PR #8746). Step 2's PR #8869 was closed unmerged by acpana on 2026-07-01 ("giving this one to overseer"). Issue #8862 is open and assigned to codebot-robot, which is currently working on the `fix-issue` task in sandbox `kcc-issue-8862`. Therefore, Step 2 is in progress.
