@@ -4,12 +4,13 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types and Identity and Reference Types Pattern | [#11160](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11160) | [#11188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11188) | PR Created | 2026-07-02 | |
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#11160](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11160) | [#11191](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11191) | PR Created | 2026-07-02 | |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | | | | | |
 | Step 3: mockGCP generation | | | | | |
 | Step 4: MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Update Notes
+* **2026-07-02**: Monitored progress. Stale PR #11188 has been superceded by a newer PR #11191. Closed PR #11188 and assigned `lovelace-coder-bot` to the new PR #11191 to resolve the remaining `validate-generated-files` check failure.
 * **2026-07-02**: Monitored progress. Checked status of PR #11188, which is open with active failing checks ('unit-tests', 'validate-generated-files', 'validations') and no assignees. Re-assigned `lovelace-coder-bot` to the PR via REST API to request resolution of these failures.
 * **2026-07-02**: Monitored progress. Checked status of PR #11188. It remains open with active failing checks ('unit-tests', 'validate-generated-files', 'validations'). Re-asserted assignment to the author bot `lovelace-coder-bot` via REST API to request resolution.
 * **2026-07-02**: Monitored progress. Verified PR #11188 remains open with active failing checks ('unit-tests', 'validate-generated-files', 'validations'). Re-assigned `lovelace-coder-bot` to the PR via REST API to request resolution of these failures.
