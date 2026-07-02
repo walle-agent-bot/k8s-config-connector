@@ -10,11 +10,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types & Identity | [#8712](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8712) | [#8775](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8775) | Merged | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#8889](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8889) (Closed) | Open | 2026-06-01 | - |
+| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | PR Created | 2026-06-01 | - |
 | Step 3: mockGCP Generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Status Update Notes
 
+- **2026-07-02**: Successfully re-triggered Step 2 controller implementation by re-assigning Issue #8883 to the developer bot. This initiated a brand-new Pull Request [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165).
+- **2026-07-02**: Step 2 controller implementation was previously attempted under PR #8889, but the PR was closed without being merged.
 - **2026-07-02**: Initialized migration tracking journal for `DiscoveryEngineIdentityMappingStore`. Step 1 was successfully completed and merged on 2026-05-27.
-- **2026-07-02**: Step 2 controller implementation was previously attempted under PR #8889, but the PR was closed without being merged. Re-triggering Step 2 by assigning Issue #8883 to the developer bot.
