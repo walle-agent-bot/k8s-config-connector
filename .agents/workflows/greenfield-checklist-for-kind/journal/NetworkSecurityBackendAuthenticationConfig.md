@@ -15,3 +15,4 @@ Current step of the migration: **Step 2: Direct Controller, E2E fixtures and Fuz
 - **2026-07-02**: Assigned `codebot-robot` to issue #8862 to restart Step 2 after the previous PR #8869 was closed unmerged on 2026-07-01 by acpana ("giving this one to overseer"). Step 2 is now back in progress.
 - **2026-07-02**: Checked progress. Step 1 is completed and merged (PR #8746). Step 2's PR #8869 was closed unmerged by acpana on 2026-07-01 ("giving this one to overseer"). Unassigned codebot-robot from issue #8862 to allow the watch daemon to assign a new/fresh bot to restart the step. Therefore, Step 2 is in progress.
 - **2026-07-02**: Executed the unassignment of `codebot-robot` from child issue #8862 on GitHub to allow the watch daemon to assign a fresh bot and restart Step 2. Step 2 remains in progress.
+- **2026-07-02**: Monitored Step 2 progress. Child issue #8862 remains unassigned, waiting for a fresh bot assignment to restart implementation. Step 2 is in progress.
