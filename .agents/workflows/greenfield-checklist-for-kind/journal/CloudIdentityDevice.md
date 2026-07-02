@@ -4,12 +4,13 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types and Identity and Reference Types Pattern | [#11160](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11160) | | Open | 2026-07-02 | |
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#11160](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11160) | [#11188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11188) | PR Created | 2026-07-02 | |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | | | | | |
 | Step 3: mockGCP generation | | | | | |
 | Step 4: MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Update Notes
+* **2026-07-02**: Monitored progress. lovelace-coder-bot submitted PR #11188 for Step 1. Some CI checks (like `validate-generated-files`) have failed. Assigned the PR to lovelace-coder-bot for resolution.
 * **2026-07-02**: Monitored progress. Lovelace-coder-bot is still working on the types, identity, and generate.sh in a sandbox; no pull request has been submitted yet.
 * **2026-07-02**: Monitored progress. Lovelace-coder-bot is still implementing direct KRM types and identity in a sandbox. No PR has been submitted yet; Issue #11160 remains open.
 * **2026-07-02**: Monitored progress. Issue #11160 remains open. Lovelace-coder-bot is active in the sandbox, but no PR has been submitted yet.
