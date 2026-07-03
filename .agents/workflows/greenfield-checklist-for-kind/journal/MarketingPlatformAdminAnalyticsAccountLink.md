@@ -13,4 +13,5 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | mockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-03**: Checked PR #11247. It is open with failing CI checks (unit-tests, unit-tests-operator, validations, validate-generated-files). The PR is currently assigned to `lovelace-coder-bot` for fixing.
 * **2026-07-02**: Initialized migration tracking journal. Identified existing Step 1 issue #10286 and PR #11247. PR 11247 is open but has some failing checks.
