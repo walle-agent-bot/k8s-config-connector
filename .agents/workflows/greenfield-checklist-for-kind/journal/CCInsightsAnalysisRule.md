@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-03**: Re-verified Pull Request [#11169](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11169). Confirmed that 100% of the CI checks are green and passing. However, the PR remains unmerged and has received review comments from `acpana` ("want a pointer" and "fix these by using KCC ref fields"). Assigned the PR back to the author bot `lovelace-coder-bot` to address the feedback.
 - **2026-07-03**: Monitored Pull Request [#11169](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11169) and verified that all 194 CI checks (100% green) have successfully completed and passed. The PR remains open, awaiting human OWNER review and merge to finalize Step 1.
 - **2026-07-03**: Re-verified Pull Request [#11169](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11169) status. Confirmed that all 193 CI checks (100% green) have passed successfully. The PR remains open, awaiting human OWNER review and merge to complete Step 1.
 - **2026-07-03**: Re-verified Pull Request [#11169](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11169) status. Confirmed that 100% of the 185+ CI checks continue to pass successfully (completely green). The PR remains open, awaiting human OWNER review and merge to complete Step 1.
