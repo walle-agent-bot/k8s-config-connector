@@ -1,18 +1,19 @@
 # APIHubAPI Greenfield Migration Journal
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Migration Progress
 
 | Step | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Direct API Types, Identity & Reference Types** | [#11164](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11164) | [#11177](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11177) | CI Passed / Awaiting Merge | 2026-07-02 | - |
-| **2. Direct Controller, E2E fixtures and Fuzzer** | - | - | Pending | - | - |
+| **1. Direct API Types, Identity & Reference Types** | [#11164](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11164) | [#11177](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11177) | Merged | 2026-07-02 | 2026-07-02 |
+| **2. Direct Controller, E2E fixtures and Fuzzer** | [#11289](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11289) | - | Open | 2026-07-03 | - |
 | **3. mockGCP generation** | - | - | Pending | - | - |
 | **4. MockGCP Alignment with RealGCP** | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-03**: Verified Step 1 PR [#11177](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11177) has successfully merged. Transitioning to Step 2. Opened GitHub Issue [#11289](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11289) for implementing the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-02**: Monitored Step 1 progress. Checked PR [#11177](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11177) status. Verified all 110+ CI checks are green and fully passed with no failures. The PR remains open, unassigned, and awaiting manual review, `/approve`, and merge by a human OWNER before we can transition to Step 2.
 - **2026-07-02**: Monitored Step 1 progress. Checked PR [#11177](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11177) status. Verified that all CI check-runs (including e2e fixtures, unit tests, and code generation checks) are green and fully passed. The PR is open, unassigned, and awaiting manual review, approval (`/approve`), and merge by a human OWNER.
 - **2026-07-02**: Monitored Step 1 progress. Checked PR [#11177](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11177) status. Verified all CI checks (over 110+ runs) remain fully green and passed. The PR is still open, unassigned, and currently awaiting manual review, approval (`/approve`), and merge by a human OWNER before we can transition to Step 2.
