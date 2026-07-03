@@ -7,12 +7,13 @@
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :---: | :----------: | :----: | :----------: | :------------: |
-| 1 | Direct API Types and Identity | [#10269](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10269) | [#11270](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11270) | `Open` (Assigned `hopper-coder-bot`) | 2026-07-02 | |
+| 1 | Direct API Types and Identity | [#10269](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10269) | [#11270](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11270) | `PR Created` | 2026-07-02 | |
 | 2 | Direct Controller and E2E fixtures | | | | | |
 | 3 | mockGCP generation | | | | | |
 | 4 | MockGCP Alignment | | | | | |
 
 ## Status Updates
+* **2026-07-03**: Monitored PR #11270 CI checks. All checks have successfully completed and are passing. The PR is now ready and awaiting human review.
 * **2026-07-03**: Monitored PR #11270 CI checks. Most checks have successfully completed, including `validations`, `unit-tests`, and `unit-tests-operator`. A few remaining end-to-end fixture tests are currently in progress. Continuing to monitor Step 1.
 * **2026-07-03**: Monitored PR #11270. Verified that the `validations` check failure was addressed by `hopper-coder-bot`. All completed CI checks are passing successfully. Continuing to monitor Step 1.
 * **2026-07-03**: Monitored PR #11270. Detected that the `validations` check failed again because Go clients need to be regenerated following previous file additions. Re-assigned the PR back to its author bot `hopper-coder-bot` to run `make ready-pr`.
