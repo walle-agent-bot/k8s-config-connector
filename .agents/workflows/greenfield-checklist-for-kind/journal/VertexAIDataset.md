@@ -29,6 +29,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Open, pending human OWNER
 | 4 | mockGCP Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-07-03 (Update 36)**: Checked PR #9787. The PR remains in the OPEN state with all 176 CI check-runs successfully passing. Awaiting human OWNER review and merge to proceed to Step 3.
 * **2026-07-03 (Update 35)**: Re-verified PR #9787. The PR remains in the OPEN state with all 176 CI check-runs successfully passing. Awaiting human OWNER review and merge to proceed to Step 3.
 * **2026-07-03 (Update 34)**: Re-verified PR #9787. It remains in the OPEN state with all 176 CI check-runs successfully passing. Awaiting human OWNER review and merge to proceed to Step 3.
 * **2026-07-03 (Update 33)**: Checked PR #9787. The PR remains in the OPEN state with all CI check-runs successfully passing. Still awaiting human OWNER review and merge to proceed to Step 3.
