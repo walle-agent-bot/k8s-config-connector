@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-07**: Assigned `codebot-robot` to issue #8809 to re-trigger the direct controller implementation for `DeviceStreamingSession` since the previous PR #8839 was closed and the issue was unassigned.
 - **2026-07-07**: Monitored open issue #8809. Verified that the coder bot `codebot-robot` remains assigned and is working on the direct controller implementation after being re-triggered following the handoff of closed PR #8839. No new Pull Request has been opened yet.
 - **2026-07-07**: Monitored open issue #8809. Verified that the coder bot `codebot-robot` is assigned and actively working on the direct controller implementation, and currently there is no active Pull Request.
 - **2026-07-07**: Monitored open issue #8809. Verified that coder bot `codebot-robot` remains assigned to the issue and is working on the direct controller implementation; no active Pull Request is open yet.
