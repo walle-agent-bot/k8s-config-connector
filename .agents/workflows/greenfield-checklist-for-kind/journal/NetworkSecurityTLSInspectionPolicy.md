@@ -1,18 +1,19 @@
 # Greenfield Checklist Journal: NetworkSecurityTLSInspectionPolicy
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller and E2E fixtures
 
 ## Progress Tracking
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types and Identity | [#11159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11159) | [#11192](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11192) | PR Created | 2026-07-02 |  |
-| Step 2: Direct Controller and E2E fixtures |  |  | Pending |  |  |
+| Step 1: Direct API Types and Identity | [#11159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11159) | [#11192](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11192) | Merged | 2026-07-02 | 2026-07-06 |
+| Step 2: Direct Controller and E2E fixtures | [#11441](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11441) |  | Open | 2026-07-07 |  |
 | Step 3: mockGCP generation |  |  | Pending |  |  |
 | Step 4: MockGCP Alignment with RealGCP |  |  | Pending |  |  |
 
 ## Status Updates
+- **2026-07-07**: Verified that PR #11192 was successfully merged on 2026-07-06, completing Step 1. Transitioned to Step 2 and created GitHub Issue #11441 to track implementing the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-03**: Re-checked the status of PR #11192. Verified that all 194 CI checks have completed successfully (100% green). The PR remains open in the `OPEN` state, and we are continuing to monitor it while awaiting manual review and merge by repository owners (`justinsb` or `acpana`) before proceeding to Step 2.
 - **2026-07-03**: Re-verified the status of PR #11192 and confirmed that all 194 CI checks have completed successfully and are 100% green. The PR remains open, fully addressed, and is currently waiting for manual review, approval, and merge by repository owners (`justinsb` or `acpana`) before we can proceed to Step 2.
 - **2026-07-03**: Re-verified PR #11192 and confirmed all 194 CI checks continue to be 100% complete and passing (green). The PR is currently in the `OPEN` state with all review feedback from `acpana` fully addressed. We are waiting for manual review, approval, and merge of Step 1 by the repository owners (`justinsb` or `acpana`) before we can proceed to Step 2.
