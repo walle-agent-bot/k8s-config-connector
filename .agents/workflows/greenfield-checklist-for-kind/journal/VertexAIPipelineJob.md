@@ -1,0 +1,16 @@
+# Migration Journal: VertexAIPipelineJob
+
+**Current Step**: Step 1: Direct API Types and Identity and Reference Types Pattern
+
+## Progress Tracking
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Direct API Types and Identity | [#9246](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9246) | [#11411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11411) | PR Created | 2026-06-05 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
+| 3 | mockGCP generation | - | - | Pending | - | - |
+| 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
+
+## Status Updates
+
+- **2026-07-07**: Initialized migration journal for VertexAIPipelineJob. Tracked Step 1 types issue #9246 and open PR #11411. Verified that PR #11411 is open and all CI checks are currently passing successfully.
