@@ -12,6 +12,7 @@ Current Step: **Step 1: Direct API Types and Identity and Reference Types Patter
 | 4 | mockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Update Notes
+* **2026-07-07 (Update)**: Monitored Step 1 progress. PR [#11395](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11395) remains open. Verified that `ada-coder-bot` is assigned and CI checks are currently running (`in_progress`). Continuing to monitor.
 * **2026-07-07 (Update)**: Monitored Step 1 progress. Checked PR [#11395](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11395) checks and found failures on `tests-scenarios-unclassified` and `validations`. Re-assigned the PR to the author bot `ada-coder-bot` to resolve these failures.
 * **2026-07-07 (Update)**: Checked PR [#11395](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11395) status and found active failures on `validate-generated-files` and `validations` checks. Re-assigned the PR back to the author bot `ada-coder-bot` via the REST API to resolve these failures. Continuing to monitor.
 * **2026-07-07 (Update)**: Monitored Step 1 progress. PR [#11395](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11395) remains open. Verified `ada-coder-bot` successfully resolved the compilation and CRD validation failures (fixed empty object validation via `XPreserveUnknownFields` annotations, updated `alpha-missingfields.txt` exceptions, and cleaned up `knownInvalidCRDs`). New CI checks are currently running (`in_progress`). Continuing to monitor.
