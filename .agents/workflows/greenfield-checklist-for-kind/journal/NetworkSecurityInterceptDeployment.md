@@ -10,4 +10,5 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4. MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-07-07**: Detected that previous PR #8867 was closed unmerged, and issue #8861 was assigned to inactive `codebot-robot` with no open PR. Unassigned issue #8861 so that the watch daemon can assign it to an active coder bot and trigger the sandbox run.
 - **2026-07-07**: Initialized Greenfield checklist orchestration for `NetworkSecurityInterceptDeployment`. Checked previous progress: Step 1 is merged (with follow-up fix in PR #9010). Step 2's previous PR #8867 was closed unmerged. Re-triggered Step 2 by re-assigning issue #8861 to `codebot-robot`.
