@@ -1,18 +1,19 @@
 # DiscoveryEngineSampleQuery Greenfield Migration Journal
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Status: CI Checks Failed - Assigned to hopper-coder-bot)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Status: CI Checks Passed - Awaiting Merge)
 
 ## Migration Progress
 
 | Step | Step Name | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types & Identity | [#9239](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9239) | [#11390](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11390) | CI Checks Failed | 2026-07-06 | - |
+| 1 | Direct API Types & Identity | [#9239](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9239) | [#11390](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11390) | CI Checks Passed | 2026-07-06 | - |
 | 2 | Direct Controller & E2E Fixtures | TBD | TBD | Not Started | - | - |
 | 3 | mockGCP Generation | TBD | TBD | Not Started | - | - |
 | 4 | MockGCP Alignment | TBD | TBD | Not Started | - | - |
 
 ## Status Update History
+*   **2026-07-07**: Verified that all CI checks on PR #11390 have successfully passed for commit `efbeb09cb40e79b541b9e3b0d9a9d1a995262637`. The PR has been fully validated and is ready for human review and merge.
 *   **2026-07-07**: Performed detailed triage on the failing CI check-runs for commit `ebb481c313779e356b7a88ea53d9d4db62b4e8b6`. Identified that `unit-tests` is failing due to a `TestRegisteredTemplatesMatchCAI` failure (template `//discoveryengine.googleapis.com/projects/{project}/locations/{location}/sampleQuerySets/{sampleQuerySet}/sampleQueries/{sampleQuery}` not found in CAI definitions) and a `TestCRDFieldPresenceInTestsForAlpha` failure (missing unstructured object test for `.spec.location`). The `validations` job is also failing due to generated files (`zz_generated.deepcopy.go` etc.) being out-of-date or modified in CI. Assigned the PR back to `hopper-coder-bot` via the REST API to address these issues.
 *   **2026-07-07**: Verified that `hopper-coder-bot` updated PR #11390 with a new commit `ebb481c313779e356b7a88ea53d9d4db62b4e8b6` fixing the pluralization exception and regenerating CRD reports. Currently monitoring the active CI check-runs for this new commit, which are currently in progress with several successful statuses already recorded.
 *   **2026-07-07**: Performed detailed triage on the latest failing PR checks. Identified that `validate-generated-files` is failing due to out-of-date CRD reports (`docs/reports/crd_report.csv` and `docs/reports/crd_report.md`), while `unit-tests` is failing in `TestCRDShortNamePluralization` due to a missing entry for `discoveryenginesamplequeries` in `tests/apichecks/testdata/exceptions/shortname_pluralization.txt`. Assigned the PR back to `hopper-coder-bot` to regenerate reports and add the pluralization exception.
