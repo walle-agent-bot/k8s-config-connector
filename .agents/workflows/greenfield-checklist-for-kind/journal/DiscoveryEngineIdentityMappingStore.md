@@ -10,12 +10,13 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types & Identity | [#8712](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8712) | [#8775](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8775) | Merged | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | PR Created (Feedback Received) | 2026-06-01 | - |
+| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | PR Created (Building) | 2026-06-01 | - |
 | Step 3: mockGCP Generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Status Update Notes
 
+- **2026-07-08**: Monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Verified that the developer bot `codebot-robot` has successfully pushed a new commit `7f7ffb9a3b166bcdf6a24876cea631f1412dc6f2` to address reviewer feedback. The CI checks are currently pending on the new build; actively monitoring progress.
 - **2026-07-08**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Verified that `tests-e2e-fixtures` is failing and inline reviewer feedback from `acpana` requests reverting changes to build/tools files. Since the PR is currently unassigned, assigned it back to `codebot-robot` for triage and resolution.
 - **2026-07-08**: Monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed that the `tests-e2e-fixtures` CI check remains in a failing state. Assigned the PR back to the author bot `codebot-robot` to triage, rebase, and address reviewer `acpana`'s feedback to revert changes to build files.
 - **2026-07-08**: Re-checked PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) checks. Found that the `tests-e2e-fixtures` check failed, and human reviewer `acpana` requested a rebase on top of master and reverting of changes to build files (`dev/tools/controllerbuilder/generate-proto.sh` and `dev/tasks/install-tools`). Assigned the PR to the author bot `codebot-robot` to triage, rebase, and resolve the feedback/failures.
