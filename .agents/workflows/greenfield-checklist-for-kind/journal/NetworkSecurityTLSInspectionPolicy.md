@@ -8,11 +8,12 @@ Step 2: Direct Controller and E2E fixtures
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#11159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11159) | [#11192](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11192) | Merged | 2026-07-02 | 2026-07-06 |
-| Step 2: Direct Controller and E2E fixtures | [#11441](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11441) |  | Open | 2026-07-07 |  |
+| Step 2: Direct Controller and E2E fixtures | [#11441](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11441) | [#11520](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11520) | PR Created | 2026-07-07 |  |
 | Step 3: mockGCP generation |  |  | Pending |  |  |
 | Step 4: MockGCP Alignment with RealGCP |  |  | Pending |  |  |
 
 ## Status Updates
+- **2026-07-08**: Monitored Step 2. Pull Request #11520 was successfully created by `ada-coder-bot` to address Issue #11441. Observed that the unit-tests check failed. Assigned `ada-coder-bot` back to the PR using the Issues REST API to trigger automatic triage and fixes for the unit-test failures.
 - **2026-07-08**: Monitored Step 2. Re-checked progress on Issue #11441. Verified that it remains OPEN and assigned to `ada-coder-bot`. The sandbox is currently active, and no Pull Request has been created yet. We continue to wait for a Pull Request to be opened for the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-08**: Checked Step 2 progress. Confirmed that Issue #11441 is now assigned to `ada-coder-bot` and the sandbox has started working on implementing the direct controller, E2E fixtures, and fuzzer. No active Pull Request has been opened yet. We will continue to wait for a Pull Request to be created.
 - **2026-07-08**: Checked Step 2 status. Verified that Issue #11441 is still OPEN and unassigned, with no active Pull Request yet. We continue to await a coder bot assignment to implement the direct controller, E2E fixtures, and fuzzer.
