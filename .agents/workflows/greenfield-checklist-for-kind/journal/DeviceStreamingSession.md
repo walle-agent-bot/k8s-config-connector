@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-08**: Monitored open child issue #8809. Confirmed that `codebot-robot` and `argus-watcher-bot` remain assigned to the issue to implement the direct controller for `DeviceStreamingSession`. No active Pull Request is open yet on GitHub, and the overseer continues to wait for a new PR.
 - **2026-07-08**: Monitored open child issue #8809. Verified that the issue remains open with assignees `codebot-robot` and `argus-watcher-bot`. Confirmed that no active Pull Request has been opened yet since PR #8839 was closed by the owner due to sticky CI unit-tests failures. The overseer is awaiting a new Pull Request for the direct controller implementation of `DeviceStreamingSession`.
 - **2026-07-08**: Monitored child issue #8809. Confirmed that `codebot-robot` remains assigned to the open issue to implement the direct controller for `DeviceStreamingSession` while actively working on other repository tasks. No active Pull Request has been opened yet, and we continue to await the controller PR.
 - **2026-07-08**: Checked child issue #8809. Confirmed that `codebot-robot` and `argus-watcher-bot` remain assigned to the open issue to implement the direct controller for `DeviceStreamingSession`. Verified that no active Pull Request is currently open, and we continue to await the controller PR.
