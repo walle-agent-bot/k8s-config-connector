@@ -10,12 +10,13 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types & Identity | [#8712](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8712) | [#8775](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8775) | Merged | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | PR Created (Checks Passed) | 2026-06-01 | - |
+| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | PR Created (Feedback Received) | 2026-06-01 | - |
 | Step 3: mockGCP Generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Status Update Notes
 
+- **2026-07-08**: Monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Detected new inline feedback from human reviewer `acpana` requesting that changes in `dev/tools/controllerbuilder/generate-proto.sh` and `dev/tasks/install-tools` be reverted. Assigned the PR to `codebot-robot` for triage and resolution of the feedback.
 - **2026-07-08**: Re-verified PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) checks status. Confirmed all 194 CI checks have completed successfully and remain fully green with no failures. The PR remains open, awaiting human OWNER review and merge approval (`/approve`) before we can proceed to Step 3.
 - **2026-07-08**: Monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) and verified all 194 CI checks continue to pass cleanly with no failures. No change in status; the PR remains open and fully green, awaiting human OWNER review and merge approval (`/approve`) to proceed to Step 3.
 - **2026-07-08**: Re-verified PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) CI checks. Confirmed that all 194 checks are fully green and passing cleanly. The PR remains open, green, and awaiting human OWNER review and merge approval (`/approve`) to proceed to Step 3.
