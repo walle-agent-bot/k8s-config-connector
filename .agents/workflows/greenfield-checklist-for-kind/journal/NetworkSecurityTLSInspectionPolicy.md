@@ -13,6 +13,7 @@ Step 2: Direct Controller and E2E fixtures
 | Step 4: MockGCP Alignment with RealGCP |  |  | Pending |  |  |
 
 ## Status Updates
+- **2026-07-08**: Monitored the Greenfield migration progress of `NetworkSecurityTLSInspectionPolicy`. Verified that the Step 2 issue (#11441) remains OPEN and unassigned, with no associated Pull Requests. We are continuing to wait for a coder bot to be assigned to implement the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-08**: Monitored Step 2 progress. Verified that Issue #11441 remains OPEN and unassigned, with no associated Pull Requests. We are continuing to await coder bot assignment to implement the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-08**: Monitored the Greenfield migration of `NetworkSecurityTLSInspectionPolicy`. Verified that the Step 2 issue (#11441) is still OPEN, unassigned, and has no associated Pull Requests. We will continue to wait for a coder bot to be assigned to begin implementation of the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-08**: Re-checked the status of Issue #11441. Verified that it remains OPEN, unassigned, and with no linked Pull Requests. We will continue to wait for a coder bot to be assigned to start Step 2 (direct controller, E2E fixtures, and fuzzer implementation).
