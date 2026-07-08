@@ -1,18 +1,19 @@
 # Migration Journal: VertexAIPipelineJob
 
-**Current Step**: Step 1: Direct API Types and Identity and Reference Types Pattern
+**Current Step**: Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [#9246](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9246) | [#11411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11411) | PR Created | 2026-06-05 | - |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
+| 1 | Direct API Types and Identity | [#9246](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9246) | [#11411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11411) | Completed | 2026-06-05 | 2026-07-08 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11509](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11509) | - | Open | 2026-07-08 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
 
+- **2026-07-08**: Verified that Step 1 PR #11411 was successfully merged today. Step 1 is marked as Completed. Initiated Step 2, created GitHub Issue #11509 to coordinate the controller implementation, and updated tracking status.
 - **2026-07-08**: Monitored Step 1 PR #11411 again. Checked all CI checks via GitHub CLI and confirmed 100% of the 130+ checks are passing successfully. The PR is healthy, mergeable, and currently awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-08**: Re-monitored Step 1 PR #11411. Checked all 195 CI check-runs and confirmed they are still 100% complete and passing successfully. The PR remains healthy and mergeable, awaiting human OWNER review and merge.
 - **2026-07-08**: Monitored Step 1 PR #11411 status again. All 195 CI checks are 100% complete and passing. The PR is healthy and mergeable, awaiting human OWNER review and merge.
