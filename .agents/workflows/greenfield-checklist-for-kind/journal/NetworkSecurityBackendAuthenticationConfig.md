@@ -10,6 +10,7 @@ Current step of the migration: **Step 2: Direct Controller, E2E fixtures and Fuz
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-08**: Checked child issue #8862 and confirmed it remains open and unassigned with no active Pull Request (checked at 09:59 UTC). Manually assigned `ada-coder-bot` to child issue #8862 to delegate the implementation of the direct controller, E2E fixtures, and fuzzer. Step 2 remains in progress.
 - **2026-07-08**: Monitored Step 2 progress. Confirmed child issue #8862 remains open and unassigned (checked at 08:53 UTC). Verified that no active Pull Request has been opened yet. Step 2 remains in progress.
 - **2026-07-08**: Monitored Step 2 progress. Confirmed child issue #8862 remains open and unassigned (checked at 08:38 UTC). Verified that no active Pull Request has been opened yet. Step 2 remains in progress.
 - **2026-07-08**: Monitored Step 2 progress. Confirmed child issue #8862 remains open and unassigned (checked at 08:03 UTC). Verified that no active Pull Request has been opened yet. Step 2 remains in progress.
