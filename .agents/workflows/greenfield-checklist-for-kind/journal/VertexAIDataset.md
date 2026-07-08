@@ -17,7 +17,7 @@ limitations under the License.
 # Greenfield Migration Journal: VertexAIDataset
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Open, pending human OWNER review and merge)
+Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Open, pending merge conflict resolution by codebot-robot)
 
 ## Progress Tracking
 
@@ -29,6 +29,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Open, pending human OWNER
 | 4 | mockGCP Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-07-08 (Update 90)**: Checked PR #9787. The PR is currently in the OPEN state but has a mergeable state of 'dirty' (indicating merge conflicts with master). Assigned the PR back to the author bot `codebot-robot` to resolve the conflicts.
 * **2026-07-08 (Update 89)**: Checked PR #9787. It remains in the OPEN state with all CI checks passing successfully. Awaiting human OWNER review and merge to proceed to Step 3 (MockGCP Generation).
 * **2026-07-08 (Update 88)**: Checked PR #9787. It remains in the OPEN state with all CI checks passing successfully. Awaiting human OWNER review and merge to proceed to Step 3 (MockGCP Generation).
 * **2026-07-08 (Update 87)**: Checked PR #9787. It remains in the OPEN state with all CI checks passing successfully. Awaiting human OWNER review and merge to proceed to Step 3 (MockGCP Generation).
