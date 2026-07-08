@@ -1,18 +1,19 @@
 # Migration Journal: NetworkSecurityInterceptEndpointGroup
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: MockGCP Generation
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types, Identity & Reference Types | [#8728](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8728) | [#8757](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8757) | Completed | 2026-05-27 | 2026-05-27 |
-| 2 | Direct Controller, E2E fixtures & Fuzzer | [#11425](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11425) | [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) | PR Created | 2026-07-07 | - |
-| 3 | MockGCP Generation | - | - | Pending | - | - |
+| 2 | Direct Controller, E2E fixtures & Fuzzer | [#11425](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11425) | [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) | Completed | 2026-07-07 | 2026-07-08 |
+| 3 | MockGCP Generation | [#11473](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11473) | - | Open | 2026-07-08 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-08**: Step 2 successfully completed! Pull Request [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) has been merged. Initiating Step 3: MockGCP Generation by opening GitHub Issue [#11473](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11473) to track MockGCP implementation and alignment.
 * **2026-07-08**: Monitored Step 2 progress. Pull Request [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) remains open and fully green, with all 130+ CI check-runs passing successfully. The PR is approved and is awaiting human OWNER review and final merge.
 * **2026-07-07**: Monitored Step 2. Pull Request [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) remains open and fully green, with all 130+ CI checks passing successfully. The PR is approved and is currently assigned to human reviewer acpana for final merge.
 * **2026-07-07**: Monitored Step 2. Pull Request [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) remains open and fully green, with all 130+ CI checks passing successfully. The PR is awaiting human OWNER review and approval before merging.
