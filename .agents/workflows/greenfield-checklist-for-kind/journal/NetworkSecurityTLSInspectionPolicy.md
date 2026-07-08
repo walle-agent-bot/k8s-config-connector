@@ -13,6 +13,7 @@ Step 2: Direct Controller and E2E fixtures
 | Step 4: MockGCP Alignment with RealGCP |  |  | Pending |  |  |
 
 ## Status Updates
+- **2026-07-08**: Monitored Step 2. Pull Request #11520 is open with all CI checks (such as `unit-tests`, `test-mockgcp`, `golangci-lint`, and `validate-generated-files`) currently running/pending for the latest commit. The author bot `ada-coder-bot` recently force-pushed a new commit resolving the previous `unit-tests` failure by adding the missing `.spec.projectRef` dependency and regenerating `alpha-missingfields.txt`. We will continue to wait for CI checks to complete.
 - **2026-07-08**: Monitored Step 2. Pull Request #11520 was successfully created by `ada-coder-bot` to address Issue #11441. Observed that the unit-tests check failed. Assigned `ada-coder-bot` back to the PR using the Issues REST API to trigger automatic triage and fixes for the unit-test failures.
 - **2026-07-08**: Monitored Step 2. Re-checked progress on Issue #11441. Verified that it remains OPEN and assigned to `ada-coder-bot`. The sandbox is currently active, and no Pull Request has been created yet. We continue to wait for a Pull Request to be opened for the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-08**: Checked Step 2 progress. Confirmed that Issue #11441 is now assigned to `ada-coder-bot` and the sandbox has started working on implementing the direct controller, E2E fixtures, and fuzzer. No active Pull Request has been opened yet. We will continue to wait for a Pull Request to be created.
