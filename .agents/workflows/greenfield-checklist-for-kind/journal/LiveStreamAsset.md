@@ -11,6 +11,7 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+* **2026-07-08**: Human review comments from `acpana` were received on PR #11248 requesting struct field changes (pointer type and camelCase naming). Assigned the PR back to the author bot `ada-coder-bot` to address the feedback.
 * **2026-07-08**: Checked PR #11248 status. Verified it is still open with all 195 CI checks completed successfully and 100% green. The migration remains in Step 1, awaiting human OWNER review and merge approval before we can proceed to Step 2.
 * **2026-07-08**: Re-checked PR #11248 status. Confirmed all 195 CI checks are completed successfully and are 100% green. The PR remains open, awaiting human OWNER review and merge approval before we can transition to Step 2.
 * **2026-07-08**: Verified PR #11248 is still open with all 195 CI checks fully green and passing. The review decision remains REVIEW_REQUIRED. The migration remains in Step 1, awaiting human OWNER review and merge approval.
