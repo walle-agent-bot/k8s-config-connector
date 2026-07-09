@@ -15,10 +15,6 @@
 
 ## Status Updates
 
-* **2026-07-09**: Actively monitored the progress of sandboxes for both Step 4 (MockGCP - #11528) and Step 5 (Direct Controller - #9779) initiated by the AI Factory. Currently waiting for Pull Requests to be created for both steps.
-* **2026-07-09**: Noted that PR #9784 for Step 5 was closed by `maqiuyujoyce` due to codebot inactivity. Updated Step 5 status back to **Open**.
-* **2026-07-09**: Verified that the AI Factory has successfully initiated sandboxes to resolve both Step 4 (MockGCP - #11528) and Step 5 (Direct Controller - #9779).
-* **2026-07-09**: Created GitHub issue #11528 to ensure mock StorageBucket works as expected, as requested by maqiuyujoyce.
-* **2026-07-09**: Verified that Step 1, Step 2, and Step 3 are already completed and merged. Step 4 (MockGCP) is also fully available.
-* **2026-07-09**: Inspected PR #9784 for Step 5 (Implement Direct Controller). Found that it has passing CI checks but is currently in a dirty/conflict state (`mergeable_state: dirty`).
-* **2026-07-09**: Assigned PR #9784 back to its author bot `codebot-robot` to trigger conflict resolution and rebase.
+* **2026-07-09**: Created GitHub issue #11528 (`Match real gcp behavior in MockGCP for StorageBucket`) to ensure MockGCP works as expected, as requested by `maqiuyujoyce`.
+* **2026-07-09**: Noted that PR #9784 for Step 5 was closed by `maqiuyujoyce` due to codebot inactivity, reverting Step 5 status back to **Open**.
+* **2026-07-09**: Verified that the AI Factory has successfully initiated sandboxes to resolve both Step 4 (MockGCP - #11528) and Step 5 (Direct Controller - #9779). Currently actively monitoring progress.
