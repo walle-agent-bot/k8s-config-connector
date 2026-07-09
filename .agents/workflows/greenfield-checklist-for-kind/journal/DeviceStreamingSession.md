@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity | [#8670](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8670) | [#8698](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8698), [#8781](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8781) | Completed | 2026-05-26 | 2026-05-28 |
-| 2 | Direct Controller & E2E Fixtures | [#8809](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8809) | [#8839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8839) (Closed) | Open | 2026-05-29 | |
+| 2 | Direct Controller & E2E Fixtures | [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) | | Open | 2026-05-29 | |
 | 3 | mockGCP generation | | | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-09**: Monitored open child issue #8809 and closed PR #8839. Since the PR was closed due to OOM errors and other sticky CI unit-tests failures, and assigning `codebot-robot` to #8809 did not result in a new PR, the old child issue #8809 was closed, and a brand new child issue [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) was opened for Step 2. We are waiting for a new Pull Request to be opened for the direct controller implementation of `DeviceStreamingSession`.
 - **2026-07-09**: Actively monitored open child issue #8809 on GitHub. Confirmed that no active Pull Request is currently open since PR #8839 was closed. Coder bot `codebot-robot` and `argus-watcher-bot` remain assigned, and we continue to wait for a new Pull Request for the direct controller implementation of `DeviceStreamingSession`.
 - **2026-07-09**: Monitored child issue #8809 on GitHub. Confirmed that no active Pull Request has been opened yet. Unassigned and re-assigned coder bot `codebot-robot` on child issue #8809 to re-trigger a fresh Phase 2 direct controller implementation run, and the overseer continues to wait for a new Pull Request for `DeviceStreamingSession`.
 - **2026-07-09**: Monitored open child issue #8809 on GitHub. Confirmed that no active Pull Request is currently open since the closure of PR #8839. Unassigned and re-assigned `codebot-robot` to child issue #8809 to re-trigger a fresh direct controller implementation run, and the overseer continues to wait for a new Pull Request for `DeviceStreamingSession`.
