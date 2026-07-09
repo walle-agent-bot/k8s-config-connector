@@ -1,18 +1,19 @@
 # Migration Journal: VertexAIPipelineJob
 
-**Current Step**: Step 2: Direct Controller, E2E fixtures and Fuzzer
+**Current Step**: Step 3: mockGCP generation
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types and Identity | [#9246](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9246) | [#11411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11411) | Completed | 2026-06-05 | 2026-07-08 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11509](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11509) | [#11518](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11518) | PR Created | 2026-07-08 | - |
-| 3 | mockGCP generation | - | - | Pending | - | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11509](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11509) | [#11518](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11518) | Completed | 2026-07-08 | 2026-07-09 |
+| 3 | mockGCP generation | [#11541](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11541) | - | Open | 2026-07-09 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
 
+- **2026-07-09**: Monitored Step 2. Confirmed that Pull Request #11518 has been successfully merged. Marked Step 2 as Completed. Initiated Step 3, created GitHub Issue #11541 to implement MockGCP and Alignment for VertexAIPipelineJob, and updated tracking status.
 - **2026-07-09**: Re-monitored Step 2. Re-verified Pull Request #11518 and confirmed all CI checks continue to pass successfully (100% green). The PR remains in a healthy, mergeable state with no conflicts, awaiting human OWNER review and merge to proceed to Step 3.
 - **2026-07-09**: Re-monitored Step 2. Verified that Pull Request #11518 remains open and all CI check-runs are completely complete and passing successfully. The PR has no conflicts, is in a healthy, mergeable state, and continues to wait for human OWNER review and merge to proceed to Step 3.
 - **2026-07-09**: Re-monitored Step 2. Re-verified all 130+ CI checks on Pull Request #11518 are completely green and passing successfully. The PR is in a healthy, mergeable state without conflicts and continues to wait for human OWNER review and merge to proceed to Step 3.
