@@ -8,11 +8,12 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types and Identity | [#9246](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9246) | [#11411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11411) | Completed | 2026-06-05 | 2026-07-08 |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | [#11509](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11509) | [#11518](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11518) | Completed | 2026-07-08 | 2026-07-09 |
-| 3 | mockGCP generation | [#11541](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11541) | - | Open | 2026-07-09 | - |
+| 3 | mockGCP generation | [#11541](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11541) | [#11545](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11545) | PR Created | 2026-07-09 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
 
+- **2026-07-09**: Monitored Step 3. Confirmed that Pull Request #11545 has been created by `ada-coder-bot` to implement MockGCP and Alignment for VertexAIPipelineJob. Active CI check-runs are currently in progress without any failures detected so far.
 - **2026-07-09**: Re-monitored Step 3. Verified that GitHub Issue #11541 remains Open and assigned to `ada-coder-bot` in the AI Factory sandbox, and no Pull Request has been submitted yet.
 - **2026-07-09**: Monitored Step 3. Confirmed that GitHub Issue #11541 is Open and assigned to `ada-coder-bot`, and development is underway in an AI Factory sandbox. No Pull Request has been opened yet.
 - **2026-07-09**: Monitored Step 2. Confirmed that Pull Request #11518 has been successfully merged. Marked Step 2 as Completed. Initiated Step 3, created GitHub Issue #11541 to implement MockGCP and Alignment for VertexAIPipelineJob, and updated tracking status.
