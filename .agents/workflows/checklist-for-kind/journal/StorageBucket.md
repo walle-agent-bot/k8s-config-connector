@@ -15,6 +15,7 @@
 
 ## Status Updates
 
+* **2026-07-09**: Monitored Step 4 (PR #11530) and Step 5 (PR #11533). Both PRs are currently undergoing automated CI testing (status pending/running) with no failures detected on the latest commits. Continued tracking progress without re-assignment since checks are still in progress.
 * **2026-07-09**: Monitored Step 4 (PR #11530) and Step 5 (PR #11533). Checked that PR #11530 has failing CI check-runs (`presubmit-gatekeeper`, `tests-scenarios-unclassified`, and `tests-e2e-fixtures-storage`). Since PR #11530 is already assigned to its author bot `ada-coder-bot` for investigation, no re-assignment was needed. PR #11533 is still in progress with CI checks currently running on its latest head commit.
 * **2026-07-09**: Monitored Step 4 (PR #11530) and Step 5 (PR #11533). Detected that PR #11530 has failing CI check-runs (`tests-e2e-fixtures-storage` and `tests-scenarios-unclassified`). Assigned PR #11530 back to its author bot `ada-coder-bot` for investigation. PR #11533 is still in progress with CI checks currently running.
 * **2026-07-09**: Monitored Step 4 (PR #11530) and Step 5 (PR #11533). Checked that `ada-coder-bot` resolved the previous unit-test failure on PR #11530, and its checks are currently in progress. Detected newly opened PR #11533 for Step 5 with a failing unit-test check-run; assigned PR #11533 to its author bot `ada-coder-bot` for investigation and added standard `direct-migration` and `overseer` labels.
