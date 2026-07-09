@@ -17,18 +17,19 @@ limitations under the License.
 # Greenfield Migration Journal: VertexAIDataset
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Open, pending human OWNER review and merge)
+Step 2: Direct Controller, E2E fixtures and Fuzzer (Failing CI, assigned to codebot-robot)
 
 ## Progress Tracking
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct API Types & Identity | [#7985](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7985) | [#9646](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9646), [#9665](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9665), [#9687](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9687) | Completed | 2026-05-09 | 2026-05-16 |
-| 2 | Direct Controller & E2E | [#9698](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9698) | [#9787](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9787) | PR Created | 2026-05-16 | - |
+| 2 | Direct Controller & E2E | [#9698](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9698) | [#9787](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9787) | Failing CI | 2026-05-16 | - |
 | 3 | mockGCP Generation | - | - | Not Started | - | - |
 | 4 | mockGCP Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-07-09 (Update 137)**: Checked PR #9787 status. The unit-tests and presubmit-gatekeeper checks have failed. Assigned the PR back to the author bot `codebot-robot` to fix the test failures.
 * **2026-07-09 (Update 136)**: Checked PR #9787 status. All 195 CI check-runs continue to pass successfully. The PR is OPEN and MERGEABLE, still awaiting human OWNER review and merge to proceed to Step 3.
 * **2026-07-09 (Update 135)**: Checked PR #9787 status. All 195 CI check-runs continue to pass successfully. The PR is OPEN and MERGEABLE, still awaiting human OWNER review and merge to proceed to Step 3.
 * **2026-07-09 (Update 134)**: Checked PR #9787 status. All 195 CI check-runs continue to pass successfully. The PR is OPEN and MERGEABLE, still awaiting human OWNER review and merge to proceed to Step 3.
