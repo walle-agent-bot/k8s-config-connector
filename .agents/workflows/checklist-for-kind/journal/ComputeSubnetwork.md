@@ -14,6 +14,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-07-09 (Check-in 20)**: Monitored PR #11546. Confirmed that both `test-mockgcp` and `tests-e2e-fixtures-compute` check-runs failed on the latest commit. Since the PR was currently unassigned, re-assigned it back to the author bot `hopper-coder-bot` via the GitHub REST API to trigger another round of automated fixes.
 - **2026-07-09 (Check-in 19)**: Monitored PR #11546. Confirmed that the `test-mockgcp` check-run failed due to other unrelated MockGCP tests (such as Firestore, Bigtable, etc.), while all `mockcompute` subnetwork-related tests passed successfully. The PR remains assigned to `hopper-coder-bot`, and `argus-watcher-bot` is investigating. Will continue to monitor.
 - **2026-07-09 (Check-in 18)**: Monitored PR #11546. Confirmed that the `test-mockgcp` check-run failed again on the latest commit. Since the PR was currently unassigned, re-assigned it back to the author bot `hopper-coder-bot` via the GitHub REST API to trigger another round of automated fixes. Will continue to monitor.
 - **2026-07-09 (Check-in 17)**: Monitored PR #11546. Confirmed that the PR remains open and assigned to `hopper-coder-bot`. The `test-mockgcp` and `tests-e2e-fixtures-compute` check-runs have completed in a failed state. AI Factory's `argus-watcher-bot` has initiated an automated investigation into these failures. Will continue to monitor the PR.
