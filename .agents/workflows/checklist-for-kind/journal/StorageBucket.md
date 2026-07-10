@@ -1,7 +1,7 @@
 # Migration Journal: StorageBucket
 
 ## Current Step
-**Step 4: Ensure MockGCP matches real gcp behavior & Step 5: Implement Direct Controller & E2E Fixtures** (PR #11533 is 100% green; PR #11530 has 3 pending checks in progress)
+**Step 4: Ensure MockGCP matches real gcp behavior & Step 5: Implement Direct Controller & E2E Fixtures** (Both PR #11530 and PR #11533 are 100% green, awaiting OWNER review and merge)
 
 ## Progress Tracking
 
@@ -15,6 +15,7 @@
 
 ## Status Updates
 
+* **2026-07-10**: Re-verified the StorageBucket migration progress. Confirmed that both PR #11530 (MockGCP alignment) and PR #11533 (Direct Controller) are 100% green with all CI check-runs passing successfully. No failures, running, or pending jobs remain on either PR. Both pull requests are fully ready and currently awaiting final human OWNER review, approval, and merge.
 * **2026-07-10**: Re-verified the StorageBucket migration progress. PR #11533 (Direct Controller) is 100% green with all 196+ CI check-runs successfully completed. PR #11530 (MockGCP alignment) is open with zero failures, and has only 3 pending checks actively running (`tests-e2e-fixtures-dataflow`, `tests-e2e-fixtures-compute`, and `tests-e2e-fixtures-bigquery`). Both pull requests are awaiting merge.
 * **2026-07-10**: Monitored the StorageBucket migration progress. PR #11533 (Direct Controller) remains 100% green with all 196+ CI checks successfully completed. PR #11530 (MockGCP alignment) is open with all completed checks passing, and 176 checks currently running/pending. No failures are detected on either PR.
 * **2026-07-10**: Re-verified the status of the migration PRs. PR #11533 is open and 100% green. PR #11530 is open but has failing `unit-tests` and `presubmit-gatekeeper` checks. Checked GitHub assignees for PR #11530 and found it was empty. Assigned the PR back to its author bot `ada-coder-bot` via the GitHub REST API to resume investigation and fix the failing checks.
