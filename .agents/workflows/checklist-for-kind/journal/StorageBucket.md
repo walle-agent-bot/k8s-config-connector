@@ -15,6 +15,7 @@
 
 ## Status Updates
 
+* **2026-07-10**: Monitored the StorageBucket migration progress. PR #11533 (Direct Controller) remains 100% green with all 196+ CI checks successfully completed. PR #11530 (MockGCP alignment) is open with all completed checks passing, and 176 checks currently running/pending. No failures are detected on either PR.
 * **2026-07-10**: Re-verified the status of the migration PRs. PR #11533 is open and 100% green. PR #11530 is open but has failing `unit-tests` and `presubmit-gatekeeper` checks. Checked GitHub assignees for PR #11530 and found it was empty. Assigned the PR back to its author bot `ada-coder-bot` via the GitHub REST API to resume investigation and fix the failing checks.
 * **2026-07-10**: Checked the CI check-runs for both PR #11530 (MockGCP alignment) and PR #11533 (Direct Controller). PR #11533 remains 100% green with all CI check-runs successfully completed. However, PR #11530 has two failing checks (`unit-tests` and `presubmit-gatekeeper`). Assigned PR #11530 back to its author bot `ada-coder-bot` via the GitHub REST API for investigation and resolution of these failures.
 * **2026-07-10**: Re-monitored the StorageBucket direct controller migration status. Verified that PR #11533 (Direct Controller) remains 100% green and fully passing. For PR #11530 (MockGCP alignment), a new commit (`1b8aae88`) was recently pushed to align StorageBucket ipFilter behavior with real GCP. The CI checks for PR #11530 are currently pending and actively running, with all completed runs passing successfully.
