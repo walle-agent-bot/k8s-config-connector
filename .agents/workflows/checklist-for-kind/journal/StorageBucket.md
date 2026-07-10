@@ -1,7 +1,7 @@
 # Migration Journal: StorageBucket
 
 ## Current Step
-**Step 4: Ensure MockGCP matches real gcp behavior & Step 5: Implement Direct Controller & E2E Fixtures** (Both PR #11530 and PR #11533 are 100% green, awaiting OWNER review and merge)
+**Step 4: Ensure MockGCP matches real gcp behavior & Step 5: Implement Direct Controller & E2E Fixtures** (PR #11533 is 100% green and awaiting OWNER review; PR #11530 has failing unit-tests and presubmit-gatekeeper checks and was assigned back to ada-coder-bot)
 
 ## Progress Tracking
 
@@ -15,6 +15,7 @@
 
 ## Status Updates
 
+* **2026-07-10**: Re-monitored the StorageBucket migration progress. Checked the CI check-runs for both PRs using paginated REST API. PR #11533 (Direct Controller) remains 100% green and is awaiting OWNER review. However, PR #11530 (MockGCP alignment) has failing `unit-tests` and `presubmit-gatekeeper` checks. Assigned PR #11530 back to its author bot `ada-coder-bot` via the GitHub REST API to investigate and resolve these failures.
 * **2026-07-10**: Re-verified StorageBucket migration status. Conducted a comprehensive paginated check of all CI check-runs for both PR #11530 (MockGCP alignment) and PR #11533 (Direct Controller). Confirmed that both pull requests remain open and are 100% green with absolutely zero failing, running, or pending check-runs. Both PRs are awaiting final human OWNER review and merge.
 * **2026-07-10**: Re-monitored the StorageBucket direct controller migration progress. Performed a comprehensive paginated check-runs API validation for both PR #11530 (MockGCP) and PR #11533 (Direct Controller). Confirmed that both pull requests remain open and are completely 100% green with absolutely zero failing, pending, or running jobs. Both PRs are ready for human OWNER review and merge.
 * **2026-07-10**: Re-monitored the StorageBucket direct controller migration status. Conducted a comprehensive paginated check of all CI check-runs for both PR #11530 (MockGCP alignment) and PR #11533 (Direct Controller). Confirmed that both pull requests are completely 100% green with all CI check-runs passing successfully, with zero failing, running, or pending jobs remaining. Both PRs are awaiting final human OWNER review and merge.
