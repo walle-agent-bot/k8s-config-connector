@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity | [#8670](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8670) | [#8698](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8698), [#8781](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8781) | Completed | 2026-05-26 | 2026-05-28 |
-| 2 | Direct Controller & E2E Fixtures | [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) | | Open | 2026-05-29 | |
+| 2 | Direct Controller & E2E Fixtures | [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) | [#11555](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11555) | PR Created | 2026-05-29 | |
 | 3 | mockGCP generation | | | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-10**: Active Pull Request [#11555](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11555) has been opened by `lovelace-coder-bot`. The CI checks failed on the `unit-tests` job. The overseer is assigning the Pull Request to `lovelace-coder-bot` to investigate and resolve the CI failures.
 - **2026-07-10**: Verified child issue [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) remains open on GitHub, with `lovelace-coder-bot` assigned. The AI Factory sandbox execution (dispatched by `argus-watcher-bot`) has been running for approximately 1 hour and 21 minutes. No active Pull Request has been opened yet. The overseer continues to wait for the direct controller implementation of `DeviceStreamingSession`.
 - **2026-07-10**: Verified child issue [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) remains open on GitHub. `lovelace-coder-bot` remains assigned and the AI Factory sandbox execution (dispatched by `argus-watcher-bot`) has been running for approximately 1 hour. No active Pull Request has been opened yet. The overseer continues to wait for the direct controller implementation of `DeviceStreamingSession`.
 - **2026-07-10**: Verified child issue [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) remains open on GitHub, with `lovelace-coder-bot` assigned and the AI Factory sandbox run successfully dispatched by `argus-watcher-bot` about 34 minutes ago. No active Pull Request has been opened yet. The overseer continues to wait for the direct controller implementation of `DeviceStreamingSession`.
