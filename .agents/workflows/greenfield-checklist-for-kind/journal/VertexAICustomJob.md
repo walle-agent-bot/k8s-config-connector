@@ -16,3 +16,4 @@ Current Step: Step 1 - Direct API Types and Identity and Reference Types Pattern
 ### 2026-07-18
 * Initiated migration orchestration for VertexAICustomJob.
 * Created GitHub issue #11716 for Step 1.
+* AI Factory started working on Step 1 (issue #11716) in a sandbox.
