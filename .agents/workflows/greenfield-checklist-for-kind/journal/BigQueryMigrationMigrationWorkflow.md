@@ -4,7 +4,7 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 
 ## Current Status
 * **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
-* **Current Step Status:** In Progress (PR #11727 under commit 6c8f1a4, CI checks running and passing)
+* **Current Step Status:** In Progress (PR #11727 under commit 6c8f1a4, core CI checks passing, retest of unrelated flakes in progress)
 
 ## Progress Tracking Table
 
@@ -16,6 +16,7 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Planned | N/A | N/A |
 
 ## History / Status Update Notes
+* **2026-07-19:** Monitored PR #11727. Confirmed all core and validations suites (including `tests-e2e-fixtures-bigquerymigration`, `test-mockgcp`, `unit-tests`, and `validate-generated-files`) are fully verified and passing under commit `6c8f1a4`. Observed other unrelated environment flakes on Prow, which coder bot `lovelace-coder-bot` addressed via a comment triggering a `/retest` run to clear them.
 * **2026-07-19:** Monitored PR #11727. Verified that `lovelace-coder-bot` resolved the second round of CI failures (specifically, `TestGoldenLogAlignment` and `presubmit-gatekeeper` by registering `BigQueryMigrationMigrationWorkflow` in `mockGCPSkipGroupKinds`). Commit `6c8f1a44771939983f4289b66b903facddd8dbfc` was pushed. Latest CI checks are currently running (19 success, 174 pending, 0 failures).
 * **2026-07-19:** Monitored PR #11727. Observed failing CI checks (`unit-tests` and `presubmit-gatekeeper`). Assigned the PR to its author `lovelace-coder-bot` via GitHub REST API to trigger a diagnostic run and address the unit-test failures.
 * **2026-07-19:** Monitored progress of Step 2. Confirmed that `lovelace-coder-bot` submitted Pull Request #11727. The coder bot successfully resolved initial CI failures (including deepcopy generation, alpha missing fields list, mock HTTP logs, and a regression in mockworkflows tests). Latest CI check-runs are currently pending but all completed checks are passing.
