@@ -4,7 +4,7 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 
 ## Current Status
 * **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
-* **Current Step Status:** In Progress (PR #11727 open under commit 6c8f1a4, core validations & service E2E tests are passing, but some unrelated E2E fixtures tests are failing. Assigned PR to lovelace-coder-bot for triage.)
+* **Current Step Status:** Paused / Stepped Back (PR #11727 has been flagged with `overseer/stop` after `lovelace-coder-bot` stepped back due to systematic, unrelated user-agent discrepancy failures across multiple test suites. The PR's own service-specific tests are passing. Awaiting human OWNER intervention.)
 
 ## Progress Tracking Table
 
@@ -16,6 +16,7 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Planned | N/A | N/A |
 
 ## History / Status Update Notes
+* **2026-07-19:** Monitored PR #11727. Confirmed `lovelace-coder-bot` has submitted a "Stepping Back" report and the PR has been flagged with `overseer/stop`. This is due to systematic, unrelated environment failures across multiple test suites caused by user-agent discrepancies (appending ` (mockgcp)` to `User-Agent` headers). The PR's own service-specific tests (`tests-e2e-fixtures-bigquerymigration`), along with validations, unit-tests, and golangci-lint, are all passing cleanly. Awaiting human OWNER review/intervention.
 * **2026-07-19:** Monitored PR #11727. Core validations, unit-tests, and the service-specific `tests-e2e-fixtures-bigquerymigration` check are all successfully passing. However, several unrelated E2E fixture suites remain in a failed state due to environment issues. Assigned the PR back to `lovelace-coder-bot` via the GitHub API to triage and handle the remaining failures.
 * **2026-07-19:** Monitored PR #11727. Confirmed all core and validations suites (including `tests-e2e-fixtures-bigquerymigration`, `test-mockgcp`, `unit-tests`, and `validate-generated-files`) are fully verified and passing under commit `6c8f1a4`. Observed other unrelated environment flakes on Prow, which coder bot `lovelace-coder-bot` addressed via a comment triggering a `/retest` run to clear them.
 * **2026-07-19:** Monitored PR #11727. Verified that `lovelace-coder-bot` resolved the second round of CI failures (specifically, `TestGoldenLogAlignment` and `presubmit-gatekeeper` by registering `BigQueryMigrationMigrationWorkflow` in `mockGCPSkipGroupKinds`). Commit `6c8f1a44771939983f4289b66b903facddd8dbfc` was pushed. Latest CI checks are currently running (19 success, 174 pending, 0 failures).
