@@ -8,11 +8,12 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Step 1**: Direct API Types and Identity and Reference Types Pattern | [#11158](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11158) | [#11361](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11361) | `Completed` | 2026-07-07 | 2026-07-07 |
 | **Step 2**: Direct Controller, E2E fixtures and Fuzzer | [#11468](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11468) | [#11472](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11472) | `Completed` | 2026-07-14 | 2026-07-14 |
-| **Step 3**: mockGCP generation | [#11714](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11714) | - | `Open` | 2026-07-18 | - |
+| **Step 3**: mockGCP generation | [#11714](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11714) | [#11730](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11730) | `PR Created` | 2026-07-18 | - |
 | **Step 4**: MockGCP Alignment with RealGCP | - | - | `Not Started` | - | - |
 
 ## Updates Log
 
+- **2026-07-19 00:52**: Monitored Step 3. Verified that `hopper-coder-bot` created Pull Request [#11730](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11730) for MockGCP generation. Verified that all completed CI checks are passing, with other checks currently in progress.
 - **2026-07-19 00:13**: Monitored Step 3. Confirmed that Issue [#11714](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11714) remains active. Verified that the sandbox run by `hopper-coder-bot` is still in progress, and no pull request has been opened yet.
 - **2026-07-18 23:34**: Monitored Step 3. Confirmed that Issue [#11714](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11714) remains active. Verified that the sandbox run by `hopper-coder-bot` is still in progress, and no pull request has been opened yet.
 - **2026-07-18 23:04**: Monitored Step 3. Verified Issue [#11714](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11714) is active, and the AI Factory sandbox has started (at 23:02:36 UTC) to generate the MockGCP implementation. No PR has been created yet.
