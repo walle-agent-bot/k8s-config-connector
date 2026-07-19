@@ -6,12 +6,17 @@ Current Step: Step 1 - Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [#11715](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11715) | [#11733](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11733) | PR Created | 2026-07-18 | - |
+| 1 | Direct API Types and Identity | [#11715](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11715) | [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) | PR Created | 2026-07-18 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+
+### 2026-07-19 (Update 11)
+* Identified that duplicate Pull Request [#11733](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11733) has been closed, and Pull Request [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) is the active open PR for Step 1.
+* Verified that all 133 CI check-runs on Pull Request [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) have successfully passed with zero failures.
+* Remaining on standby for human OWNER review and approval to merge the Step 1 PR before initiating Step 2.
 
 ### 2026-07-19 (Update 10)
 * Re-verified Step 1 Pull Request [#11733](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11733) status and confirmed it remains in OPEN state.
