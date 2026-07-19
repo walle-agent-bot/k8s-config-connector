@@ -12,4 +12,5 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Updates
+* **2026-07-19**: Issue #11719 is still open; awaiting creation of the pull request by the implementation bot.
 * **2026-07-18**: Created new Step 1 issue #11719 to implement direct KRM types, identity, and generate.sh for APIHubCuration.
