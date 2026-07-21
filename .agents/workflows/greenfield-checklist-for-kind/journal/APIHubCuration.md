@@ -12,6 +12,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Updates
+* **2026-07-21**: Re-verified PR #11729. All 199+ CI checks are 100% green and passing. However, the PR remains open and blocked by a `CHANGES_REQUESTED` review from `daedalus-agent-bot` regarding Go type pointer compliance for the `Location` primitive field, while other automated review bots have approved. Currently awaiting human OWNER review or approval override to merge and proceed to Step 2.
 * **2026-07-21**: Re-evaluated PR #11729. Confirmed that while all 199 CI checks are 100% green and passing, the PR remains blocked by a `CHANGES_REQUESTED` review from `daedalus-agent-bot` regarding Go type pointer compliance for the `Location` primitive field. It is currently assigned to `hopper-coder-bot` to implement the required pointer fix before we can proceed to Step 2.
 * **2026-07-21**: Re-verified PR #11729 status again. All 199 CI checks are 100% complete and passing successfully, and all automated reviews remain green with `/lgtm`. Currently awaiting human OWNER review and merge to transition to Step 2.
 * **2026-07-21**: Checked PR #11729 status. All 199 CI checks are 100% green and passing. The PR has been approved by all automated review bots (daedalus-agent-bot, walle-agent-bot, and feynman-agent-bot) and is currently awaiting human OWNER (cheftako) review and merge.
