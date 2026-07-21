@@ -1,19 +1,20 @@
 # CloudAssetSavedQuery Greenfield Migration Journal
 
 ## Current Status
-- **Current Step**: Step 1: Direct API Types, Identity & Reference Types Pattern
-- **Status Summary**: Step 1 issue #8675 is OPEN. All CI checks on PR #11735 have successfully passed. Step 1 is fully ready and awaiting review and merge by repository owners.
+- **Current Step**: Step 2: Direct Controller, E2E fixtures and Fuzzer
+- **Status Summary**: Step 1 completed (PR #11735 merged). Step 2 issue #11768 is OPEN. Awaiting development of the direct controller, E2E fixtures, and fuzzer.
 
 ## Progress Tracking
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types, Identity & Reference Types | [#8675](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8675) | [#11735](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11735) | PR Created | 2026-07-18 | - |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
+| 1 | Direct API Types, Identity & Reference Types | [#8675](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8675) | [#11735](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11735) | Completed | 2026-07-18 | 2026-07-21 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11768](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11768) | - | Open | 2026-07-21 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## History / Status Updates
+- **2026-07-21**: Step 1 completed (PR #11735 merged). Overseer initialized Step 2; created Issue #11768 for implementing direct controller and E2E fixtures for CloudAssetSavedQuery.
 - **2026-07-21**: Overseer checked Step 1; verified PR #11735 remains open with all 200+ CI check-runs passing successfully. Ready for review and merge by repository owners.
 - **2026-07-21**: Overseer monitored Step 1; confirmed PR #11735 remains open with all CI checks passing successfully. Step 1 is fully ready and awaiting review and merge by repository owners.
 - **2026-07-20**: Overseer monitored Step 1; confirmed PR #11735 is still open and all CI checks remain green and passing. Ready for review and merge by repository owners.
