@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Step**: Step 2: Direct Controller, E2E fixtures and Fuzzer
-- **Status Summary**: Step 1 completed (PR #11735 merged). Step 2 issue #11768 has PR #11769 created and CI check-runs are currently running.
+- **Status Summary**: Step 2 PR #11769 has failing CI checks (unit-tests, presubmit-gatekeeper). Assigned PR #11769 to `ada-coder-bot` for resolution.
 
 ## Progress Tracking
 
@@ -14,6 +14,7 @@
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## History / Status Updates
+- **2026-07-21**: Checked Step 2 progress; detected failing CI checks (`presubmit-gatekeeper` and `unit-tests`) on PR #11769. Assigned PR #11769 to `ada-coder-bot` to investigate and resolve the failures.
 - **2026-07-21**: Checked Step 2 progress; detected new PR #11769 opened by `ada-coder-bot`. All major CI check-runs are currently active/in-progress. Progress is on track.
 - **2026-07-21**: Checked Step 2 progress; confirmed Issue #11768 is OPEN and assigned to ada-coder-bot. No pull request has been opened yet. Awaiting development of the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-21**: Step 1 completed (PR #11735 merged). Overseer initialized Step 2; created Issue #11768 for implementing direct controller and E2E fixtures for CloudAssetSavedQuery.
