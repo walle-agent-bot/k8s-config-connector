@@ -12,6 +12,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Updates
+* **2026-07-21**: Re-verified PR #11729 status again. All 199 CI checks are completely green and passing successfully. All automated reviews (from `daedalus-agent-bot`, `walle-agent-bot`, and `feynman-agent-bot`) are green with `/lgtm` approval. The PR is currently open and awaiting human OWNER review and merge before we can proceed to Step 2.
 * **2026-07-21**: Re-verified PR #11729 status. All 199+ CI checks are 100% green and passing. All automated review bots (daedalus-agent-bot, walle-agent-bot, and feynman-agent-bot) have approved the PR with `/lgtm`. The PR is currently open and awaiting human OWNER review and merge to proceed to Step 2.
 * **2026-07-21**: Re-verified PR #11729 status. All 199 CI checks are 100% green and passing. The PR is still open and blocked by `daedalus-agent-bot`'s `CHANGES_REQUESTED` review regarding the primitive `Location` field. It remains assigned to `hopper-coder-bot` for the required pointer fix before we can transition to Step 2.
 * **2026-07-21**: Re-verified PR #11729. Confirmed that all 199+ CI checks are 100% green and passing, and all automated review bots (daedalus-agent-bot, walle-agent-bot, and feynman-agent-bot) have now fully approved the PR with `/lgtm`. The PR is currently open and awaiting human OWNER review and merge to transition to Step 2.
