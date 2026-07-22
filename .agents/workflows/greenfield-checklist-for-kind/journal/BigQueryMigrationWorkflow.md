@@ -4,18 +4,19 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 
 ## Current Status
 * **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
-* **Current Step Status:** Paused / Stepped Back (PR #11727 has been flagged with `overseer/stop` after `lovelace-coder-bot` stepped back due to systematic, unrelated user-agent discrepancy failures across multiple test suites. The PR's own service-specific tests are passing. Awaiting human OWNER intervention.)
+* **Current Step Status:** In Progress (The AI Factory has initiated a new sandbox run for Issue #11720 as of 2026-07-22T04:08:43Z to implement the direct controller and E2E fixtures. No Pull Request has been created yet. Monitoring sandbox progress.)
 
 ## Progress Tracking Table
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types and Identity | [#9023](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9023) | [#9029](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9029) | Merged | 2026-06-03 | 2026-06-03 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11720](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11720) | [#11727](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11727) | PR Created | 2026-07-18 | N/A |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11720](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11720) | N/A | In Progress | 2026-07-18 | N/A |
 | Step 3: mockGCP generation | N/A | N/A | Planned | N/A | N/A |
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Planned | N/A | N/A |
 
 ## History / Status Update Notes
+* **2026-07-22:** Routine daily tracking and sandbox verification. Verified that the AI Factory has initiated a new sandbox run for Issue #11720 (Step 2) as of 04:08 UTC. No Pull Request has been created yet. Continuing to monitor the sandbox execution and awaiting the creation of the controller PR.
 * **2026-07-22:** Routine daily tracking and orchestration check. Verified Pull Request #11727 remains open, active, and properly paused under the `overseer/stop` label on GitHub. Performed a paginated check-runs status query using the GitHub REST API and re-confirmed that the service-specific `tests-e2e-fixtures-bigquerymigration` suite remains 100% green and successfully completed, along with other core validations (`unit-tests`, `test-mockgcp`, `validate-generated-files`, `smoketest-with-kind`). Progression remains blocked awaiting human OWNER review and merge of Step 2.
 * **2026-07-21:** Routine daily migration progress check. Verified Pull Request #11727 remains open and properly paused under the `overseer/stop` label on GitHub. Performed a paginated check-runs status query using the GitHub REST API and re-confirmed that the service-specific `tests-e2e-fixtures-bigquerymigration` suite is 100% green and successfully completed, along with other core validations (`unit-tests`, `test-mockgcp`, `validate-generated-files`, `smoketest-with-kind`), while unrelated resource test suites continue to fail due to systematic, environment-wide User-Agent normalization discrepancies on mockGCP. Progression remains blocked awaiting human OWNER review and merge.
 * **2026-07-21:** Routine daily orchestration check. Confirmed Pull Request #11727 remains open, active, and correctly paused under the `overseer/stop` label on GitHub. Checked CI check-runs via GitHub REST API and verified that the service-specific `tests-e2e-fixtures-bigquerymigration` check-run is fully green and passing, with no changes in its blocked status. No automated actions can proceed; continuing to monitor and await human OWNER review and merge of Step 2.
