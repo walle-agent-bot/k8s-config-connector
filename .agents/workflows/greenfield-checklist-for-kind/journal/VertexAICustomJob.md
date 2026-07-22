@@ -13,6 +13,12 @@ Current Step: Step 1 - Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+### 2026-07-22 (Update 225)
+* Re-verified the status of Step 1 Pull Request [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724). It remains in the OPEN state.
+* Identified new review feedback from human reviewer `acpana` requesting naming violation corrections in `tests/apichecks/testdata/exceptions/naming_violations.txt` for the newly added reference files (`vertexaiexperiment_reference.go`, `vertexaiexperimentrun_reference.go`, `vertexaimodel_reference.go`).
+* Assigned the PR [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) to the PR author bot `ada-coder-bot` via GitHub API to handle this feedback and update the PR accordingly.
+* Confirmed that 100% of the active/completed CI checks (all 199 checks) continue to pass successfully with zero failures.
+
 ### 2026-07-22 (Update 224)
 * Re-verified the status of Step 1 Pull Request [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) and confirmed it remains in the OPEN state.
 * Checked all active and completed CI checks using the GitHub CLI/API and verified that 100% of the check-runs (all 199 checks) continue to pass successfully with zero failures.
