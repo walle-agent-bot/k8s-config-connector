@@ -13,6 +13,14 @@ Current Step: Step 1 - Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+### 2026-07-22 (Update 226)
+* Monitored Pull Request [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724).
+* Confirmed that `ada-coder-bot` has successfully pushed updated changes at 20:43:00Z to address reviewer `acpana`'s naming violation feedback:
+  1. Removed redundant `VertexAIModelRef` and integrated the existing `AIPlatformModelRef` from `apis/aiplatform/v1alpha1`.
+  2. Consolidated `VertexAIExperimentRef` and `VertexAIExperimentRunRef` directly under `vertexaicustomjob_reference.go` to resolve the file naming prefix validations, deleting separate reference files.
+  3. Regenerated all schemas, mappers, deepcopy handlers, and verified all local unit tests and API checks.
+* Verified that a new set of CI checks is currently pending. We remain on standby waiting for the CI checks to complete successfully and for subsequent human OWNER review and approval.
+
 ### 2026-07-22 (Update 225)
 * Re-verified the status of Step 1 Pull Request [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724). It remains in the OPEN state.
 * Identified new review feedback from human reviewer `acpana` requesting naming violation corrections in `tests/apichecks/testdata/exceptions/naming_violations.txt` for the newly added reference files (`vertexaiexperiment_reference.go`, `vertexaiexperimentrun_reference.go`, `vertexaimodel_reference.go`).
