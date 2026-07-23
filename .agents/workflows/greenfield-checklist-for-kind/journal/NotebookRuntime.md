@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ### Status Update Notes
+* **2026-07-23**: Checked the status of Step 1 Pull Request [#11813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11813). Almost all presubmit checks have successfully completed, with only the `tests-e2e-fixtures-compute` job still in progress. No failures have been reported on the latest commit. (Checked at 05:21 UTC)
 * **2026-07-23**: Checked the status of Step 1 Pull Request [#11813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11813). The author bot `hopper-coder-bot` updated the PR to resolve unit-test failures; standard presubmit checks are currently in progress. (Checked at 04:46 UTC)
 * **2026-07-23**: Step 1 Pull Request [#11813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11813) was opened but failed `unit-tests` checks. Assigned PR back to the author bot `hopper-coder-bot` to address the test failures.
 * **2026-07-23**: Verified that Step 1 issue [#11122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11122) remains in progress with no pull request created yet. Awaiting PR creation from the assigned coder bot hopper-coder-bot. (Checked at 03:24 UTC)
