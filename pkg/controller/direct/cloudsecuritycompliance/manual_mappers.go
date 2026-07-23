@@ -15,7 +15,10 @@
 package cloudsecuritycompliance
 
 import (
+	"strings"
+
 	krm "github.com/GoogleCloudPlatform/k8s-config-connector/apis/cloudsecuritycompliance/v1alpha1"
+	refsv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/apis/refs/v1beta1"
 	"github.com/GoogleCloudPlatform/k8s-config-connector/pkg/controller/direct"
 
 	pb "cloud.google.com/go/cloudsecuritycompliance/apiv1/cloudsecuritycompliancepb"
@@ -103,5 +106,220 @@ func Framework_CloudControlGroupDetailsObservedState_FromProto(mapCtx *direct.Ma
 }
 
 func Framework_CloudControlGroupDetailsObservedState_ToProto(mapCtx *direct.MapContext, in *krm.Framework_CloudControlGroupDetailsObservedState) interface{} {
+	return nil
+}
+
+func CloudControlMetadata_FromProto(mapCtx *direct.MapContext, in *pb.CloudControlMetadata) *krm.CloudControlMetadata {
+	if in == nil {
+		return nil
+	}
+	out := &krm.CloudControlMetadata{}
+	out.CloudControlDetails = CloudControlDetails_FromProto(mapCtx, in.GetCloudControlDetails())
+	out.EnforcementMode = direct.Enum_FromProto(mapCtx, in.GetEnforcementMode())
+	return out
+}
+
+func CloudControlMetadata_ToProto(mapCtx *direct.MapContext, in *krm.CloudControlMetadata) *pb.CloudControlMetadata {
+	if in == nil {
+		return nil
+	}
+	out := &pb.CloudControlMetadata{}
+	out.CloudControlDetails = CloudControlDetails_ToProto(mapCtx, in.CloudControlDetails)
+	out.EnforcementMode = direct.Enum_ToProto[pb.EnforcementMode](mapCtx, in.EnforcementMode)
+	return out
+}
+
+func parseTargetResourceRef(s string) *krm.TargetResourceRef {
+	if s == "" {
+		return nil
+	}
+	out := &krm.TargetResourceRef{}
+	if strings.HasPrefix(s, "projects/") {
+		out.ProjectRef = &refsv1beta1.ProjectRef{External: s}
+	} else if strings.HasPrefix(s, "folders/") {
+		out.FolderRef = &refsv1beta1.FolderRef{External: s}
+	} else if strings.HasPrefix(s, "organizations/") {
+		out.OrganizationRef = &refsv1beta1.OrganizationRef{External: s}
+	} else {
+		out.ProjectRef = &refsv1beta1.ProjectRef{External: s}
+	}
+	return out
+}
+
+func buildTargetResourceRef(ref *krm.TargetResourceRef) string {
+	if ref == nil {
+		return ""
+	}
+	if ref.ProjectRef != nil {
+		return ref.ProjectRef.External
+	}
+	if ref.FolderRef != nil {
+		return ref.FolderRef.External
+	}
+	if ref.OrganizationRef != nil {
+		return ref.OrganizationRef.External
+	}
+	return ""
+}
+
+func parseFolderOrOrgRef(s string) *krm.FolderOrOrgRef {
+	if s == "" {
+		return nil
+	}
+	out := &krm.FolderOrOrgRef{}
+	if strings.HasPrefix(s, "folders/") {
+		out.FolderRef = &refsv1beta1.FolderRef{External: s}
+	} else if strings.HasPrefix(s, "organizations/") {
+		out.OrganizationRef = &refsv1beta1.OrganizationRef{External: s}
+	}
+	return out
+}
+
+func buildFolderOrOrgRef(ref *krm.FolderOrOrgRef) string {
+	if ref == nil {
+		return ""
+	}
+	if ref.FolderRef != nil {
+		return ref.FolderRef.External
+	}
+	if ref.OrganizationRef != nil {
+		return ref.OrganizationRef.External
+	}
+	return ""
+}
+
+func TargetResourceConfig_FromProto(mapCtx *direct.MapContext, in *pb.TargetResourceConfig) *krm.TargetResourceConfig {
+	if in == nil {
+		return nil
+	}
+	out := &krm.TargetResourceConfig{}
+	if in.GetExistingTargetResource() != "" {
+		out.ExistingTargetResourceRef = parseTargetResourceRef(in.GetExistingTargetResource())
+	}
+	out.TargetResourceCreationConfig = TargetResourceCreationConfig_FromProto(mapCtx, in.GetTargetResourceCreationConfig())
+	return out
+}
+
+func TargetResourceConfig_ToProto(mapCtx *direct.MapContext, in *krm.TargetResourceConfig) *pb.TargetResourceConfig {
+	if in == nil {
+		return nil
+	}
+	out := &pb.TargetResourceConfig{}
+	if in.ExistingTargetResourceRef != nil {
+		val := buildTargetResourceRef(in.ExistingTargetResourceRef)
+		out.ResourceConfig = &pb.TargetResourceConfig_ExistingTargetResource{
+			ExistingTargetResource: val,
+		}
+	}
+	if in.TargetResourceCreationConfig != nil {
+		val := TargetResourceCreationConfig_ToProto(mapCtx, in.TargetResourceCreationConfig)
+		out.ResourceConfig = &pb.TargetResourceConfig_TargetResourceCreationConfig{
+			TargetResourceCreationConfig: val,
+		}
+	}
+	return out
+}
+
+func FolderCreationConfig_FromProto(mapCtx *direct.MapContext, in *pb.FolderCreationConfig) *krm.FolderCreationConfig {
+	if in == nil {
+		return nil
+	}
+	out := &krm.FolderCreationConfig{}
+	if in.GetParent() != "" {
+		out.FolderOrOrgRef = parseFolderOrOrgRef(in.GetParent())
+	}
+	out.FolderDisplayName = direct.LazyPtr(in.GetFolderDisplayName())
+	return out
+}
+
+func FolderCreationConfig_ToProto(mapCtx *direct.MapContext, in *krm.FolderCreationConfig) *pb.FolderCreationConfig {
+	if in == nil {
+		return nil
+	}
+	out := &pb.FolderCreationConfig{}
+	if in.FolderOrOrgRef != nil {
+		out.Parent = buildFolderOrOrgRef(in.FolderOrOrgRef)
+	}
+	out.FolderDisplayName = direct.ValueOf(in.FolderDisplayName)
+	return out
+}
+
+func ProjectCreationConfig_FromProto(mapCtx *direct.MapContext, in *pb.ProjectCreationConfig) *krm.ProjectCreationConfig {
+	if in == nil {
+		return nil
+	}
+	out := &krm.ProjectCreationConfig{}
+	if in.GetParent() != "" {
+		out.FolderOrOrgRef = parseFolderOrOrgRef(in.GetParent())
+	}
+	out.ProjectDisplayName = direct.LazyPtr(in.GetProjectDisplayName())
+	out.BillingAccountID = direct.LazyPtr(in.GetBillingAccountId())
+	return out
+}
+
+func ProjectCreationConfig_ToProto(mapCtx *direct.MapContext, in *krm.ProjectCreationConfig) *pb.ProjectCreationConfig {
+	if in == nil {
+		return nil
+	}
+	out := &pb.ProjectCreationConfig{}
+	if in.FolderOrOrgRef != nil {
+		out.Parent = buildFolderOrOrgRef(in.FolderOrOrgRef)
+	}
+	out.ProjectDisplayName = direct.ValueOf(in.ProjectDisplayName)
+	out.BillingAccountId = direct.ValueOf(in.BillingAccountID)
+	return out
+}
+
+func CloudControlObservedState_FromProto(mapCtx *direct.MapContext, in *pb.CloudControl) *krm.CloudControlObservedState {
+	if in == nil {
+		return nil
+	}
+	out := CloudSecurityComplianceCloudControlObservedState_FromProto(mapCtx, in)
+	return (*krm.CloudControlObservedState)(out)
+}
+
+func CloudControlObservedState_ToProto(mapCtx *direct.MapContext, in *krm.CloudControlObservedState) *pb.CloudControl {
+	if in == nil {
+		return nil
+	}
+	out := (*krm.CloudSecurityComplianceCloudControlObservedState)(in)
+	return CloudSecurityComplianceCloudControlObservedState_ToProto(mapCtx, out)
+}
+
+func CloudSecurityComplianceFrameworkDeploymentObservedState_FromProto(mapCtx *direct.MapContext, in *pb.FrameworkDeployment) *krm.CloudSecurityComplianceFrameworkDeploymentObservedState {
+	if in == nil {
+		return nil
+	}
+	out := &krm.CloudSecurityComplianceFrameworkDeploymentObservedState{}
+	out.ComputedTargetResource = direct.LazyPtr(in.GetComputedTargetResource())
+	out.DeploymentState = direct.Enum_FromProto(mapCtx, in.GetDeploymentState())
+	out.CreateTime = direct.StringTimestamp_FromProto(mapCtx, in.GetCreateTime())
+	out.UpdateTime = direct.StringTimestamp_FromProto(mapCtx, in.GetUpdateTime())
+	out.Etag = direct.LazyPtr(in.GetEtag())
+	out.TargetResourceDisplayName = direct.LazyPtr(in.GetTargetResourceDisplayName())
+	out.CloudControlDeploymentReferences = direct.Slice_FromProto(mapCtx, in.CloudControlDeploymentReferences, CloudControlDeploymentReferenceObservedState_FromProto)
+	return out
+}
+
+func CloudSecurityComplianceFrameworkDeploymentObservedState_ToProto(mapCtx *direct.MapContext, in *krm.CloudSecurityComplianceFrameworkDeploymentObservedState) *pb.FrameworkDeployment {
+	if in == nil {
+		return nil
+	}
+	out := &pb.FrameworkDeployment{}
+	out.ComputedTargetResource = direct.ValueOf(in.ComputedTargetResource)
+	out.DeploymentState = direct.Enum_ToProto[pb.DeploymentState](mapCtx, in.DeploymentState)
+	out.CreateTime = direct.StringTimestamp_ToProto(mapCtx, in.CreateTime)
+	out.UpdateTime = direct.StringTimestamp_ToProto(mapCtx, in.UpdateTime)
+	out.Etag = direct.ValueOf(in.Etag)
+	out.TargetResourceDisplayName = direct.ValueOf(in.TargetResourceDisplayName)
+	out.CloudControlDeploymentReferences = direct.Slice_ToProto(mapCtx, in.CloudControlDeploymentReferences, CloudControlDeploymentReferenceObservedState_ToProto)
+	return out
+}
+
+func CloudControlGroupDeploymentObservedState_FromProto(mapCtx *direct.MapContext, in any) *krm.CloudControlGroupDeploymentObservedState {
+	return nil
+}
+
+func CloudControlGroupDeploymentObservedState_ToProto(mapCtx *direct.MapContext, in *krm.CloudControlGroupDeploymentObservedState) any {
 	return nil
 }
