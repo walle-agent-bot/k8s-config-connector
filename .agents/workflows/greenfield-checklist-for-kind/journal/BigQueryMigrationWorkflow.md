@@ -16,6 +16,7 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Planned | N/A | N/A |
 
 ## History / Status Update Notes
+* **2026-07-23:** Routine tracking and orchestration check at 11:11 UTC. Confirmed that the direct controller sandbox run for Issue #11720 (Step 2) remains active and in progress under assignee `hopper-coder-bot` with no Pull Request created yet. Continuing to monitor sandbox progress and await PR creation.
 * **2026-07-23:** Routine tracking and orchestration check at 10:32 UTC. Confirmed that the direct controller sandbox run for Issue #11720 (Step 2) remains active and in progress under assignee `hopper-coder-bot` with no Pull Request created yet. Continuing to monitor sandbox progress and await PR creation.
 * **2026-07-23:** Routine tracking and orchestration check at 09:52 UTC. Confirmed that the direct controller sandbox run for Issue #11720 (Step 2) remains active in progress under assignee `hopper-coder-bot` with no Pull Request created yet. Continuing to monitor sandbox progress and await PR submission.
 * **2026-07-23:** Routine tracking and orchestration check at 09:12 UTC. Confirmed that the direct controller sandbox run for Issue #11720 (Step 2) remains active and in progress. The issue is assigned to `hopper-coder-bot`, and no Pull Request has been created yet. Continuing to monitor sandbox progress and await PR creation.
