@@ -10,12 +10,13 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types & Identity | [#8712](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8712) | [#8775](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8775) | Merged | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | Approved (Awaiting Merge) | 2026-06-01 | - |
+| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | PR Created (Merge Conflicts) | 2026-06-01 | - |
 | Step 3: mockGCP Generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Status Update Notes
 
+- **2026-07-23**: Checked PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) status. Verified that human reviewer `acpana` requested merge conflict resolution today. Since the PR is currently unassigned, assigned it back to the author bot `codebot-robot` to resolve the merge conflicts and re-trigger CI.
 - **2026-07-10**: Re-verified PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) checks status. Confirmed all 195+ CI checks continue to pass 100% cleanly. The PR remains approved by human OWNER `acpana` and is in an OPEN state, awaiting final automated merge before we can transition to Step 3.
 - **2026-07-10**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Verified all 195+ CI checks continue to pass cleanly with zero failures. Confirmed the PR is officially approved by human OWNER `acpana` and remains open, awaiting final automated merge before we can transition to Step 3.
 - **2026-07-10**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed all 195+ CI checks continue to pass cleanly. The PR remains approved by human OWNER `acpana` and is in an OPEN state, awaiting final automated merge to transition to Step 3.
