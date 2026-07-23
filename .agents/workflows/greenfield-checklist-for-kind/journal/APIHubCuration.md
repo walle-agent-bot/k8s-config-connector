@@ -12,6 +12,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Updates
+* **2026-07-23**: Observed that human reviewer `acpana` left review comments requesting to revert all `_identities.yaml` files and rebase on master, and `feynman-agent-bot` has a `CHANGES_REQUESTED` review regarding the primitive `Location` field under `APIHubCurationSpec`. Assigned the PR back to `hopper-coder-bot` to address this feedback.
 * **2026-07-22**: Checked PR #11729 status again. All 205+ CI checks are 100% green and passing, and all automated reviews remain green with `/lgtm` approval. Labeled `ready-for-human`, the PR is currently open and awaiting human OWNER (cheftako) review and merge to transition to Step 2.
 * **2026-07-22**: Re-verified PR #11729 checks. All CI checks are completely green and passing. The PR remains open, fully approved with `/lgtm` by automated review bots, has the `ready-for-human` label, and is awaiting human OWNER (cheftako) review and merge before we can proceed to Step 2.
 * **2026-07-22**: Re-verified PR #11729 status and CI check-runs. Confirmed all 239+ CI check-runs continue to pass successfully (all 100% green). The PR is fully approved with `/lgtm` by all automated review bots (daedalus-agent-bot, walle-agent-bot, and feynman-agent-bot), has the `ready-for-human` label, and is open, awaiting human OWNER (cheftako) review and merge to master before we can proceed to Step 2.
