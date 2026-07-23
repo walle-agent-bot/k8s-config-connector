@@ -13,6 +13,11 @@ Current Step: Step 1 - Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+### 2026-07-23 (Update 232)
+* Re-verified the status of Step 1 Pull Request [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) and confirmed it remains in the OPEN state with an official **APPROVED** review decision.
+* Checked all active and completed CI checks using the GitHub CLI/API and verified that 100% of the check-runs (all 202 checks) have completed and successfully passed with zero failures (all checks are completely green/passing).
+* We remain on standby waiting for the PR to be merged by Prow before proceeding to Step 2 (Direct Controller, E2E fixtures, and Fuzzer).
+
 ### 2026-07-23 (Update 231)
 * Re-verified the status of Step 1 Pull Request [#11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) and confirmed it remains in the OPEN state with an official **APPROVED** review decision.
 * Checked all active and completed CI checks using the GitHub CLI/API and verified that 100% of the check-runs (all 201 checks) are completely green and passing successfully with zero failures.
