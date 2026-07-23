@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [#11122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11122) | - | In Progress | 2026-07-02 | - |
+| 1 | Direct API Types and Identity | [#11122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11122) | [#11813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11813) | PR Created | 2026-07-02 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ### Status Update Notes
+* **2026-07-23**: Step 1 Pull Request [#11813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11813) was opened but failed `unit-tests` checks. Assigned PR back to the author bot `hopper-coder-bot` to address the test failures.
 * **2026-07-23**: Verified that Step 1 issue [#11122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11122) remains in progress with no pull request created yet. Awaiting PR creation from the assigned coder bot hopper-coder-bot. (Checked at 03:24 UTC)
 * **2026-07-23**: Verified that Step 1 issue [#11122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11122) remains in progress with no pull request created yet. Awaiting PR creation from the assigned coder bot hopper-coder-bot. (Checked at 02:43 UTC)
 * **2026-07-23**: Verified that Step 1 issue [#11122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11122) remains in progress with no pull request created yet. Awaiting PR creation from AI Factory sandbox. (Checked at 01:49 UTC)
