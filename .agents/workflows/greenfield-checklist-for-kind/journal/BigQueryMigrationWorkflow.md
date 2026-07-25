@@ -4,18 +4,19 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 
 ## Current Status
 * **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
-* **Current Step Status:** In Progress (Routine tracking check: Issue #11720 (Step 2) is active in a sandbox run under assignee `ada-coder-bot` on GitHub; no Pull Request has been created yet. The sandbox run has been active for ~219 minutes.)
+* **Current Step Status:** Paused / Stepped Back (PR #11727 has been flagged with `overseer/stop` after `lovelace-coder-bot` stepped back due to systematic, unrelated user-agent discrepancy failures across multiple test suites. The PR's own service-specific tests are passing. Awaiting human OWNER intervention.)
 
 ## Progress Tracking Table
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types and Identity | [#9023](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9023) | [#9029](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9029) | Merged | 2026-06-03 | 2026-06-03 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11720](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11720) | N/A | In Progress | 2026-07-18 | N/A |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11720](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11720) | [#11727](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11727) | PR Created | 2026-07-18 | N/A |
 | Step 3: mockGCP generation | N/A | N/A | Planned | N/A | N/A |
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Planned | N/A | N/A |
 
 ## History / Status Update Notes
+* **2026-07-25:** Routine daily tracking and status audit at 15:48 UTC. Resolved loop confusion where Issue #11720 was active under sandbox runs for coder bots despite PR #11727 already being open. Unassigned `ada-coder-bot` and `hopper-coder-bot` from Issue #11720 to halt further redundant sandbox cycles. Re-verified PR #11727; all service-specific validations and E2E fixtures for BigQuery Migration Workflow are fully green and passing. The systematic environment-wide User-Agent normalization discrepancies remain the sole blocker. No automated progression is possible; continuing to await human OWNER review and merge of Step 2.
 * **2026-07-25:** Routine tracking and orchestration check at 15:14 UTC. Verified Issue #11720 (Step 2) remains open and active under assignee `ada-coder-bot` on GitHub with no Pull Request created yet. Calculated that the fresh sandbox run has been active for ~219 minutes. Continuing to monitor progress and await PR creation.
 * **2026-07-25:** Routine tracking and orchestration check at 14:47 UTC. Verified Issue #11720 (Step 2) remains open and active under assignee `ada-coder-bot` on GitHub with no Pull Request created yet. Calculated that the fresh sandbox run has been active for ~192 minutes. Continuing to monitor progress and await PR creation.
 * **2026-07-25:** Routine tracking and orchestration check at 14:12 UTC. Verified Issue #11720 (Step 2) remains open and active under assignee `ada-coder-bot` on GitHub with no Pull Request created yet. Calculated that the fresh sandbox run has been active for ~157 minutes. Continuing to monitor progress and await PR creation.
