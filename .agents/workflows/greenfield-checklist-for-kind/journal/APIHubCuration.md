@@ -6,10 +6,10 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 ## Progress Tracking
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types and Identity and Reference Types Pattern | #11719 | #11729 | Ready for Human | 2026-07-18 | |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | | | | | |
-| 3 | mockGCP generation | | | | | |
-| 4 | MockGCP Alignment with RealGCP | | | | | |
+| 1 | Direct API Types and Identity and Reference Types Pattern | #11719 | #11729 | Changes Requested | 2026-07-18 |  |
+| 2 | Direct Controller, E2E fixtures and Fuzzer |  |  |  |  |  |
+| 3 | mockGCP generation |  |  |  |  |  |
+| 4 | MockGCP Alignment with RealGCP |  |  |  |  |  |
 
 ## Status Updates
 * **2026-07-18**: Started migration. Opened Step 1 issue #11719. PR #11729 created by `hopper-coder-bot`.
@@ -26,3 +26,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 * **2026-07-25**: Re-checked PR #11729 again. All 202 CI checks remain 100% green and passing. The PR remains approved with `/lgtm` by all automated review bots and is labeled `ready-for-human`, awaiting human OWNER review and merge before we can proceed to Step 2.
 * **2026-07-25**: Monitored PR #11729. Confirmed that all 202 CI checks continue to pass successfully. The PR is fully approved by all auto-review bots and remains open with `ready-for-human` label, awaiting human OWNER review and merge to transition to Step 2.
 * **2026-07-25**: Actively monitored PR #11729. All 202 CI checks are green and fully passing. The PR is approved with `/lgtm` by all auto-review bots and is in "Ready for Human" status, awaiting human OWNER review and merge to proceed to Step 2.
+* **2026-07-25**: Human OWNER `acpana` requested changes to revert `_identities.yaml` files and rebase on master. Assigned PR #11729 back to `hopper-coder-bot` via GitHub REST API to address these changes.
