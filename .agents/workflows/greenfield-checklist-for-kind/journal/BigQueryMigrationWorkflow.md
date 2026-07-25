@@ -4,7 +4,7 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 
 ## Current Status
 * **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
-* **Current Step Status:** In Progress (Re-assigned Issue #11720 to `ada-coder-bot` at 11:35 UTC on July 25 to re-trigger a fresh sandbox run in the AI Factory, as previous sandbox runs under `hopper-coder-bot` had been inactive since July 22.)
+* **Current Step Status:** In Progress (Routine tracking check: Issue #11720 (Step 2) is active in a sandbox run under assignee `ada-coder-bot` on GitHub; no Pull Request has been created yet.)
 
 ## Progress Tracking Table
 
@@ -16,6 +16,7 @@ This journal tracks the progress of the greenfield migration for the `BigQueryMi
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Planned | N/A | N/A |
 
 ## History / Status Update Notes
+* **2026-07-25:** Routine tracking and orchestration check at 12:08 UTC. Verified Issue #11720 (Step 2) remains open and active under assignee `ada-coder-bot` on GitHub with no Pull Request created yet. Calculated that the fresh sandbox run has been active for ~33 minutes. Continuing to monitor progress and await PR creation.
 * **2026-07-25:** Routine tracking and orchestration check at 11:35 UTC. Issue #11720 (Step 2) remains open with no Pull Request created yet. Since previous sandbox runs under `hopper-coder-bot` have been inactive since July 22, re-assigned the issue to `ada-coder-bot` to re-trigger a fresh sandbox run in the AI Factory.
 * **2026-07-25:** Routine tracking and orchestration check at 11:06 UTC. Verified Issue #11720 (Step 2) remains open, active, and assigned to `hopper-coder-bot` on GitHub with no Pull Request created yet. Checked recent sandbox attempts and confirmed they are still active. Continuing to monitor sandbox progress and await PR creation.
 * **2026-07-25:** Routine tracking and orchestration check at 10:31 UTC. Verified Issue #11720 (Step 2) remains open, active, and assigned to `hopper-coder-bot` on GitHub with no Pull Request created yet. Checked all recent sandbox attempts and confirmed they are still active. Continuing to monitor sandbox progress and await PR creation.
