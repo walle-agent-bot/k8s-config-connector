@@ -16,6 +16,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Status Update Notes
 
+- **2026-07-25**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Verified the PR is open, unassigned, and remains in a conflicting state. Successfully assigned the PR to the author bot `codebot-robot` via the GitHub REST API to resolve conflicts and re-run CI checks.
 - **2026-07-25**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed the PR remains open and in a conflicting state (mergeable state is 'dirty') with no active assignee. Successfully assigned the PR to the author bot `codebot-robot` via the GitHub REST API to resolve the merge conflicts.
 - **2026-07-25**: Checked PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) status. Confirmed that all 195+ CI checks are successfully passing (100% green!). However, the PR remains open with active merge conflicts (mergeable state is 'dirty'). Re-assigned the PR back to the author bot `codebot-robot` via the GitHub REST API to resolve merge conflicts and proceed with the merge.
 - **2026-07-25**: Checked PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) status. Confirmed the PR remains open and in a conflicting state (`mergeable_state: dirty`). Successfully re-assigned the PR back to the author bot `codebot-robot` via the GitHub REST API to resolve conflicts and re-trigger CI.
