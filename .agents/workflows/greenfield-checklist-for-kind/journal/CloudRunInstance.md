@@ -7,12 +7,15 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types, Identity, Reference | [#8718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8718), [#9005](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9005) | [#9008](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9008) | PR Created | 2026-06-02 | |
+| Step 1: Direct API Types, Identity, Reference | [#8718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8718), [#9005](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9005) | [#9008](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9008), [#11936](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11936) | PR Created | 2026-06-02 | |
 | Step 2: Direct Controller, E2E fixtures & Fuzzer | | | Pending | | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Notes
+- **2026-07-26**: Monitored conflict resolution progress. Verified `ada-coder-bot` resolved the merge conflicts for PR #9008 and opened a new mergeable PR #11936 (`mergeable: MERGEABLE`).
+- **2026-07-26**: Checked CI status of PR #11936. All completed check-runs are 100% green with no failures, and remaining checks are pending.
+- **2026-07-26**: Verified PR #11936 remains open, unassigned, and is currently awaiting CI completion and human OWNER review and merge to complete Step 1.
 - **2026-07-26**: Re-verified PR #9008 and issue #11935. PR #9008 remains open and in conflict (`mergeable_state: dirty`). `ada-coder-bot` is actively working to resolve the conflict in a sandbox for issue #11935, which has been picked up by the sandbox runner.
 - **2026-07-26**: Continued monitoring conflict resolution for PR #9008. Verified issue #11935 remains open, with `ada-coder-bot` actively assigned to resolve the merge conflict in `pkg/gcpurls/registry_test.go`. The PR is currently in a `CONFLICTING` state, awaiting the push of the resolved branch.
 - **2026-07-26**: Monitored issue #11935. Verified `ada-coder-bot` is currently assigned to resolve the merge conflict in PR #9008 and is actively working on it in a sandbox. PR #9008 remains open in conflict (`mergeable: CONFLICTING`) and unassigned, awaiting automated conflict resolution by the coder bot to proceed.
