@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#8726](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8726) | [#8748](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8748) | Completed | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | | Open | 2026-07-23 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | | In Progress (Assigned: hopper-coder-bot) | 2026-07-23 | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-07-26**: Monitored Step 2. Checked child issue #11871 on GitHub and confirmed it remains open and assigned to coder bot `hopper-coder-bot`. Comments from argus-watcher-bot confirm that the AI Factory started fixing this issue in a sandbox environment, and no associated Pull Requests have been opened yet. We continue to monitor progress and await completion of the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-25**: Monitored Step 2. Re-verified child issue #11871 remains open on GitHub, assigned to `hopper-coder-bot`, with the AI Factory actively working in a sandbox and no associated Pull Requests opened yet. We continue to monitor progress and await the direct controller, E2E fixtures, and fuzzer implementation.
 - **2026-07-25**: Monitored Step 2. Checked child issue #11871 on GitHub and confirmed it remains open and assigned to `hopper-coder-bot`. Comments from argus-watcher-bot confirm that the AI Factory started fixing this issue in a sandbox environment, and no associated Pull Requests have been opened yet. We continue to monitor progress and await completion of the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-25**: Monitored Step 2. Re-verified that child issue #11871 is still open on GitHub with coder bot `hopper-coder-bot` actively assigned. No associated Pull Requests have been opened yet, and the sandbox environment continues its implementation of the direct controller, E2E fixtures, and fuzzer. We continue to wait for its completion.
