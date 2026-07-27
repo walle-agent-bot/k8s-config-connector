@@ -7,7 +7,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct KRM Types & Identity | [#9247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9247) | [#11389](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11389) | Active Checks | 2026-07-06 | |
+| Step 1: Direct KRM Types & Identity | [#9247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9247) | [#11389](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11389) | Retest Triggered | 2026-07-06 | |
 | Step 2: Direct Controller, E2E & Fuzzer | | | Pending | | |
 | Step 3: MockGCP Generation | | | Pending | | |
 | Step 4: MockGCP Alignment | | | Pending | | |
@@ -121,3 +121,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 * **2026-07-27**: Overseer monitored PR #11389. Verified that the amended commit has resolved the previous `unit-tests` failure. Currently, active CI checks are running, with almost all (193+) completed check-runs passing successfully. 'tests-e2e-fixtures-eventarc' failed due to a transient Go proxy network timeout, which is unrelated to the PR, and two remaining checks are currently in-progress.
 * **2026-07-27**: Overseer monitored PR #11389. Checked PR status and found that all checks completed, but 'tests-e2e-fixtures-eventarc' failed (causing 'presubmit-gatekeeper' to fail) due to a transient Go proxy network timeout or similar. The PR remains open and has been re-assigned to 'hopper-coder-bot' to trigger a re-run/triage.
 * **2026-07-27**: Overseer monitored PR #11389. Confirmed that the PR is currently assigned to 'hopper-coder-bot' for triaging/re-triggering the failed 'tests-e2e-fixtures-eventarc' check-run. CI check-runs remain in a failed state due to this transient issue, awaiting a re-run or commit by the coder bot.
+* **2026-07-27**: Overseer monitored PR #11389. The 'tests-e2e-fixtures-eventarc' check-run failed due to a transient Go proxy network timeout during E2E test pre-building. The PR remains assigned to 'hopper-coder-bot', which has triggered a `/retest` to retry the failed checks. We are continuing to monitor the PR status.
