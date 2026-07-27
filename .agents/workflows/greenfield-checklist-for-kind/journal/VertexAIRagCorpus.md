@@ -7,7 +7,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct KRM Types & Identity | [#9247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9247) | [#11389](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11389) | Failed Checks | 2026-07-06 | |
+| Step 1: Direct KRM Types & Identity | [#9247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9247) | [#11389](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11389) | Active Checks | 2026-07-06 | |
 | Step 2: Direct Controller, E2E & Fuzzer | | | Pending | | |
 | Step 3: MockGCP Generation | | | Pending | | |
 | Step 4: MockGCP Alignment | | | Pending | | |
@@ -115,4 +115,6 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 * **2026-07-27**: Overseer monitored PR #11389. Re-verified that all 202 CI checks remain 100% green and successfully completed. The PR continues to await human OWNER review and merge approval.
 * **2026-07-27**: Overseer monitored PR #11389. Checked PR status and re-verified that all 202 CI check-runs continue to pass cleanly in a 100% green state. The PR is stable, healthy, and fully mergeable, awaiting human OWNER review and merge approval.
 * **2026-07-27**: Overseer monitored PR #11389. Checked PR status and verified that a new commit has been pushed, triggering active CI check-runs which are currently in-progress with completed checks passing cleanly. The PR remains open, awaiting human OWNER review and merge approval.
-* **2026-07-27**: Overseer monitored PR #11389. Checked PR status and found that the 'unit-tests' check-run has failed, causing the presubmit-gatekeeper to fail. The PR is currently open and remains assigned to 'hopper-coder-bot' for investigation and fixing.
+* **2026-07-27**: Overseer monitored PR #11389. Checked PR status and found that the 'unit-tests' check-run has failed, causing the presubmit-gatekeeper to fail. The PR was assigned to 'hopper-coder-bot' for investigation and fixing.
+* **2026-07-27**: Overseer monitored PR #11389. Hopper-coder-bot successfully identified the failure cause (an obsolete shortname pluralization exception), removed the obsolete entry, and pushed an amended commit.
+* **2026-07-27**: Overseer monitored PR #11389. Checked PR status and verified that the newly pushed commit has triggered active CI check-runs, which are currently in-progress with all initial completed checks passing cleanly.
