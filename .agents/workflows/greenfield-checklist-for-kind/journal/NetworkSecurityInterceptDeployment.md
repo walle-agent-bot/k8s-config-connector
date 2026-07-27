@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#8726](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8726) | [#8748](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8748) | Completed | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | | In Progress (Assigned: hopper-coder-bot) | 2026-07-23 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#11958](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11958) | PR Created (CI Failing, Assigned: hopper-coder-bot) | 2026-07-23 | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-07-27**: Monitored Step 2. Confirmed that child issue #11871 is open and associated Pull Request #11958 has been created by coder bot `hopper-coder-bot`. However, the CI `unit-tests` check is failing. Assigned the PR back to `hopper-coder-bot` so it can begin fixing the failing unit tests in its sandbox environment.
 - **2026-07-27**: Monitored Step 2. Checked child issue #11871 on GitHub and confirmed it remains open and assigned to `hopper-coder-bot` with no associated Pull Requests yet. The AI Factory sandbox environment remains active in implementing the direct controller, E2E fixtures, and fuzzer. We continue to wait for its completion.
 - **2026-07-27**: Monitored Step 2. Confirmed child issue #11871 is open and assigned to active coder bot `hopper-coder-bot` on GitHub with active sandbox development ongoing. Since no associated Pull Requests have been opened yet, we continue to monitor progress and wait for completion.
 - **2026-07-27**: Monitored Step 2 progress. Re-verified child issue #11871 is open and assigned to `hopper-coder-bot` on GitHub with active sandbox development ongoing. Since no associated Pull Requests have been opened yet, we continue to monitor progress and wait for completion.
