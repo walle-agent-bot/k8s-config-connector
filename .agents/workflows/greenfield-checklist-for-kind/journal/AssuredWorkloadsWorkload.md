@@ -4,7 +4,7 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |-------------|-----------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types and Identity and Reference Types Pattern | #12029 | | In Progress | 2026-07-29 | |
+| 1 | Direct API Types and Identity and Reference Types Pattern | #12029 | #12040 | PR Created | 2026-07-29 | |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | | | Not Started | | |
 | 3 | mockGCP generation | | | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | | | Not Started | | |
@@ -16,3 +16,6 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 - **2026-07-29**: Coder bot (argus-watcher-bot) assigned itself to issue #12029 and started work in a sandbox.
 - **2026-07-29**: Verified that Step 1 is still in progress; coder bot is working in the sandbox, and no Pull Request has been opened yet.
 - **2026-07-29**: Re-verified the status of #12029; the coder bot is still actively working in the sandbox, and no Pull Request has been opened yet.
+- **2026-07-29**: Pull Request #12040 opened by lovelace-coder-bot.
+- **2026-07-29**: CI checks (unit-tests) failed due to comments check (a AssuredWorkloadsWorkload should be an AssuredWorkloadsWorkload).
+- **2026-07-29**: Assigned PR #12040 back to lovelace-coder-bot to fix the comments check failure.
