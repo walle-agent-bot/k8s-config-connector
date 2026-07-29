@@ -13,4 +13,5 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-07-29**: Monitored migration progress. Step 1 issue [#12017](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12017) is currently assigned to `neumann-coder-bot` and is in progress; awaiting Pull Request creation.
 * **2026-07-29**: Initialized Greenfield migration for DiscoveryEngineSchema. Opened Step 1 issue [#12017](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12017).
