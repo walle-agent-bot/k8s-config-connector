@@ -14,3 +14,4 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 - **2026-07-29**: Initialized journal for AssuredWorkloadsWorkload.
 - **2026-07-29**: Opened Step 1 issue #12029.
 - **2026-07-29**: Coder bot (argus-watcher-bot) assigned itself to issue #12029 and started work in a sandbox.
+- **2026-07-29**: Verified that Step 1 is still in progress; coder bot is working in the sandbox, and no Pull Request has been opened yet.
