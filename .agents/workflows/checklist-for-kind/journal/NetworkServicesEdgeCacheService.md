@@ -14,6 +14,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Notes
+- **2026-07-30**: Checked Step 4 status. PR #10662 remains OPEN in a healthy, MERGEABLE state. All 201/201 CI checks are passing successfully (100% green). It continues to await human reviewer approval and merge before we can transition to Step 5.
 - **2026-07-29**: Checked Step 4 status. PR #10662 remains OPEN in a healthy, MERGEABLE state. All 195/195 CI checks are passing successfully (100% green). It continues to await human reviewer approval and merge before we can transition to Step 5.
 - **2026-07-23**: Checked Step 4 status. PR #10662 remains OPEN. It has entered a "CONFLICTING" state again. The CI check-runs have successfully passed (100% green), but a new merge conflict has arisen. The PR remains assigned to the author bot (`hopper-coder-bot`) for conflict resolution before we can proceed to Step 5.
 - **2026-07-23**: Checked Step 4 status. PR #10662 remains OPEN. The merge conflict has been successfully resolved, and the branch is now in a MERGEABLE state. The check run `tests-e2e-fixtures-compute` is currently IN_PROGRESS, and all other active checks are passing. Continuing to await human reviewer (`barney-s`) approval and merge before we can transition to Step 5.
