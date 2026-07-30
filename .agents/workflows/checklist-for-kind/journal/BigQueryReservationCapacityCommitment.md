@@ -12,9 +12,10 @@
 | 3 | Create a Round-Trip KRM Fuzzer | [#9524](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9524) | [#9528](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9528) | Merged | 2026-06-07 | 2026-06-07 |
 | 4 | Ensure MockGCP matches real gcp behavior | N/A | N/A | Completed | 2026-07-02 | 2026-07-02 |
 | 5 | Implement Direct Controller & E2E Fixtures | [#9562](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9562) | [#9577](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9577) | Merged | 2026-07-02 | 2026-07-02 |
-| 6 | Validate Direct Promotion | [#12070](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12070) | N/A | Open | 2026-07-29 | |
+| 6 | Validate Direct Promotion | [#12070](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12070) | [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) | Open | 2026-07-29 | |
 
 ## Migration Notes
+- **2026-07-30 (05:30 UTC)**: Identified that `ada-coder-bot` opened PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107). Found CI check failures in `validate-generated-files` (missing default-controller label in CRD) and `tests-e2e-fixtures-bigqueryreservation` (old-controller golden files need to be deleted). Assigning the PR to `ada-coder-bot` for automated fixing.
 - **2026-07-30 (02:30 UTC)**: Monitored progress. Verified that the automated sandbox run (assigned to `ada-coder-bot`) is currently active and in progress for validating the direct promotion of `BigQueryReservationCapacityCommitment`.
 - **2026-07-29**: Step 6 initiated. Issue #12070 created to validate direct promotion.
 - **2026-07-02**: Controller and mock logic verified and merged under PR #9577.
