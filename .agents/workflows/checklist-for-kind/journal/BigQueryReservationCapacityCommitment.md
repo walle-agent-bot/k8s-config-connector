@@ -15,7 +15,7 @@
 | 6 | Validate Direct Promotion | [#12070](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12070) | N/A | Open | 2026-07-29 | |
 
 ## Migration Notes
-- **2026-07-30**: Monitored progress. Verified that the automated sandbox run (assigned to `ada-coder-bot`) is currently active and in progress for validating the direct promotion of `BigQueryReservationCapacityCommitment`.
+- **2026-07-30 (02:30 UTC)**: Monitored progress. Verified that the automated sandbox run (assigned to `ada-coder-bot`) is currently active and in progress for validating the direct promotion of `BigQueryReservationCapacityCommitment`.
 - **2026-07-29**: Step 6 initiated. Issue #12070 created to validate direct promotion.
 - **2026-07-02**: Controller and mock logic verified and merged under PR #9577.
 - **2026-06-07**: Initial types and references implemented and fuzzer created under PR #9431, PR #9510, and PR #9528.
