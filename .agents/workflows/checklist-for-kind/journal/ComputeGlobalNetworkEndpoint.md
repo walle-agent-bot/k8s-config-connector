@@ -15,5 +15,5 @@ Current Step: Step 1 - Direct API Types (Waiting for Merge / Conflict Resolution
 
 ## Updates Log
 
-- **2026-07-30**: Checked the status of Step 1 PR #10073. Verified that all 120+ presubmit CI checks have successfully passed. However, the PR remains blocked by merge conflicts (marked `mergeable: CONFLICTING` and labeled `do-not-merge/hold`). Since the GraphQL API returns scope restrictions, we successfully executed a REST API unassign/re-assign sequence on `codebot-robot` to trigger conflict resolution and rebase.
+- **2026-07-30**: Verified PR #10073 is approved but has merge conflicts (labeled `do-not-merge/hold` and marked dirty/conflicting). Unassigned and reassigned `codebot-robot` to trigger automated conflict resolution and rebase.
 - **2026-07-29**: Initialized the migration journal for `ComputeGlobalNetworkEndpoint`. Step 1 PR #10073 is open but currently has merge conflicts (labeled `do-not-merge/hold`).
