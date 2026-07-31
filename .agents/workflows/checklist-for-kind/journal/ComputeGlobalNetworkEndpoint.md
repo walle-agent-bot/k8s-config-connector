@@ -15,5 +15,6 @@ Current Step: Step 1 - Direct API Types (Waiting for Merge / Conflict Resolution
 
 ## Updates Log
 
+- **2026-07-31**: Verified PR #10073 has merge conflicts (dirty/conflicting). Unassigned and reassigned `codebot-robot` via the GitHub API to trigger automated conflict resolution and rebase.
 - **2026-07-30**: Verified PR #10073 is approved but has merge conflicts (labeled `do-not-merge/hold` and marked dirty/conflicting). Unassigned and reassigned `codebot-robot` to trigger automated conflict resolution and rebase.
 - **2026-07-29**: Initialized the migration journal for `ComputeGlobalNetworkEndpoint`. Step 1 PR #10073 is open but currently has merge conflicts (labeled `do-not-merge/hold`).
