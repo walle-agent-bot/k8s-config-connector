@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types, Identity, Reference | [#8718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8718), [#9005](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9005) | [#9008](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9008), [#11936](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11936) | PR Created | 2026-06-02 | |
+| Step 1: Direct API Types, Identity, Reference | [#8718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8718), [#9005](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9005) | [#9008](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9008), [#11936](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11936) | Open | 2026-06-02 | |
 | Step 2: Direct Controller, E2E fixtures & Fuzzer | | | Pending | | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Notes
+- **2026-07-31**: Observed that both follow-up PR #9008 and conflict-resolution PR #11936 were closed by human owners without merging. Step 1 is not complete. Re-labeled open issue #8718 with `overseer` to trigger a new, clean implementation PR for Step 1. Updated the status of Step 1 to `Open` in progress tracking.
 - **2026-07-30**: Monitored PR #11936 status. Checked all 204 CI checks on head commit `2c2edc8` and confirmed they remain 100% green and successful with no failures. The PR remains open, unassigned, mergeable, and currently awaiting human OWNER review and merge to complete Step 1.
 - **2026-07-30**: Checked PR #11936 status. Re-verified all 204 CI check-runs are completely green and successful. The PR remains open, mergeable, and awaiting human OWNER review/merge to complete Step 1.
 - **2026-07-30**: Re-verified PR #11936 status. Checked all 204 CI checks on head commit `2c2edc8` and confirmed they remain 100% green and successful. The PR remains open, unassigned, mergeable, and awaiting human OWNER review and merge to complete Step 1.
