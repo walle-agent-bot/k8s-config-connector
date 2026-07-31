@@ -13,7 +13,7 @@
 | **Step 5:** Validate Direct Promotion | #12068 | #12083 | PR Created | July 29, 2026 | In Progress |
 
 ## Status Updates
-*   **July 31, 2026:** Monitored progress. Verified that all CI checks continue to pass successfully on PR #12083. The PR remains open and awaiting human OWNER review and merge.
+*   **July 31, 2026:** Monitored progress. Verified via paginated API that all CI check-runs have successfully completed and passed on PR #12083. The PR remains open and awaiting human OWNER review and merge.
 *   **July 30, 2026:** Monitored progress. `lovelace-coder-bot` has submitted Pull Request #12083 for issue #12068. Verified that all CI checks have successfully passed. The PR is open and awaiting owner review/merge.
 *   **July 29, 2026:** Created Step 5 issue #12068 to validate direct promotion for BillingBudgetsBudget.
 *   **July 11, 2026:** Step 4 PR #9176 was successfully merged.
