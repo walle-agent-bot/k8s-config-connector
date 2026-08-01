@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Notes
+- **2026-08-01**: Re-verified that Step 1 remains in the `Open` state. Open issue #8718 is unassigned and correctly labeled with `overseer`, awaiting a coder bot to pick it up and submit a new, clean implementation PR for CloudRunInstance direct types.
 - **2026-08-01**: Monitored Step 1 progress. Confirmed issue #8718 is open, unassigned, and correctly labeled with `overseer` so that a coder bot can pick it up. Currently awaiting the creation of a new implementation PR for CloudRunInstance direct types.
 - **2026-08-01**: Re-verified the status of Step 1. Issue #8718 remains open, unassigned, and correctly labeled with `overseer`. No new Pull Requests have been submitted yet. We continue to await an autonomous coder bot to pick up the issue and submit the initial implementation PR for direct types of CloudRunInstance.
 - **2026-08-01**: Checked the status of Step 1. Open issue #8718 remains open and labeled with `overseer`, but no new Pull Request has been created yet. Currently awaiting an autonomous coder bot to pick up the issue and submit a new implementation PR for CloudRunInstance direct types.
