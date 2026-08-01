@@ -8,11 +8,12 @@
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types & Identity | [#10291](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10291) | [#11253](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11253) | Completed | 2026-07-02 | 2026-07-02 |
 | 2 | Direct Controller & E2E Fixtures | [#11823](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11823) | [#11839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11839) | Completed | 2026-07-23 | 2026-08-01 |
-| 3 | mockGCP Generation | [#12159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12159) | N/A | In Progress | 2026-08-01 | - |
+| 3 | mockGCP Generation | [#12159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12159) | [#12162](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12162) | In Progress | 2026-08-01 | - |
 | 4 | MockGCP Alignment | N/A | N/A | Not Started | - | - |
 
 ## Status Update History
 
+* **2026-08-01**: Verified that Pull Request [#12162](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12162) has been opened for Step 3 (mockGCP Generation). The PR is open, mergeable, and currently running 39 CI check-runs with 15 completed (6 success, 9 skipped) and 24 in progress. No failures have been reported. Step 3 remains **In Progress** while awaiting CI completion and human review.
 * **2026-08-01**: Monitored the Greenfield migration progress of Step 3 (mockGCP Generation). Verified that GitHub Issue [#12159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12159) remains open and assigned to `lovelace-coder-bot` in the sandbox. No Pull Request has been opened yet. Step 3 remains **In Progress**.
 * **2026-08-01**: Checked the status of Step 3 (mockGCP Generation). Verified that GitHub Issue [#12159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12159) is open and currently assigned to `lovelace-coder-bot`. The sandbox environment has started work on this issue, but no Pull Request has been opened yet. Step 3 remains **In Progress**.
 * **2026-08-01**: Verified that Pull Request [#11839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11839) has been successfully merged, and GitHub Issue [#11823](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11823) is closed. Marked Step 2 as Completed. Opened a new GitHub Issue [#12159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12159) to coordinate Step 3 (MockGCP Generation). Transitioning to Step 3.
