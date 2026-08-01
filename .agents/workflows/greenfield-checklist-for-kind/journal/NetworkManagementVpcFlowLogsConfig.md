@@ -1,18 +1,19 @@
 # Greenfield Migration Journal: NetworkManagementVpcFlowLogsConfig
 
-**Current Step**: Step 2 - Direct Controller, E2E fixtures and Fuzzer
+**Current Step**: Step 3 - mockGCP generation
 
 ## Migration Progress
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types & Identity | [#10291](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10291) | [#11253](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11253) | Completed | 2026-07-02 | 2026-07-02 |
-| 2 | Direct Controller & E2E Fixtures | [#11823](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11823) | [#11839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11839) | In Progress | 2026-07-23 | - |
-| 3 | mockGCP Generation | N/A | N/A | Not Started | - | - |
+| 2 | Direct Controller & E2E Fixtures | [#11823](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11823) | [#11839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11839) | Completed | 2026-07-23 | 2026-08-01 |
+| 3 | mockGCP Generation | [#12159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12159) | N/A | Open | 2026-08-01 | - |
 | 4 | MockGCP Alignment | N/A | N/A | Not Started | - | - |
 
 ## Status Update History
 
+* **2026-08-01**: Verified that Pull Request [#11839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11839) has been successfully merged, and GitHub Issue [#11823](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11823) is closed. Marked Step 2 as Completed. Opened a new GitHub Issue [#12159](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12159) to coordinate Step 3 (MockGCP Generation). Transitioning to Step 3.
 * **2026-07-31**: Monitored and verified the Greenfield migration progress of Step 2. Using the paginated GitHub checks API and CLI, confirmed that all 205 active CI check-runs on Pull Request [#11839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11839) are fully completed and continue to pass flawlessly with 100% success (all green, zero failures). The PR is fully approved ('reviewDecision: APPROVED'), has 'lgtm' and 'approved' labels, and is in 'CLEAN' mergeable state. It is currently awaiting final merge by human repository owners. Step 2 remains **In Progress** while awaiting merge.
 * **2026-07-31**: Verified the Greenfield migration progress of Step 2. Pull Request [#11839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11839) is open, fully approved with 'reviewDecision: APPROVED', and has 'lgtm' and 'approved' labels. All 207 active CI check-runs continue to pass flawlessly with zero failures (100% green). The PR is currently awaiting final merge by human repository owners. Step 2 remains **In Progress** while awaiting merge.
 * **2026-07-31**: Checked and verified that all 207 active CI check-runs (including `golangci-lint`, `tests-e2e-fixtures-networkmanagement`, and `validate-generated-files`) on Pull Request [#11839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11839) continue to pass flawlessly with 100% success (zero failures, all green). The PR remains open, is fully approved with 'reviewDecision: APPROVED', has 'lgtm' and 'approved' labels, and is currently awaiting final review and merge by human repository owners. Step 2 remains **In Progress** while awaiting merge.
