@@ -10,12 +10,13 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types & Identity | [#8712](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8712) | [#8775](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8775) | Merged | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | PR Created (Checks In Progress) | 2026-06-01 | - |
+| Step 2: Direct Controller, E2E & Fuzzer | [#8883](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8883) | [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) | PR Created (Checks Passed) | 2026-06-01 | - |
 | Step 3: mockGCP Generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Status Update Notes
 
+- **2026-08-01**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed all 194+ CI checks have successfully completed and are passing cleanly with zero failures. The PR remains open, is mergeable, and has the `ready-for-human` label. Awaiting human OWNER review and merge approval (`/approve`) to proceed to Step 3.
 - **2026-08-01**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed the PR is open and mergeable (`mergeable: MERGEABLE`). All completed checks are passing cleanly, and 4 remaining checks (`fuzz-roundtrippers-4-of-4`, `validate-manifests`, `smoketest-with-kind`, and `build-images`) are currently in progress. The PR is awaiting completion of CI checks and human OWNER approval.
 - **2026-08-01**: Monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Verified the PR is open, mergeable, but has 12 failing CI check-runs (including `unit-tests`, `golangci-lint`, and `tests-e2e-fixtures-discoveryengine`). Since the PR was currently unassigned, successfully assigned it back to the author bot `codebot-robot` via the GitHub REST API to trigger triage, troubleshooting, and resolution.
 - **2026-07-31**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed the PR remains open and mergeable, but 12 CI checks continue to fail (including `tests-e2e-fixtures-discoveryengine`, `unit-tests`, and `golangci-lint`). Since the PR was currently unassigned on GitHub, successfully assigned it back to the author bot `codebot-robot` via the GitHub REST API to trigger triage, troubleshooting, and resolution.
