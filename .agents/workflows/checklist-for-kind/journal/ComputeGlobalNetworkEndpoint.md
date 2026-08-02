@@ -13,6 +13,7 @@
 
 ## Updates Log
 
+- **2026-08-02 (18:06 UTC)**: Checked PR #10073 status. All CI checks are passing, but it remains in a `dirty` (conflicting) state with a `/hold` from `justinsb` for `ComputeGlobalNetworkEndpointGroupRef` (dependency PR #10070, which has passed all CI checks and is currently blocked awaiting reviews/approvals). Successfully unassigned and reassigned `codebot-robot` via the GitHub REST API to re-trigger the automated rebase and conflict-resolution pipeline.
 - **2026-08-02 (15:31 UTC)**: Verified all CI checks are passing for PR #10073 and the dependency PR #10070. Since PR #10073 remains in a conflicting status (`CONFLICTING`) due to shared generated file changes with the unmerged PR #10070, successfully unassigned and reassigned `codebot-robot` via the GitHub REST API to re-trigger the automated rebase and conflict-resolution pipeline.
 - **2026-08-02 (12:59 UTC)**: Verified all CI checks are passing for PR #10073. It remains in a conflicting status (`CONFLICTING`) and is held for `ComputeGlobalNetworkEndpointGroupRef` (dependency PR #10070). Successfully unassigned and reassigned `codebot-robot` via the GitHub REST API to trigger the automated rebase and conflict resolution pipeline.
 - **2026-08-02 (10:22 UTC)**: Verified all CI checks are passing for PR #10073. Since it remains in a conflicting status (`CONFLICTING`), successfully unassigned and reassigned `codebot-robot` via the GitHub REST API to trigger the automated rebase and conflict resolution pipeline.
