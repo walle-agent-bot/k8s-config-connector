@@ -1,7 +1,3 @@
-This issue is to track the Greenfield implementation of DiscoveryEngineIdentityMappingStore.
-
-Workflow: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/4b6625a0942946d0c5d4f8a32e7f37b88d0efb15/.agents/workflows/kcc-greenfield.txt
-
 ## Migration Progress for DiscoveryEngineIdentityMappingStore
 
 ### Current Step
@@ -18,6 +14,6 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ### Status Update Notes
 
-- **2026-08-01**: Verified all 194+ CI checks have completed and passed cleanly (100% green). PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) is mergeable and labeled `ready-for-human`, currently awaiting human OWNER review and merge approval (`/approve`) to proceed to Step 3.
-- **2026-08-01**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) in the current run. Verified all 194+ CI checks have completed successfully with zero failures (100% green). The PR is open, mergeable, and has the `ready-for-human` label, awaiting human OWNER review and merge approval (`/approve`).
-- **2026-08-01**: Re-monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165) checks status. Verified that all 194+ CI checks continue to pass cleanly with zero failures (100% green and clean!). The PR remains open, mergeable, and is awaiting human OWNER review and merge approval (`/approve`) before we can transition to Step 3.
+- **2026-08-02**: Monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed all 238 CI checks continue to pass cleanly (100% green). The PR remains open, is mergeable, and has the `ready-for-human` label. Awaiting human OWNER review and merge approval (`/approve`) before we can transition to Step 3.
+- **2026-08-02**: Re-verified PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed all 238 CI checks are 100% green and passing. The PR remains open and labeled `ready-for-human`, awaiting human OWNER review and `/approve` to merge.
+- **2026-08-02**: Checked and monitored PR [#11165](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11165). Confirmed all 238 CI checks continue to pass cleanly with zero failures (100% green and clean!). The PR remains open, unassigned, and labeled `ready-for-human`, awaiting human OWNER review and merge approval (`/approve`) to proceed to Step 3.
