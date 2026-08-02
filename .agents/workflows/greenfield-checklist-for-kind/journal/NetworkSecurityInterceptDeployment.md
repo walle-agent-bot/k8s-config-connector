@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ### Recent Status Updates
+- **2026-08-02**: Monitored Step 2. Pull Request #11958 remains open, fully approved with `lgtm` and `approved` labels, and all automated CI checks are 100% green and passing. We continue to wait for a project OWNER to merge the PR.
 - **2026-08-02**: Monitored Step 2 progress. Pull Request #11958 remains open on GitHub, fully approved by collaborator `acpana` with both `lgtm` and `approved` labels. Checked all 204 automated CI check-runs and verified they are 100% green and passing. We continue to wait for a project OWNER to merge the PR.
 - **2026-08-02**: Monitored Step 2. Re-verified Pull Request #11958 remains open on GitHub, approved by collaborator `acpana` with `lgtm` and `approved` labels. All 185 automated CI checks are confirmed 100% green and passing across all paginated pages. We continue to wait for a project OWNER to merge the PR.
 - **2026-08-02**: Monitored Step 2. Re-verified Pull Request #11958 remains open on GitHub, approved by collaborator `acpana` with `lgtm` and `approved` labels, and all automated CI checks are passing successfully (100% green across all pages of check-runs). We continue to wait for a project OWNER to merge the PR.
