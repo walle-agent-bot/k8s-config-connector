@@ -1,11 +1,11 @@
 # Greenfield Migration Journal: AssuredWorkloadsWorkload
 
-Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
+Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 | Step Number | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |-------------|-----------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types and Identity and Reference Types Pattern | #12029 | #12040 | PR Created | 2026-07-29 | |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | | | Not Started | | |
+| 1 | Direct API Types and Identity and Reference Types Pattern | #12029 | #12040 | Completed | 2026-07-29 | 2026-08-04 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | #12182 | | Open | 2026-08-04 | |
 | 3 | mockGCP generation | | | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | | | Not Started | | |
 
@@ -33,7 +33,7 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 - **2026-07-29**: Monitored PR #12040; verified all 124 CI checks are successfully passing (green). It remains open and is awaiting human OWNER review and merge.
 - **2026-07-29**: Re-verified PR #12040; all 124 CI checks are successfully passing (green). The PR is open and awaiting review and merge from human OWNER.
 - **2026-07-29**: Re-verified PR #12040; confirmed all 124 CI checks are successfully passing (green) and no new review comments or changes are requested. Awaiting human OWNER review and merge.
-- **2026-07-29**: Re-verified PR #12040; confirmed all 202 CI checks are successfully passing (green) and no new review comments or changes are requested. Awaiting human OWNER review and merge.
+- **2026-07-29**: Re-verified PR #12040; confirmed all 202 CI checks are successfully passing (green) and no new review comments or requested changes. Awaiting human OWNER review and merge.
 - **2026-07-29**: Re-verified PR #12040; confirmed all CI checks continue to pass successfully (green). The PR is open and currently awaiting review/merge by human OWNER.
 - **2026-07-29**: Re-verified PR #12040; all 202 CI checks are fully passing (green). The PR remains open and is awaiting human OWNER review and merge.
 - **2026-07-29**: Re-verified PR #12040; confirmed all CI checks remain green and passing. The PR remains open, awaiting review and merge by human OWNER.
@@ -45,3 +45,5 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 - **2026-07-29**: Re-verified PR #12040; all CI checks remain green and passing. The PR is open, awaiting review and merge by a human OWNER.
 - **2026-07-29**: Re-verified PR #12040; all 202 CI checks are passing successfully. The PR is open, awaiting review and merge by a human OWNER.
 - **2026-07-29**: Re-verified PR #12040; all CI checks are passing successfully. The PR is still open and awaiting human OWNER review and merge.
+- **2026-08-04**: Verified PR #12040 has been successfully merged and Issue #12029 is closed. Step 1 is completed.
+- **2026-08-04**: Opened Step 2 issue #12182 to track direct controller, E2E fixtures, and fuzzer implementation.
