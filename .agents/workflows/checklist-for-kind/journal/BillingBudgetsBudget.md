@@ -13,6 +13,7 @@
 | **Step 5:** Validate Direct Promotion | #12068 | #12083 | PR Created | July 29, 2026 | In Progress |
 
 ## Status Updates
+*   **August 4, 2026 (22:15 UTC):** Monitored progress. Verified via standard and paginated checks that all 200+ CI check-runs on PR #12083 are successfully completed and passing (with only a previous cancelled run of `crd-equivalence-check` from an earlier try shown in the history). The PR remains open, awaiting human OWNER review and merge.
 *   **August 4, 2026 (19:37 UTC):** Monitored progress. Verified via standard checks that all 200+ CI check-runs on PR #12083 remain in a successful and passing state. The PR remains open, awaiting human OWNER review and merge.
 *   **August 4, 2026 (16:56 UTC):** Monitored progress. Verified via standard checks that all 200+ CI check-runs on PR #12083 remain in a successful and passing state. The PR remains open, awaiting human OWNER review and merge.
 *   **August 4, 2026 (14:48 UTC):** Monitored progress. Verified via standard and paginated checks that all 200+ CI check-runs on PR #12083 are successfully completed and passing. The PR remains open, awaiting human OWNER review and merge.
