@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types, Identity, Reference | [#8718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8718), [#9005](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9005) | [#9008](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9008), [#11936](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11936) | Open | 2026-06-02 | |
+| Step 1: Direct API Types, Identity, Reference | [#8718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8718), [#9005](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9005), [#12180](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12180) | [#9008](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9008), [#11936](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11936) | Open | 2026-06-02 | |
 | Step 2: Direct Controller, E2E fixtures & Fuzzer | | | Pending | | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Notes
+- **2026-08-04 (21:15 UTC)**: Verified all previous Step 1 issues (#8718, #9005) and Pull Requests (#9008, #11936) are closed without merging. Opened a new GitHub issue #12180 labeled with `overseer`, `greenfield`, and `step/gen-types` to coordinate a fresh implementation of direct KRM types, identity, and reference types for CloudRunInstance.
 - **2026-08-04 (20:33 UTC)**: Checked migration progress. Step 1 issue #8718 is open, unassigned, and correctly labeled with `overseer`. Currently, no open Pull Requests exist for CloudRunInstance direct types. We continue to wait for an autonomous coder bot to pick up the task and begin implementation.
 - **2026-08-04 (19:54 UTC)**: Checked migration progress. Step 1 issue #8718 is open, unassigned, and correctly labeled with `overseer`. Currently, no open Pull Requests exist for CloudRunInstance direct types. We continue to wait for an autonomous coder bot to pick up the task and begin implementation.
 - **2026-08-04 (18:37 UTC)**: Monitored Greenfield migration progress. Step 1 issue #8718 remains open, unassigned, and labeled with `overseer`. No active Pull Requests are currently open for CloudRunInstance direct types. We continue to await an autonomous coder bot to pick up the task and start implementation.
