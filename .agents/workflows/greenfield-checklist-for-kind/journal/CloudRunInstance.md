@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Notes
+- **2026-08-05 (03:25 UTC)**: Re-monitored Step 1 progress. Confirmed `argus-watcher-bot` and `neumann-coder-bot` are actively investigating the failing `unit-tests-3-of-4` CI check on PR #12185 (commit `d71aeb7`). Verified that no other failures are present and the PR remains open and correctly assigned to `neumann-coder-bot` to resolve the blocker.
 - **2026-08-05 (02:26 UTC)**: Monitored Step 1 progress. Identified that a new implementation Pull Request #12185 has been created by `neumann-coder-bot` for issue #12180, but is currently blocked due to a failing `unit-tests-3-of-4` CI check. Assigned the PR to `neumann-coder-bot` to trigger its auto-investigate and fix workflows.
 - **2026-08-04 (21:15 UTC)**: Verified all previous Step 1 issues (#8718, #9005) and Pull Requests (#9008, #11936) are closed without merging. Opened a new GitHub issue #12180 labeled with `overseer`, `greenfield`, and `step/gen-types` to coordinate a fresh implementation of direct KRM types, identity, and reference types for CloudRunInstance.
 - **2026-08-04 (20:33 UTC)**: Checked migration progress. Step 1 issue #8718 is open, unassigned, and correctly labeled with `overseer`. Currently, no open Pull Requests exist for CloudRunInstance direct types. We continue to wait for an autonomous coder bot to pick up the task and begin implementation.
