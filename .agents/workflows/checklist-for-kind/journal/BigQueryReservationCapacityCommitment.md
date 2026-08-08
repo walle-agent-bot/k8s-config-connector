@@ -15,6 +15,7 @@
 | 6 | Validate Direct Promotion | [#12070](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12070) | [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) | Open (Checks Passing) | 2026-07-29 | |
 
 ## Migration Notes
+- **2026-08-08 (21:46 UTC)**: Monitored progress. Verified that all CI check-runs on PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) remain fully successful (all green). The PR remains open pending human OWNER review and approval.
 - **2026-08-08 (18:06 UTC)**: Monitored progress. Verified that all CI check-runs on PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) remain fully successful (all green). The PR remains open pending human OWNER review and approval.
 - **2026-08-08 (14:43 UTC)**: Monitored progress. Verified that all CI check-runs on PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) remain fully successful (all green). The PR remains open pending human OWNER review and approval.
 - **2026-08-08 (11:02 UTC)**: Monitored progress. Verified that all CI check-runs on PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) remain fully successful (all green). The PR remains open pending human OWNER review and approval.
