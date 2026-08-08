@@ -1,18 +1,19 @@
 # Greenfield Migration Journal: DeviceStreamingSession
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: mockGCP generation
 
 ## Migration Progress
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity | [#8670](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8670) | [#8698](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8698), [#8781](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8781) | Completed | 2026-05-26 | 2026-05-28 |
-| 2 | Direct Controller & E2E Fixtures | [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) | [#11555](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11555) | PR Created | 2026-05-29 | |
-| 3 | mockGCP generation | | | Pending | | |
+| 2 | Direct Controller & E2E Fixtures | [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) | [#11555](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11555) | Completed | 2026-05-29 | 2026-07-15 |
+| 3 | mockGCP generation | [#12245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12245) | | Open | 2026-08-08 | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-08-08**: Confirmed that PR [#11555](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11555) has been successfully merged, and the corresponding child issue [#11554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11554) is closed. Opened a new child issue [#12245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12245) for Step 3: mockGCP generation.
 - **2026-07-10**: Monitored open Pull Request [#11555](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11555) on GitHub. Confirmed that all CI check-runs, including `unit-tests` and `tests-e2e-fixtures-devicestreaming`, have completed successfully with no failures. The PR remains open and is currently waiting for human OWNER review and merge. The overseer continues to monitor and wait.
 - **2026-07-10**: Actively monitored PR [#11555](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11555) on GitHub. Confirmed that the `unit-tests` and `tests-e2e-fixtures-devicestreaming` check-runs have passed successfully. Standard E2E test partitions are either completed successfully or currently in-progress with no failures. The PR remains open and blocked waiting for remaining checks and human OWNER review. The overseer continues to monitor and wait.
 - **2026-07-10**: Coder bot `lovelace-coder-bot` has pushed a commit addressing the three CI failures on PR [#11555](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11555). The `unit-tests` job has successfully passed, and the other CI check-runs (including `tests-e2e-fixtures-devicestreaming`) are currently running. The overseer is monitoring the PR and waiting for all CI checks to complete.
