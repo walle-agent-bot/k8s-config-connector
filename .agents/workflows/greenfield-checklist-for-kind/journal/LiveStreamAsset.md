@@ -1,16 +1,18 @@
 # Migration Progress - LiveStreamAsset
 
-Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
+Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 
-| Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+| Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types and Identity and Reference Types Pattern | [#10282](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10282) | [#11248](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11248) | PR Created | 2026-06-15 | |
-| 2. Direct Controller, E2E fixtures and Fuzzer | | | | | |
-| 3. mockGCP generation | | | | | |
-| 4. MockGCP Alignment with RealGCP | | | | | |
+| Step 1: Direct API Types and Identity | [#10282](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10282) | [#11248](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11248) | Completed | 2026-05-27 | 2026-07-15 |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11853](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11853) | [#11860](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11860) | PR Created | 2026-07-23 | |
+| Step 3: mockGCP generation | | | Pending | | |
+| Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
 
+* **2026-08-08**: Re-verified PR #11860 status. Checked and confirmed that all 194+ CI checks are completed successfully, 100% green, and fully passing. The PR remains open, awaiting human OWNER review and merge approval before we can proceed to Step 3.
+* **2026-07-23**: Verified Step 1 completed (PR #11248 merged). Opened Step 2 issue #11853 and tracked open PR #11860 for direct controller, E2E fixtures, and fuzzer implementation.
 * **2026-07-10**: Re-verified PR #11248 status. Checked and confirmed that all 195 CI checks remain 100% green and fully passing. The PR continues to await human OWNER review and merge approval to proceed to Step 2.
 * **2026-07-10**: Re-verified PR #11248 status. Confirmed all 195 CI checks are completed successfully and 100% green. The PR remains open in state 'OPEN' (REVIEW_REQUIRED), awaiting human OWNER review and merge approval to transition to Step 2.
 * **2026-07-10**: Checked PR #11248 status. Re-verified via the paginated checks list that all 195 CI checks are successfully completed, 100% green and passing. The PR remains open in state 'OPEN' (REVIEW_REQUIRED), awaiting human OWNER review and merge approval before we can proceed to Step 2.
@@ -23,7 +25,7 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 * **2026-07-09**: Checked PR #11248 status. Verified all 194 CI checks are completed successfully, green, and 100% passing. The PR remains open, awaiting human OWNER review and merge approval before we can proceed to Step 2.
 * **2026-07-09**: Re-verified PR #11248 status. Confirmed all CI checks (unit tests, validations, and E2E) remain 100% green and successfully completed. The PR remains open with state 'OPEN' and review decision 'REVIEW_REQUIRED', waiting for human OWNER review and merge approval to transition to Step 2.
 * **2026-07-09**: Re-verified PR #11248 status. Checked and confirmed that all 194+ CI checks remain 100% green and successfully completed with zero failures. The PR continues to await human OWNER review and merge approval before we can proceed to Step 2.
-* **2026-07-09**: Re-verified PR #11248 status. All 194+ CI checks are successfully completed and 100% green. The PR is still open and awaiting human OWNER review and merge approval to transition to Step 2.
+* **2026-07-09**: Re-verified PR #11248 status. All 194+ CI checks are successfully completed and 100% green. The PR remains open with review decision 'REVIEW_REQUIRED', awaiting human OWNER review and merge approval to transition to Step 2.
 * **2026-07-09**: Checked PR #11248 status. Confirmed all 194+ CI checks remain 100% green and successfully completed with zero failures. The PR remains open in state 'OPEN' and is awaiting human OWNER review and merge approval. The migration remains in Step 1.
 * **2026-07-09**: Checked PR #11248 status. Confirmed all 194+ CI checks have completed successfully and are 100% green and passing. The PR is still open with review decision 'REVIEW_REQUIRED', awaiting human OWNER review and merge approval to transition to Step 2.
 * **2026-07-09**: Re-verified PR #11248 status via GitHub CLI. Confirmed all 194+ CI checks are successfully completed, 100% green and passing. The PR remains open in state 'OPEN' with review decision 'REVIEW_REQUIRED', awaiting human OWNER review and merge approval before we can proceed to Step 2.
