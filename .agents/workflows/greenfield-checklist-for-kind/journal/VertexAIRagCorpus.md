@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct KRM Types & Identity | [#9247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9247) | [#11389](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11389) | Awaiting Review | 2026-07-06 | |
+| Step 1: Direct KRM Types & Identity | [#9247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9247) | [#11389](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11389) | Failing CI | 2026-07-06 | |
 | Step 2: Direct Controller, E2E & Fuzzer | | | Pending | | |
 | Step 3: MockGCP Generation | | | Pending | | |
 | Step 4: MockGCP Alignment | | | Pending | | |
 
 ## Status History
+* **2026-08-08**: Overseer checked PR #11389 status and found that CI checks failed (`unit-tests-operator` and `presubmit-gatekeeper` failed). Overseer assigned the PR back to `hopper-coder-bot` for investigation and fix.
 * **2026-08-08**: Overseer checked PR #11389 status and verified that 100% of all CI checks continue to pass successfully in a stable, 100% green state. The PR remains open, stable, and fully mergeable, awaiting human OWNER review and merge approval before proceeding to Step 2.
 * **2026-08-07**: Overseer checked PR #11389 status and confirmed that 100% of all 244 CI checks continue to pass successfully in a stable, 100% green state with zero failures. The PR is stable, open, and fully mergeable, awaiting human OWNER review and merge approval before proceeding to Step 2.
 * **2026-08-07**: Overseer monitored PR #11389 and verified that all 244 CI checks continue to pass successfully in a 100% green state with zero failures. The PR remains stable, open, and fully mergeable, awaiting human OWNER review and merge approval before proceeding to Step 2.
