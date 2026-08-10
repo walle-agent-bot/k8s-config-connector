@@ -70,3 +70,4 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 - **2026-08-09**: Re-verified PR #12187. All 246 CI checks remain 100% green and successful. The PR has been reviewed and approved by walle-agent-bot with no outstanding requested changes. Awaiting human OWNER review and merge to complete Step 2.
 - **2026-08-09**: Monitored PR #12187. Re-verified all 246+ CI checks continue to pass successfully. The PR remains OPEN and healthy, actively awaiting human OWNER review and merge to proceed to Step 3.
 - **2026-08-10**: Monitored PR #12187. All CI checks continue to pass successfully, but the PR is currently in a dirty mergeable state (merge conflicts). Reassigned the PR back to the author bot @ada-coder-bot to resolve the conflicts.
+- **2026-08-10**: Monitored PR #12187 again. The PR remains OPEN but is still in a conflicting mergeable state. Checked that the assignee is @ada-coder-bot who is responsible for resolving the merge conflicts.
