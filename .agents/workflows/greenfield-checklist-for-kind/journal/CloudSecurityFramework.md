@@ -6,11 +6,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types and Identity | [#11162](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11162) | [#11187](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11187) | Completed | 2026-07-02 | 2026-07-03 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11288) | [#11290](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11290) | Awaiting Review | 2026-07-03 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11288) | [#11290](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11290) | Changes Requested | 2026-07-03 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ### Status Update Notes
+* **2026-08-12**: Identified outstanding Changes Requested review from `walle-agent-bot` on PR #11290. Assigned the PR back to `hopper-coder-bot` to address this feedback.
 * **2026-08-12**: Checked PR #11290 commit `060a91a` checks. Verified via paginated checks that all 244 CI checks have completely passed, and all checks are 100% green and successful. The PR is clean and continues to await final human OWNER review, approval, and merge.
 * **2026-08-12**: Re-verified PR #11290 merge status. The PR remains fully mergeable with zero merge conflicts. Awaiting human OWNER review and merge in 'Awaiting Review' status.
 * **2026-08-12**: Monitored PR #11290. Confirmed that all 244 CI checks remain perfectly green. Awaiting human OWNER review, approval, and merge to complete Step 2.
