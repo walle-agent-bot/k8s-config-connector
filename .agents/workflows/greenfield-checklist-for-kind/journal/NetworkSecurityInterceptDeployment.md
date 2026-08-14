@@ -8,11 +8,14 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#8726](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8726) | [#8748](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8748) | Completed | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#11958](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11958) | PR Created (CI Passed, Pending Merge) | 2026-07-23 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#11958](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11958) | PR Created (CI Passed, Pending Review/Merge) | 2026-07-23 | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ### Recent Status Updates
+- **2026-08-14**: Monitored Step 2. Pull Request #11958 remains open in state `OPEN` on GitHub. A recent rebase/conflict resolution on August 13 triggered a removal of the `lgtm` and `approved` labels, so the PR has reverted to a non-approved state. We verified that all 204 automated CI check-runs are successfully completed and 100% greenly passing across all pages. The PR is currently assigned to reviewer `acpana` for a follow-up review and re-approval. We continue to monitor the PR and wait for it to be approved and merged before we can proceed to Step 3.
+- **2026-08-14**: Monitored Step 2 progress. Pull Request #11958 is open and all CI checks are confirmed fully passing and green. Following the rebase, the PR is awaiting re-approval and merge by project OWNER `acpana`.
+- **2026-08-14**: Monitored Step 2. Verified that Pull Request #11958 remains open, and all 204 automated CI checks are fully passing. We continue to await a project OWNER to re-review and merge the PR before moving to Step 3.
 - **2026-08-13**: Monitored Step 2 progress. Pull Request #11958 remains open on GitHub in state `OPEN` with review decision `APPROVED` and all 204 automated CI check-runs confirmed 100% green and passing. We continue to await a project OWNER to merge the PR.
 - **2026-08-13**: Monitored Step 2. Pull Request #11958 remains open on GitHub in state `OPEN` with an APPROVED review decision and all 204 automated CI check-runs fully green and passing. We continue to wait for a project OWNER to merge the PR.
 - **2026-08-13**: Monitored Step 2 progress. Re-confirmed that Pull Request #11958 remains open in state `OPEN` with an APPROVED review decision and all 204 automated CI check-runs fully passing and green. We continue to wait for a project OWNER to merge the PR before proceeding to Step 3.
