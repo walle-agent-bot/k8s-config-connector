@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#8726](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8726) | [#8748](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8748) | Completed | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#11958](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11958) | PR Created (CI Passed, Pending Review/Merge) | 2026-07-23 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#11958](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11958) | PR Closed (Awaiting Regeneration) | 2026-07-23 | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ### Recent Status Updates
+- **2026-08-16**: Monitored Step 2 progress. Pull Request #11958 was closed by collaborator `barney-s` to allow the system to regenerate a new PR with updated instructions. Removed `overseer/stop` label from child issue #11871 to trigger PR regeneration, and we are awaiting the new PR.
 - **2026-08-15**: Monitored Step 2. Confirmed Pull Request #11958 remains open on GitHub in state `OPEN` with review decision `REVIEW_REQUIRED` (assigned to reviewer `acpana` for re-approval following the rebase). Re-verified all automated CI checks are 100% green and successfully passing. We continue to wait for a project OWNER to re-approve and merge the PR.
 - **2026-08-15**: Monitored Step 2 progress. Verified Pull Request #11958 remains open on GitHub with all 204 automated CI check-runs 100% green and successfully passing. The PR review decision remains `REVIEW_REQUIRED` (assigned to reviewer `acpana` for re-approval and merge following the recent rebase). We continue to wait for a project OWNER to re-approve and merge the PR before moving to Step 3.
 - **2026-08-15**: Monitored Step 2 progress. Checked Pull Request #11958 and confirmed it remains open in state `OPEN` with a `REVIEW_REQUIRED` decision following the rebase on August 13. Verified all 204 automated CI check-runs are 100% green and successfully passing. We continue to wait for a project OWNER to re-approve and merge the PR.
