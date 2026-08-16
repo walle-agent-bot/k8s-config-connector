@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+- **2026-08-16 (09:15 UTC)**: Audited GHA presubmit check-runs on PR #12428. All checks have now completed successfully and are 100% green. The PR is open, mergeable, and unassigned, awaiting human OWNER review and merge to complete Step 2.
 - **2026-08-16 (05:46 UTC)**: Re-audited Step 2 state. Detected newly scaffolded PR #12428 which is currently open but failing multiple CI presubmit check-runs (including build-images, smoketest-with-kind, unit-tests-2-of-4, unit-tests-4-of-4, and validate-ensure). Assigned the PR back to the author bot `ada-coder-bot` via the REST API to prompt investigation and correction of the failures.
 - **2026-08-16 (01:55 UTC)**: Audited Step 2 state. Found PR #11856 closed by the system to re-scaffold a new PR. Detected and successfully removed the `overseer/stop` label from Issue #11852 to re-trigger the automated PR creation.
 - **2026-08-15 (23:11 UTC)**: Re-audited Step 2 PR #11856. All 245+ GHA presubmit check-runs are 100% green and successfully completed. The PR remains open, mergeable, and unassigned, awaiting human OWNER review and merge to complete Step 2.
