@@ -1,4 +1,4 @@
-# Greenfield Migration Progress: CCInsightsConversation
+# Greenfield Migration Progress: ContactCenterInsightsConversation
 
 **Current Step**: Step 2: Direct Controller, E2E fixtures and Fuzzer
 
