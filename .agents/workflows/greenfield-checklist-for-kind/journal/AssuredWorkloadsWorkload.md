@@ -112,3 +112,4 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 - **2026-08-15**: Checked PR #12187 status again. Re-confirmed that it is OPEN, fully mergeable (no conflicts), and 100% of the CI checks are passing successfully (all green). Awaiting human OWNER review and merge to complete Step 2.
 - **2026-08-16**: Monitored Step 2. Detected that PR #12187 was closed. Removed the `overseer/stop` label on issue #12182 as requested by collaborator barney-s to re-trigger a new PR creation.
 - **2026-08-16**: Checked status of Step 2. Re-confirmed that PR #12187 remains closed and no new PR has been opened yet. The coder bot `argus-watcher-bot` is actively running in a sandbox to re-trigger a new PR for issue #12182.
+- **2026-08-16**: Added the missing `overseer/review` label to issue #12182 to trigger a new PR creation from the coder bot.
