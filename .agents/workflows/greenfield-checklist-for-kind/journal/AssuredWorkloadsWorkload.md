@@ -5,7 +5,7 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |-------------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity and Reference Types Pattern | #12029 | #12040 | Completed | 2026-07-29 | 2026-08-04 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | #12182 | #12440 | PR Created (Failing Checks) | 2026-08-04 | |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | #12182 | #12440 | PR Created (Passing Checks) | 2026-08-04 | |
 | 3 | mockGCP generation | | | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | | | Not Started | | |
 
@@ -116,3 +116,4 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 - **2026-08-16**: Detected that new PR #12440 has been opened by @ada-coder-bot.
 - **2026-08-16**: Identified a failure in the `unit-tests-3-of-4` check-run under `TestRegisteredTemplatesMatchCAI` due to the registered template "//assuredworkloads.googleapis.com/organizations/{organization}/locations/{location}/workloads/{workload}" not being found in CAI definitions.
 - **2026-08-16**: Assigned PR #12440 back to the author bot @ada-coder-bot to add the required exception to `ignoredTemplates` in `pkg/gcpurls/registry_test.go`.
+- **2026-08-16**: Checked PR #12440 and verified that all CI check-runs are now successfully passing (green) with zero failures. The PR is OPEN and healthy, awaiting review and merge by a human OWNER.
