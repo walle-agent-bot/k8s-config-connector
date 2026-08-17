@@ -11,6 +11,7 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Status Update Notes
 
+* **2026-08-17**: Re-verified that issue #11853 remains open and assigned to `hopper-coder-bot`. Pull Request #11860 remains closed, and the AI Factory sandbox is actively processing the issue to generate a new PR. No new PR has been opened yet. The migration remains in Step 2, waiting for a new PR to be created.
 * **2026-08-17**: Re-monitored Greenfield migration progress. Verified that issue #11853 is open and assigned to `hopper-coder-bot`. No new pull request has been opened yet. The migration remains in Step 2, waiting for the AI Factory sandbox to open a new PR.
 * **2026-08-17**: Re-monitored the Greenfield migration progress. Confirmed that issue #11853 remains open and assigned to `hopper-coder-bot`. No new pull request has been opened yet as the AI Factory sandbox continues its implementation process. The migration remains in Step 2.
 * **2026-08-17**: Monitored the Greenfield migration progress in the latest runner execution. Re-verified that issue #11853 is open and assigned to `hopper-coder-bot`. Checked GitHub and confirmed no active open pull request has been created yet. The migration continues to wait in Step 2 for the AI Factory sandbox to open a new PR.
