@@ -11,6 +11,7 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Status Update Notes
 
+* **2026-08-19**: Monitored Greenfield migration in the latest runner session. Verified that Issue #11853 remains OPEN and assigned to `hopper-coder-bot`. Pull Request #11860 remains CLOSED with no active open Pull Request yet. The migration continues to wait in Step 2 for the AI Factory sandbox to open a new Pull Request.
 * **2026-08-19**: Monitored Step 2 progress in the current runner session. Re-verified that Issue #11853 remains OPEN and assigned to `hopper-coder-bot`. Pull Request #11860 remains CLOSED and no active open pull request has been opened yet. The migration continues to wait in Step 2, awaiting a new Pull Request from the AI Factory sandbox.
 * **2026-08-19**: Monitored Greenfield migration. Re-verified that Step 2 Issue #11853 remains OPEN and assigned to `hopper-coder-bot`. There is no active open Pull Request for LiveStreamAsset yet. The migration remains in Step 2, awaiting a new Pull Request from the AI Factory sandbox.
 * **2026-08-19**: Monitored Step 2 progress. Re-verified that Issue #11853 is open and assigned to `hopper-coder-bot`. Pull Request #11860 is closed and there is no active open pull request yet. The migration remains in Step 2, waiting for the AI Factory sandbox to generate and open a new Pull Request.
