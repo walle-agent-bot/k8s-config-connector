@@ -11,6 +11,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ### Status Update Notes
+* **2026-08-19**: Re-checked PR #12426. Verified via paginated checks that all 247 CI checks are completely green and passing. The PR remains in "Feedback Received" status, awaiting `hopper-coder-bot` resolving the MockGCP supported list registration feedback in `config/tests/samples/create/harness.go`.
 * **2026-08-19**: Checked PR #12426 checks (confirmed all 247/247 passing) and verified the MockGCP harness registration typo has not yet been resolved. Reset child issue #11288 by unassigning and re-assigning `hopper-coder-bot` to re-trigger action on addressing the feedback in `config/tests/samples/create/harness.go`.
 * **2026-08-19**: Verified that the E2E tests for `CloudSecurityFramework` are being skipped due to a typo in `config/tests/samples/create/harness.go`, which registers `CloudSecurityComplianceFramework` instead of `CloudSecurityFramework`. Unassigned and re-assigned `hopper-coder-bot` to trigger the fix.
 * **2026-08-19**: Monitored PR #12426. Checked and verified via paginated check-runs that all 247 CI checks continue to be completely green and passing with zero failures. The PR remains cleanly in 'Feedback Received' status as `hopper-coder-bot` works on addressing the review feedback to register `CloudSecurityFramework` in the MockGCP supported list.
