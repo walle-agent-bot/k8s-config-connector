@@ -11,6 +11,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ### Status Update Notes
+* **2026-08-20**: Monitored PR #12426 and child issue #11288. Confirmed via paginated checks that all 247 CI checks are 100% green and passing. Since the missing `harness.go` registration feedback is still outstanding, we used the GitHub REST API to unassign and re-assign `hopper-coder-bot` on both PR #12426 and child issue #11288 to re-trigger action.
 * **2026-08-19**: Re-monitored PR #12426 and child issue #11288. Confirmed that all 247 CI checks are 100% green and passing. The PR remains cleanly in 'Feedback Received' status as we await `hopper-coder-bot` resolving the MockGCP supported list registration feedback in `config/tests/samples/create/harness.go`.
 * **2026-08-19**: Re-checked PR #12426. Verified via paginated checks that all 247 CI checks are completely green and passing. The PR remains in "Feedback Received" status, awaiting `hopper-coder-bot` resolving the MockGCP supported list registration feedback in `config/tests/samples/create/harness.go`.
 * **2026-08-19**: Checked PR #12426 checks (confirmed all 247/247 passing) and verified the MockGCP harness registration typo has not yet been resolved. Reset child issue #11288 by unassigning and re-assigning `hopper-coder-bot` to re-trigger action on addressing the feedback in `config/tests/samples/create/harness.go`.
