@@ -5,12 +5,13 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#10282](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10282) | [#11248](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11248) | Completed | 2026-05-27 | 2026-07-15 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11853](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11853) | | Open | 2026-07-23 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11853](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11853) | [#12507](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12507) | PR Created | 2026-07-23 | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
 
+* **2026-08-22**: Checked Step 2 progress. Found that a new Pull Request #12507 has been successfully created by `hopper-coder-bot`. Re-verified that all 245+ CI checks are 100% green and passing. Noted a comment review from `reviewbot-robot` pointing out a missing structured reporting diff call. Assigned the Pull Request back to its author bot `hopper-coder-bot` to resolve the review feedback.
 * **2026-08-21**: Monitored Greenfield migration. Re-verified that Step 2 Issue #11853 is OPEN and assigned to `hopper-coder-bot`. The AI Factory sandbox was triggered again (last at 21:36 UTC) to generate and open a new Pull Request. No PR has been opened yet; we continue to wait in Step 2.
 * **2026-08-21**: Checked Greenfield migration progress. Re-verified that Step 2 Issue #11853 remains OPEN and assigned to `hopper-coder-bot`. There is no active open Pull Request on GitHub yet, as the AI Factory sandbox continues processing the issue. The migration remains in Step 2, waiting for a new Pull Request to be opened.
 * **2026-08-21**: Re-verified Greenfield migration status. Checked and confirmed that Step 2 Issue #11853 remains open and assigned to `hopper-coder-bot` with no active open Pull Request on GitHub. The migration is still waiting in Step 2, awaiting a new Pull Request from the AI Factory sandbox.
