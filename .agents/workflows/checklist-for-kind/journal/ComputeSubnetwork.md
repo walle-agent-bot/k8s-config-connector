@@ -1,7 +1,7 @@
 # ComputeSubnetwork Direct Controller Migration Journal
 
 ## Current Step
-Step 4: Ensure MockGCP matches real gcp behavior
+Step 5: Implement Direct Controller & E2E Fixtures
 
 ## Migration Progress
 
@@ -10,10 +10,11 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | Step 1: Direct API Types | #9765 | #9769 | Completed | 2026-06-12 | 2026-06-12 |
 | Step 2: Identity and Reference Types Pattern | #9776 | #9782 | Completed | 2026-06-12 | 2026-06-12 |
 | Step 3: Create a Round-Trip KRM Fuzzer | #9796 | #9798 | Completed | 2026-06-13 | 2026-06-13 |
-| Step 4: Ensure MockGCP matches real gcp behavior | #11544 | #11546 | PR Created | 2026-07-09 | - |
-| Step 5: Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
+| Step 4: Ensure MockGCP matches real gcp behavior | #11544 | #11546 | Completed | 2026-07-09 | 2026-08-23 |
+| Step 5: Implement Direct Controller & E2E Fixtures | #12520 | - | Open | 2026-08-23 | - |
 
 ## Status Update Notes
+- **2026-08-23 (Check-in 396)**: Monitored PR #11546. Confirmed using GitHub REST API that the PR has been successfully merged. Marked Step 4 as Completed and opened a new GitHub issue #12520 for Step 5: "Implement direct controller and test fixtures for ComputeSubnetwork". No PR has been created yet. Will continue to monitor.
 - **2026-08-23 (Check-in 395)**: Monitored PR #11546. Verified that all 250+ CI checks continue to remain completely complete and 100% green with zero failures. The PR remains approved, open, and unassigned, awaiting merge by human owners or Prow. Since the PR is not yet merged, we cannot proceed to Step 5 (Implement Direct Controller & E2E Fixtures) yet. No action is required. Will continue to monitor.
 - **2026-08-23 (Check-in 394)**: Monitored PR #11546. Confirmed using GitHub CLI checks that all 250+ CI check-runs are completely complete and 100% green with absolutely zero failures. The PR remains approved, open, and unassigned, awaiting merge by human owners or Prow. Since the PR is not yet merged, we cannot proceed to Step 5 (Implement Direct Controller & E2E Fixtures) yet. No action is required. Will continue to monitor.
 - **2026-08-22 (Check-in 393)**: Monitored PR #11546. Confirmed that all 250+ CI checks are 100% complete and fully green. The PR has the 'approved' label and remains open, unassigned, and in a clean, fully verified state. We continue to wait for human owners or Prow to merge PR #11546 before we can proceed to Step 5 (Implement Direct Controller & E2E Fixtures). No action is required.
