@@ -11,6 +11,7 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Status Update Notes
 
+* **2026-08-24**: Checked Step 2 progress. Pull Request #12507 remains open with all 245+ CI checks fully passing and green. A passing review and `/lgtm` from `daedalus-agent-bot` are confirmed. The migration remains in Step 2, waiting for human OWNER review and merge approval before proceeding to Step 3.
 * **2026-08-24**: Re-monitored Step 2 progress in the current runner session. Verified that Pull Request #12507 is open, mergeable, and all 245+ CI checks are 100% green. The passing review and `/lgtm` from `daedalus-agent-bot` are confirmed. The PR remains open, awaiting human OWNER review and merge approval to transition to Step 3.
 * **2026-08-24**: Checked Step 2 progress. Confirmed Pull Request #12507 is open, fully mergeable, and all 245+ CI checks are 100% green. Noted that `daedalus-agent-bot` submitted a passing review and `/lgtm` today, confirming the direct controller, fuzzer, and E2E fixtures are fully compliant. Awaiting human OWNER review and merge approval to transition to Step 3.
 * **2026-08-24**: Re-verified Step 2 progress in the current monitoring session. Confirmed that Pull Request #12507 remains OPEN and in a fully mergeable state, with all 245 CI checks 100% green and completed successfully. The migration continues to wait in Step 2 for human OWNER review and merge approval.
