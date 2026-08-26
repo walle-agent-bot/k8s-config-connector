@@ -18,6 +18,7 @@ This journal tracks the migration progress of the `ComputeHTTPSHealthCheck` reso
 | 6 | Validate Direct Promotion | [#12072](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12072) | [#12106](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12106) | PR Created | 2026-07-29 | - |
 
 ## Updates Log
+* **2026-08-26 20:48 UTC:** Re-verified migration progress. Confirmed that PR #12106 remains OPEN and all CI check-runs are successfully passing (green). Processing is currently paused on the PR via the `overseer/stop` label, so Step 6 is awaiting human OWNER review and merge to finalize the migration.
 * **2026-08-26 18:30 UTC:** Re-verified migration progress. Confirmed that PR #12106 remains OPEN and all CI check-runs are successfully passing (green). Processing is currently paused on the PR via the `overseer/stop` label, so Step 6 is awaiting human OWNER review and merge to finalize the migration.
 * **2026-08-26 16:15 UTC:** Re-verified migration progress. Confirmed that PR #12106 remains OPEN with all CI check-runs successfully passing (green). Processing is currently paused on the PR via the `overseer/stop` label, so Step 6 continues to await human OWNER review and merge to finalize the migration.
 * **2026-08-26 14:00 UTC:** Re-verified migration progress. Confirmed that PR #12106 remains OPEN and all CI check-runs are successfully passing (green). Processing is currently paused on the PR via the `overseer/stop` label, so Step 6 is awaiting human OWNER review and merge to finalize the migration.
