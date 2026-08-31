@@ -4,13 +4,14 @@
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#9016](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9016) | [#9026](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9026) | Merged | 2026-06-05 | 2026-06-24 |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#9260](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9260) | [#9327](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9327) | Merged | 2026-06-05 | 2026-06-14 |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | [#11414](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11414) | [#12432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12432) | PR Created | 2026-07-07 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ### Status Updates
 
+* **2026-08-31**: Checked and updated the Greenfield migration progress. Corrected the tracking details for Step 1 to reference the actual merged Pull Request #9327 and Issue #9260, as highlighted by human reviewers. Step 2 (PR #12432) remains paused under the `overseer/stop` label on GitHub, awaiting final human OWNER/approver review, approval, and merge before we can transition to Step 3 (mockGCP generation).
 * **2026-08-31**: Re-verified Pull Request #12432 (Step 2) in this active orchestration session. Checked all presubmit checks on GitHub and confirmed they are 100% green and passing with zero failing, pending, or in-progress checks. The PR remains OPEN with the `overseer/stop` label attached. As mandated by the safety guardrails, we respect this label and keep the PR completely untouched, awaiting human OWNER review, approval, and merge before we can transition to Step 3 (mockGCP generation).
 * **2026-08-30**: Checked and re-verified Pull Request #12432 (Step 2) in this scheduled validation run. All 246 presubmit checks continue to pass successfully (100% green). The PR remains OPEN with the `overseer/stop` label attached. As mandated by the safety guardrails, we respect this label and have kept the PR completely untouched, awaiting human OWNER review, approval, and merge.
 * **2026-08-30**: Re-monitored and verified Pull Request #12432 (Step 2). Checked all 246 presubmit checks on GitHub and confirmed they continue to pass successfully (100% green). However, automated processing on this PR has been paused by `argus-watcher-bot` with the `overseer/stop` label due to 14 days of inactivity with no human comments. The PR remains OPEN and fully validated with the `overseer/ready-for-human` label, awaiting human OWNER review, approval, and merge.
