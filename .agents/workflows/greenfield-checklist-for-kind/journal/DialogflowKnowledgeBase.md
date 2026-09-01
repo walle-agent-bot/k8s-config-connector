@@ -12,6 +12,8 @@ Current Step: Step 1 (Direct API Types and Identity)
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-09-01 (04:10 UTC)**: Re-verified Step 1 Pull Request #12274 remains OPEN with all CI checks passing successfully and code-owner approval in place. Continuing to wait for the automated merge by Prow/GitHub before starting Step 2.
+* **2026-08-31 (23:58 UTC)**: Re-verified Step 1 Pull Request #12274 remains OPEN with all CI checks passing successfully and code-owner approval in place. Continuing to wait for the automated merge by Prow/GitHub before starting Step 2.
 * **2026-08-31 (21:01 UTC)**: Re-verified Step 1 Pull Request #12274 remains OPEN, fully approved, and all CI checks are green (passing). Still awaiting automated merge by Prow/GitHub before starting Step 2.
 * **2026-08-31 (18:51 UTC)**: Re-verified Step 1 Pull Request #12274 remains OPEN with all CI checks passing successfully and code-owner approval in place. Continuing to wait for the automated merge by Prow/GitHub before starting Step 2 (Direct Controller, E2E fixtures, and Fuzzer).
 * **2026-08-31 (16:42 UTC)**: Re-verified Step 1 Pull Request #12274 remains OPEN with all CI checks passing successfully and code-owner approval in place. Continuing to wait for the automated merge by Prow/GitHub before starting Step 2 (Direct Controller, E2E fixtures, and Fuzzer).
