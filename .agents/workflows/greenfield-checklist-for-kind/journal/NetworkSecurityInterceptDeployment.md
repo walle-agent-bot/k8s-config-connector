@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#8726](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8726) | [#8748](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8748) | Completed | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#12424](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12424) | PR Closed (Awaiting Re-creation) | 2026-07-23 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#12711](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12711) | PR Created (Awaiting Review/Merge) | 2026-07-23 | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ### Recent Status Updates
+- **2026-09-02**: Monitored Step 2. Confirmed child issue #11871 remains open on GitHub. A new Pull Request #12711 has been successfully re-created by neumann-coder-bot to implement the direct controller, E2E fixtures, and fuzzer. Checked and confirmed that neumann-coder-bot also posted live GCP recording audit logs on the PR. We will continue to monitor the PR as CI checks execute and await human review, approval, and merge.
 - **2026-09-02**: Re-monitored Step 2. Confirmed child issue #11871 remains open with neumann-coder-bot assigned. The bot has been restarted in a sandbox (latest run at 19:34:04Z) and is actively working to regenerate the direct controller and open a new PR. No new PR is open yet. We will continue to monitor and await the re-created PR.
 - **2026-09-02**: Monitored Step 2. Pull Request #12424 was closed on 2026-09-02 by collaborator `barney-s` with the comment "The code looks ok .. but closing it anyways to regenerate using latest instructions and possibly some audits". Since the PR was closed without being merged, the status of Step 2 has reverted. We are awaiting the system/coder bot to regenerate the direct controller PR under child issue #11871.
 - **2026-09-02**: Re-monitored Step 2. Verified that Pull Request #12424 on GitHub remains open in state `OPEN` with a `REVIEW_REQUIRED` review decision, carrying an active `overseer/stop` label. All 240+ automated CI checks have been verified to be 100% green and successfully completed. Under strict safety rules and guardrails, we respect this stop label and keep the PR untouched as paused while awaiting human project OWNER review, approval, and merge.
