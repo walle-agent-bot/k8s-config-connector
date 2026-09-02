@@ -1,17 +1,18 @@
 # Migration Journal: DialogflowKnowledgeBase
 
-Current Step: Step 1 (Direct API Types and Identity)
+Current Step: Step 2 (Direct Controller, E2E fixtures and Fuzzer)
 
 ## Progress Tracking
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types and Identity | [#12271](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12271) | [#12274](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12274) | PR Created | 2026-08-09 | - |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
+| Step 1: Direct API Types and Identity | [#12271](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12271) | [#12274](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12274) | Merged | 2026-08-09 | 2026-09-02 |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#12719](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12719) | - | Open | 2026-09-02 | - |
 | Step 3: mockGCP generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-09-02 (22:55 UTC)**: Step 1 Pull Request #12274 has been successfully merged! Formally completed Step 1 and initiated Step 2. Created child issue #12719 for implementing the direct controller, E2E fixtures, and fuzzer.
 * **2026-09-02 (20:34 UTC)**: Re-verified Step 1 Pull Request #12274. It is fully approved by code owners with all 250+ CI checks passing. The PR remains OPEN, so we continue to wait for Prow's automated merge before proceeding to Step 2.
 * **2026-09-02 (18:23 UTC)**: Re-verified Step 1 Pull Request #12274. It is fully approved by code owners with all 250+ CI checks green and passing successfully. The PR remains OPEN; continuing to wait for Prow's automated merge before proceeding to Step 2.
 * **2026-09-02 (13:55 UTC)**: Checked Step 1 Pull Request #12274. It remains OPEN with all CI checks passing successfully and code-owner approval in place. Continuing to wait for the automated merge by Prow/GitHub before starting Step 2.
