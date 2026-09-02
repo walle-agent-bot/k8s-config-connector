@@ -15,6 +15,7 @@
 | 6 | Validate direct promotion for ComputeRouterNAT | [#12701](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12701) | [#12703](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12703) | PR Created | 2026-09-02 | - |
 
 ## Status Update Notes
+- **2026-09-02**: Re-verified PR #12703 CI checks and confirmed all check-runs have successfully passed. The PR is 100% green and remains open awaiting owner review and merge.
 - **2026-09-02**: Confirmed that PR #12703 remains open and is currently awaiting review and merge by repository owners. All core CI checks (including unit tests, mockgcp tests, and linter checks) have successfully passed, with the updated PR description resolving the release note check.
 - **2026-09-02**: Detected that PR #12703 (Validate direct promotion for ComputeRouterNAT) has been created and all CI checks have passed successfully. The PR is currently open and awaiting review and merge by repository owners.
-- **2026-09-02**: Initialized migration tracking journal for `ComputeRouterNAT`. Steps 1-5 have already been successfully completed and merged in past cycles. Created the issue #12701 for Step 6 (Validate Direct Promotion).
+- **2026-09-02**: Initialized migration tracking journal for ComputeRouterNAT. Steps 1-5 have already been successfully completed and merged in past cycles. Created the issue #12701 for Step 6 (Validate Direct Promotion).
