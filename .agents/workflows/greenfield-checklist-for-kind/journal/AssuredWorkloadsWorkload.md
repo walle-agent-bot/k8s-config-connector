@@ -5,7 +5,7 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |-------------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity and Reference Types Pattern | #12029 | #12040 | Completed | 2026-07-29 | 2026-08-04 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | #12182 | #12440 | PR Created (Passing Checks) | 2026-08-04 | |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | #12182 | #12457 | PR Created (Checks Failing) | 2026-08-04 | |
 | 3 | mockGCP generation | | | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | | | Not Started | | |
 
@@ -281,6 +281,9 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 - **2026-09-03**: Verified in the latest orchestrator run that PR #12440 is OPEN, mergeable, with zero merge conflicts, and 100% of the 250+ individual CI checks continue to pass successfully (all green). Actively awaiting human OWNER review and merge to proceed to Step 3.
 - **2026-09-03**: Re-monitored PR #12440 in the current orchestrator status check run. Confirmed it is OPEN, mergeable, with zero merge conflicts, and all 250+ individual CI check-runs continue to pass successfully (100% green). Actively awaiting human OWNER review and merge to complete Step 2.
 - **2026-09-03**: Conducted subsequent status verification. Re-confirmed that PR #12440 remains OPEN and fully mergeable with 100% of the 250+ individual CI checks successfully passing (all green). Actively awaiting human OWNER review and merge.
+- **2026-09-03**: Detected that PR #12440 was closed without merging by human OWNER sdowell.
+- **2026-09-03**: Identified open Pull Request #12457 ("Support for Assured Workloads") as the active PR implementing the direct controller, MockGCP, and E2E fixtures for AssuredWorkloadsWorkload.
+- **2026-09-03**: Transitioned Step 2 tracking to PR #12457. Noted that PR #12457 currently has some failing check-runs (specifically `zizmor-output`), and is awaiting human OWNER review and merge.
 
 
 
