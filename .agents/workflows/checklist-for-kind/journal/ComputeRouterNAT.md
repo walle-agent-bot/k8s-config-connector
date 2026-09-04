@@ -15,6 +15,7 @@
 | 6 | Validate direct promotion for ComputeRouterNAT | [#12701](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12701) | [#12703](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12703) | PR Created | 2026-09-02 | - |
 
 ## Status Update Notes
+- **2026-09-04**: Re-verified PR #12703 (Validate direct promotion for ComputeRouterNAT) and confirmed that all 124 CI checks are 100% green and successfully passing. The PR remains open and is awaiting final owner review and merge.
 - **2026-09-03**: Re-checked and confirmed that PR #12703 remains open and all 124 CI checks are completely green and passing successfully. The step is ready for final review and merge by repository owners.
 - **2026-09-03**: Re-verified all 124 CI checks for PR #12703 (Validate direct promotion for ComputeRouterNAT) and confirmed that they are all 100% green and successfully passing. The PR remains open and is awaiting final owner review and merge.
 - **2026-09-03**: Confirmed all 124 CI checks for PR #12703 are 100% green and passing. The PR remains open and is awaiting owner review and final merge.
