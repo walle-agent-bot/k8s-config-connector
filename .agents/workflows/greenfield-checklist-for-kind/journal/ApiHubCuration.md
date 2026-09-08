@@ -1,17 +1,18 @@
 # Migration Journal: ApiHubCuration
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types and Identity and Reference Types Pattern | #11719 | #11729 | PR Created | 2026-07-18 | |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | | | | | |
+| 1 | Direct API Types and Identity and Reference Types Pattern | #11719 | #11729 | Merged | 2026-07-18 | 2026-09-08 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | #12802 | | Open | 2026-09-08 | |
 | 3 | mockGCP generation | | | | | |
 | 4 | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Updates
+* **2026-09-08 (20:30 UTC)**: Step 1 PR #11729 has been officially merged! Marked Step 1 as Completed/Merged. Transitioned to Step 2 and created the tracking issue #12802 for the direct controller, E2E fixtures, and fuzzer.
 * **2026-09-08 (19:30 UTC)**: Re-audited PR #11729. Confirmed that human OWNER `cheftako` has officially approved the PR with `/lgtm` and `/approve`! All 250+ CI checks are 100% green and passing. The PR remains open, awaiting automatic merge by Prow to proceed to Step 2.
 * **2026-09-08 (14:48 UTC)**: Re-audited PR #11729 checks and state. Confirmed that all 250+ CI checks continue to pass successfully with 100% green/passing results (zero failures). The PR remains open, cleanly rebased on master, and approved by all automated review bots under the 'overseer/ready-for-human' label. It continues to be assigned to human OWNER `acpana`, awaiting final human OWNER review and merge to proceed to Step 2.
 * **2026-09-08 (12:40 UTC)**: Audited PR #11729 status again. All 250+ CI check-runs are completely green and passing successfully. The PR remains open, approved by all automated review bots, and labeled 'overseer/ready-for-human', currently assigned to human OWNER `acpana`. Still awaiting final human OWNER review and merge to transition to Step 2.
