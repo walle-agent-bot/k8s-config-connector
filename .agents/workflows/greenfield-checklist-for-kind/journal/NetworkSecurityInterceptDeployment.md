@@ -1,18 +1,19 @@
 # NetworkSecurityInterceptDeployment Greenfield Migration Journal
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: mockGCP generation
 
 ## Progress Tracking
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#8726](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8726) | [#8748](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8748) | Completed | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#12711](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12711) | PR Approved (CI Passed, Pending Merge) | 2026-07-23 | |
-| Step 3: mockGCP generation | | | Pending | | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11871](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11871) | [#12711](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12711) | Completed | 2026-07-23 | 2026-09-09 |
+| Step 3: mockGCP generation | [#12820](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12820) | | Open | 2026-09-09 | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ### Recent Status Updates
+- **2026-09-09**: Monitored Step 2. Confirmed that Pull Request #12711 has been successfully merged and child issue #11871 is closed. Transitioned to Step 3, opened a new GitHub issue #12820 to implement MockGCP and Alignment for NetworkSecurityInterceptDeployment.
 - **2026-09-09**: Re-monitored Step 2. Confirmed Pull Request #12711 remains open on GitHub with status `OPEN` and review decision `APPROVED`. Verified that all 248 automated CI checks are completed successfully and 100% greenly passing across all paginated pages. In accordance with safety guardrails and meta-skill guidelines, we continue to monitor progress and await final merge of the PR by a project OWNER before we can transition to Step 3.
 - **2026-09-09**: Monitored Step 2 progress. Pull Request #12711 has been officially **APPROVED** on GitHub by collaborator `himanigulati01` as of 2026-09-09. All 248 automated CI checks are verified to be 100% green and successfully passing across all pages. In accordance with safety guardrails, we continue to monitor progress and await final merge of the PR by a project OWNER before transitioning to Step 3.
 - **2026-09-09**: Re-monitored Step 2. Confirmed Pull Request #12711 remains open on GitHub in state `OPEN` with a `REVIEW_REQUIRED` review decision, carrying the `overseer/ready-for-human` label. Verified that all 248 automated CI checks have completed successfully and are 100% green and passing across all paginated pages. In accordance with safety guardrails and meta-skill guidelines, we continue to monitor the PR and await human review, approval, and merge by a project OWNER before transitioning to Step 3.
