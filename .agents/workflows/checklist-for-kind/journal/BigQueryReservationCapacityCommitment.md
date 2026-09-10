@@ -15,6 +15,7 @@
 | 6 | Validate Direct Promotion | [#12070](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12070) | [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) | Open (Checks Passing) | 2026-07-29 | |
 
 ## Migration Notes
+- **2026-09-10 (18:50 UTC)**: Monitored progress. Verified that all 260 CI check-runs on open PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) remain fully successful (all green). Tracking remains paused due to the active `overseer/stop` label on the PR, pending human OWNER review and approval.
 - **2026-09-10 (16:08 UTC)**: Monitored progress. Verified that all CI check-runs on open PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) remain fully successful (all green). Tracking remains paused due to the active `overseer/stop` label on the PR, pending human OWNER review and approval.
 - **2026-09-10 (11:49 UTC)**: Monitored progress. Verified that all CI check-runs on open PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) remain fully successful (all green). Tracking remains paused due to the active `overseer/stop` label on the PR, pending human OWNER review and approval.
 - **2026-09-10 (07:24 UTC)**: Monitored progress. Verified that all CI check-runs on open PR [#12107](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12107) remain fully successful (all green). Tracking remains paused due to the active `overseer/stop` label on the PR, pending human OWNER review and approval.
