@@ -1,15 +1,18 @@
 # Greenfield Migration Journal: AssuredWorkloadsWorkload
 
-Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
+Current Step: Step 3: mockGCP generation
 
 | Step Number | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |-------------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity and Reference Types Pattern | #12029 | #12040 | Completed | 2026-07-29 | 2026-08-04 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | #12182 | #12457 | PR Created (Failing Checks, Conflicting) | 2026-08-04 | |
-| 3 | mockGCP generation | | | Not Started | | |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | #12182 | #12804 | Completed | 2026-08-04 | 2026-09-10 |
+| 3 | mockGCP generation | #12894 | | Open | 2026-09-10 | |
 | 4 | MockGCP Alignment with RealGCP | | | Not Started | | |
 
 ## Log
+
+- **2026-09-10**: Verified Step 2 was successfully merged under PR #12804. Closed Issue #12182.
+- **2026-09-10**: Opened Step 3 issue #12894 for mockGCP generation. Transitioned to Step 3.
 
 - **2026-07-29**: Initialized journal for AssuredWorkloadsWorkload.
 - **2026-07-29**: Opened Step 1 issue #12029.
