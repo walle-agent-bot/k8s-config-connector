@@ -1,0 +1,19 @@
+## Migration Progress for BillingBudgetsBudget
+
+**Current Step:** Step 4: Ensure MockGCP matches real gcp behavior & Step 6: Validate Direct Promotion
+
+### Progress Tracking
+
+| Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Step 1:** Direct API Types | #9013 | #9025 | Merged | June 2, 2026 | June 3, 2026 |
+| **Step 2:** Identity and Reference Types Pattern | #9073 | #9075 | Merged | June 3, 2026 | June 4, 2026 |
+| **Step 3:** Create a Round-Trip KRM Fuzzer | #9119 | #9124 | Merged | June 4, 2026 | June 4, 2026 |
+| **Step 4:** Ensure MockGCP matches real gcp behavior | #12886 | #12892 | PR Created | September 10, 2026 | In Progress |
+| **Step 5:** Implement Direct Controller & E2E Fixtures | #9170 | #9176 | Merged | June 4, 2026 | July 11, 2026 |
+| **Step 6:** Validate Direct Promotion | #12068 | #12083 | PR Created | July 29, 2026 | In Progress |
+
+### Status Updates
+*   **September 11, 2026 (06:14 UTC):** Monitored progress. Verified via the GitHub CLI that all CI check-runs on Pull Request #12892 (Step 4) remain passing. The PR is still open with the `overseer/ready-for-human` label, awaiting human review. Re-verified that PR #12083 (Step 6) still has the `overseer/stop` label. Adhering strictly to safety guardrails, leaving the paused items untouched.
+*   **September 11, 2026 (04:05 UTC):** Monitored progress. Verified via standard checks that all CI check-runs on Pull Request #12892 (Step 4) are completely successful and passing (all green). The PR remains open with the `overseer/ready-for-human` label, awaiting human review. Re-verified that PR #12083 (Step 6) still has the `overseer/stop` label, so we are adhering strictly to safety guardrails and leaving the paused items untouched.
+*   **September 11, 2026 (01:45 UTC):** Monitored progress. Verified via the GitHub API that all CI check-runs on Pull Request #12892 (Step 4) remain in a successful and passing state (all green). The PR remains open, awaiting human review. Re-verified that PR #12083 (Step 6) still has the `overseer/stop` label. Adhering strictly to safety guardrails, leaving the paused items untouched.
