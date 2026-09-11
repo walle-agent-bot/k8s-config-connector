@@ -268,3 +268,4 @@ Step 2: Identity and Reference Types Pattern
 * **2026-07-30**: Checked Step 2 PR #11239. It remains open with all CI checks passing. Migration is currently blocked waiting for a human review and merge of this PR.
 * **2026-07-29**: Initialized the migration tracking journal for `ComputeFirewallPolicyAssociation`. Verified that Step 1 is fully complete and merged (#10068).
 * **2026-07-29**: Checked the status of Step 2 PR #11239 ("Move ComputeFirewallPolicyAssociation to identity and refs pattern"). All CI checks are successfully passing (SUCCESS). The PR is currently waiting for human approver review (`REVIEW_REQUIRED`).
+* **2026-09-11 (re-verified at 08:21 UTC)**: Step 2 PR #11239 remains OPEN with all CI checks passing successfully (PASS). The PR has the `overseer/stop` label applied, is assigned to author bot `lovelace-coder-bot`, and is awaiting human review and merge.
