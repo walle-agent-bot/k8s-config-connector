@@ -17,19 +17,23 @@ limitations under the License.
 # Greenfield Migration Journal: NetworkSecurityAddressGroup
 
 ## Current Status
-*   **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
-*   **Last Update:** 2026-09-19
+*   **Current Step:** Step 3: mockGCP generation
+*   **Last Update:** 2026-09-25
 
 ## Progress Tracking
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Direct API Types and Identity and Reference Types Pattern | [#8720](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8720) | [#8755](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8755) | Merged | 2026-05-27 | 2026-06-19 |
-| **2** | Direct Controller, E2E fixtures and Fuzzer | [#13331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13331) | - | Open | 2026-09-19 | - |
-| **3** | mockGCP generation | - | - | - | - | - |
+| **2** | Direct Controller, E2E fixtures and Fuzzer | [#13331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13331) | [#13332](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13332) | Merged | 2026-09-19 | 2026-09-25 |
+| **3** | mockGCP generation | [#13453](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13453) | - | Open | 2026-09-25 | - |
 | **4** | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Step Notes & Updates
+
+### 2026-09-25: Step 3 Started
+*   Step 2 completed and merged under PR #13332.
+*   Created Issue #13453 to track Step 3: Implementing MockGCP and Alignment for `NetworkSecurityAddressGroup`.
 
 ### 2026-09-19: Step 2 Started
 *   Step 1 was previously completed and merged under Issue #8720 and PR #8755.
