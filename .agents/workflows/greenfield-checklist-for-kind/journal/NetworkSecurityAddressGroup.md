@@ -18,7 +18,7 @@ limitations under the License.
 
 ## Current Status
 *   **Current Step:** Step 3: mockGCP generation
-*   **Last Update:** 2026-09-25
+*   **Last Update:** 2026-09-28
 
 ## Progress Tracking
 
@@ -26,10 +26,13 @@ limitations under the License.
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Direct API Types and Identity and Reference Types Pattern | [#8720](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8720) | [#8755](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8755) | Merged | 2026-05-27 | 2026-06-19 |
 | **2** | Direct Controller, E2E fixtures and Fuzzer | [#13331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13331) | [#13332](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13332) | Merged | 2026-09-19 | 2026-09-25 |
-| **3** | mockGCP generation | [#13453](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13453) | - | Open | 2026-09-25 | - |
+| **3** | mockGCP generation | [#13453](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13453) | [#13459](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13459) | PR Created | 2026-09-25 | - |
 | **4** | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Step Notes & Updates
+
+### 2026-09-28: Step 3 PR Created
+*   PR #13459 was created for Step 3: MockGCP and Alignment for `NetworkSecurityAddressGroup`. All CI checks have passed.
 
 ### 2026-09-25: Step 3 Started
 *   Step 2 completed and merged under PR #13332.
