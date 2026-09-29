@@ -1,17 +1,21 @@
 # Greenfield Resource Migration Journal: DataformFolder
 
-**Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
+**Current Step:** Step 3: mockGCP generation
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity/Reference Pattern | [#8679](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8679) | [#9051](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9051) | Completed | 2026-09-16 | 2026-09-16 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#13177](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13177) | [#13184](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13184) | PR Created | 2026-09-16 | - |
-| 3 | mockGCP generation | - | - | Pending | - | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#13177](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13177) | [#13184](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13184) | Completed | 2026-09-16 | 2026-09-29 |
+| 3 | mockGCP generation | [#13506](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13506) | - | Open | 2026-09-29 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update History
+
+### 2026-09-29
+- Step 2 completed with PR [#13184](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13184) merged.
+- Opened issue [#13506](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13506) for Step 3 (mockGCP generation) and set status to Open.
 
 ### 2026-09-28
 - Updated Step 2 status to `PR Created` with PR [#13184](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13184).
