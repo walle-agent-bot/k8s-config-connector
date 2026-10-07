@@ -1,18 +1,19 @@
 # DiscoveryEngineSchema Greenfield Migration Journal
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity | [#12017](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12017) | [#13446](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13446) | PR Created | 2026-07-29 | - |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
+| 1 | Direct API Types and Identity | [#12017](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12017) | [#13446](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13446) | Merged | 2026-07-29 | 2026-10-07 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#13771](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13771) | - | Open | 2026-10-07 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-10-07**: Step 1 Pull Request [#13446](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13446) was successfully merged into master! Transitioned migration to Step 2 and created child issue [#13771](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13771) with labels `overseer`, `greenfield`, `step/controller`, and `overseer/review` to implement direct controller, E2E fixtures, and fuzzer for DiscoveryEngineSchema.
 * **2026-09-28**: Updated Step 1 tracking with open Pull Request [#13446](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13446) (replacing closed PR [#12033](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12033)). Verified via GitHub CLI and API that all CI checks are 100% green and passing, and the PR has the `overseer/ready-for-human` label. Awaiting human OWNER review and merge approval before proceeding to Step 2.
 * **2026-09-11 (18:14 UTC)**: Monitored Step 1 Pull Request [#12033](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12033) in the current orchestration run. Verified via GitHub CLI that the PR remains open with the `overseer/stop` label active and in a conflicting (`dirty`/`CONFLICTING`) state. All CI checks were verified to be successfully passing. In strict compliance with safety guardrails and the `overseer/stop` policy, all labels, assignees, and comments on the PR were left completely unmodified, respecting the paused status while awaiting human OWNER review or manual conflict resolution.
 * **2026-09-11 (16:15 UTC)**: Monitored Step 1 Pull Request [#12033](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12033) in the current orchestration run. Verified via GitHub CLI that the PR remains open with the `overseer/stop` label active and in a conflicting (`dirty`/`CONFLICTING`) state. All CI checks were verified to be successfully passing. In strict compliance with safety guardrails and the `overseer/stop` policy, all labels, assignees, and comments on the PR were left completely unmodified, respecting the paused status while awaiting human OWNER review or manual conflict resolution.
