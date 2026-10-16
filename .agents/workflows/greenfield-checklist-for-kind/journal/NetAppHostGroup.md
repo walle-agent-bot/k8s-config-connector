@@ -8,10 +8,11 @@
 |---|---|---|---|---|---|
 | Step 1: Direct API Types and Identity and Reference Types Pattern | [#13734](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13734) | [#13739](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13739) | Completed | 2026-10-05 | 2026-10-14 |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | [#13988](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13988) | [#13989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13989) | Completed | 2026-10-14 | 2026-10-16 |
-| Step 3: mockGCP generation | [#14042](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14042) | - | Open | 2026-10-16 | - |
+| Step 3: mockGCP generation | [#14042](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14042) | [#14047](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14047) | PR Created | 2026-10-16 | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-10-16**: Pull Request #14047 created for Step 3 issue #14042.
 - **2026-10-16**: Opened Step 3 issue #14042 to implement MockGCP and alignment for NetAppHostGroup.
 - **2026-10-16**: Step 2 PR #13989 merged. Step 2 completed.
 - **2026-10-14**: Pull Request #13989 created for Step 2 issue #13988.
