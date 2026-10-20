@@ -7,7 +7,7 @@ Step 1: Direct API Types
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types | [#14105](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14105) | - | Open | 2026-10-19 | - |
+| 1 | Direct API Types | [#14105](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14105) | [#14114](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14114) | PR Created | 2026-10-19 | - |
 | 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -16,3 +16,4 @@ Step 1: Direct API Types
 
 ### Status Updates
 - **2026-10-19**: Started migration for DocumentAIProcessorDefaultVersion. Created issue #14105 for Step 1: Direct API Types.
+- **2026-10-20**: PR #14114 created for Step 1. All CI checks passed; auto-review passed; awaiting human review and merge.
