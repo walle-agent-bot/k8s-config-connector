@@ -1,18 +1,19 @@
 # DiscoveryEngineSchema Greenfield Migration Journal
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: mockGCP generation
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types and Identity | [#12017](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12017) | [#13446](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13446) | Merged | 2026-07-29 | 2026-10-07 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#13771](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13771) | [#13777](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13777) | PR Created | 2026-10-07 | - |
-| 3 | mockGCP generation | - | - | Pending | - | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#13771](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13771) | [#13777](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13777) | Merged | 2026-10-07 | 2026-10-21 |
+| 3 | mockGCP generation | [#14237](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14237) | - | Open | 2026-10-21 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-10-21 (13:38 UTC)**: Step 2 Pull Request [#13777](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13777) was successfully merged into master! Transitioned migration to Step 3 and created child issue [#14237](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14237) with labels `overseer`, `greenfield`, and `step/mockgcp` to implement MockGCP and Alignment for DiscoveryEngineSchema.
 * **2026-10-07 (04:12 UTC)**: Pull Request [#13777](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13777) has been created for Step 2 by ada-coder-bot (fixing [#13771](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13771)) with direct controller, E2E fixtures, and fuzzer implementations. CI checks are in progress. Monitoring progress while awaiting review and merge.
 * **2026-10-07**: Step 1 Pull Request [#13446](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13446) was successfully merged into master! Transitioned migration to Step 2 and created child issue [#13771](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13771) with labels `overseer`, `greenfield`, `step/controller`, and `overseer/review` to implement direct controller, E2E fixtures, and fuzzer for DiscoveryEngineSchema.
 * **2026-09-28**: Updated Step 1 tracking with open Pull Request [#13446](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13446) (replacing closed PR [#12033](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12033)). Verified via GitHub CLI and API that all CI checks are 100% green and passing, and the PR has the `overseer/ready-for-human` label. Awaiting human OWNER review and merge approval before proceeding to Step 2.
