@@ -9,12 +9,13 @@ Step 3: Create a Round-Trip KRM Fuzzer
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types | [#14102](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14102) | [#14117](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14117) | Completed | 2026-10-19 | 2026-10-21 |
 | 2 | Identity and Reference Types Pattern | [#14247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14247) | [#14249](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14249) | Completed | 2026-10-21 | 2026-10-21 |
-| 3 | Create a Round-Trip KRM Fuzzer | [#14255](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14255) | - | Open | 2026-10-21 | - |
+| 3 | Create a Round-Trip KRM Fuzzer | [#14255](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14255) | [#14266](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14266) | PR Created | 2026-10-21 | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 | 6 | Validate Direct Promotion | - | - | Pending | - | - |
 
 ### Status Updates
+- **2026-10-22**: PR #14266 created for Step 3. All CI checks passed (257 successful, 0 failing). Awaiting review and merge.
 - **2026-10-21**: Step 2 completed (PR #14249 merged). Created issue #14255 for Step 3: Implement round-trip KRM fuzzer for ApigeeNATAddress.
 - **2026-10-21**: PR #14249 created for Step 2. All CI checks passed and review approved (LGTM). Awaiting approver review and merge.
 - **2026-10-21**: Step 1 completed (PR #14117 merged). Created issue #14247 for Step 2: Move ApigeeNATAddress to identity and refs pattern.
