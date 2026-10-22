@@ -10,7 +10,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | Step 1: Direct API Types | [#14106](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14106) | [#14118](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14118) | Completed | 2026-10-20 | 2026-10-21 |
 | Step 2: Identity and Reference Types Pattern | [#14106](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14106) | [#14118](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14118) | Completed | 2026-10-20 | 2026-10-21 |
 | Step 3: Create a Round-Trip KRM Fuzzer | [#14217](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14217) | [#14221](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14221) | Completed | 2026-10-21 | 2026-10-21 |
-| Step 4: Ensure MockGCP matches real gcp behavior | [#14260](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14260) | - | Open | 2026-10-21 | - |
+| Step 4: Ensure MockGCP matches real gcp behavior | [#14260](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14260) | [#14270](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14270) | PR Created | 2026-10-21 | - |
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
@@ -20,3 +20,4 @@ Step 4: Ensure MockGCP matches real gcp behavior
 - **2026-10-21**: PR [#14118](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14118) merged, completing Step 1 (Direct API Types) and Step 2 (Identity and Reference Types Pattern). Created child issue [#14217](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14217) for Step 3 (Round-Trip KRM Fuzzer).
 - **2026-10-21**: Detected open pull request [#14221](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14221) for Step 3. All presubmit checks passed; awaiting human review and approval.
 - **2026-10-21**: PR [#14221](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14221) merged, completing Step 3 (Round-Trip KRM Fuzzer). Created child issue [#14260](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14260) for Step 4 (Ensure MockGCP matches real gcp behavior).
+- **2026-10-22**: Detected open pull request [#14270](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14270) for Step 4. All presubmit checks passed; awaiting human review and approval.
