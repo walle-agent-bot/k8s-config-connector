@@ -1,7 +1,7 @@
 # Migration Journal: ApigeeNATAddress
 
 ## Current Step
-Step 4: Ensure MockGCP matches real gcp behavior
+Step 5: Implement Direct Controller & E2E Fixtures
 
 ## Migration Progress: ApigeeNATAddress
 
@@ -10,11 +10,12 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | 1 | Direct API Types | [#14102](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14102) | [#14117](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14117) | Completed | 2026-10-19 | 2026-10-21 |
 | 2 | Identity and Reference Types Pattern | [#14247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14247) | [#14249](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14249) | Completed | 2026-10-21 | 2026-10-21 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#14255](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14255) | [#14266](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14266) | Completed | 2026-10-21 | 2026-10-22 |
-| 4 | Ensure MockGCP matches real gcp behavior | [#14292](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14292) | [#14299](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14299) | PR Created | 2026-10-22 | - |
-| 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
+| 4 | Ensure MockGCP matches real gcp behavior | [#14292](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14292) | [#14299](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14299) | Completed | 2026-10-22 | 2026-10-23 |
+| 5 | Implement Direct Controller & E2E Fixtures | [#14360](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14360) | - | Open | 2026-10-23 | - |
 | 6 | Validate Direct Promotion | - | - | Pending | - | - |
 
 ### Status Updates
+- **2026-10-23**: Step 4 completed (PR #14299 merged). Created issue #14360 for Step 5: Implement direct controller and test fixtures for ApigeeNATAddress.
 - **2026-10-23**: PR #14299 created for Step 4. All CI checks passed (261 successful, 0 failing). Awaiting review and merge.
 - **2026-10-22**: Step 3 completed (PR #14266 merged). Created issue #14292 for Step 4: Match real gcp behavior in MockGCP for ApigeeNATAddress.
 - **2026-10-22**: PR #14266 created for Step 3. All CI checks passed (257 successful, 0 failing). Awaiting review and merge.
