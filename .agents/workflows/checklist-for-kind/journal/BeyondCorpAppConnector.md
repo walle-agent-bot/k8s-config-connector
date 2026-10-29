@@ -1,6 +1,6 @@
 # Migration Journal: BeyondCorpAppConnector
 
-Current Step: Step 4 - Ensure MockGCP matches real gcp behavior
+Current Step: Step 5 - Implement Direct Controller & E2E Fixtures
 
 ## Progress Tracking
 
@@ -9,8 +9,8 @@ Current Step: Step 4 - Ensure MockGCP matches real gcp behavior
 | 1 | Direct API Types | [#14343](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14343) | [#14372](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14372) | Completed | 2026-10-23 | 2026-10-27 |
 | 2 | Identity and Reference Types Pattern | [#14488](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14488) | [#14490](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14490) | Completed | 2026-10-27 | 2026-10-28 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#14516](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14516) | [#14517](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14517) | Completed | 2026-10-28 | 2026-10-29 |
-| 4 | Ensure MockGCP matches real gcp behavior | [#14569](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14569) | [#14585](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14585) | PR Created | 2026-10-29 | - |
-| 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
+| 4 | Ensure MockGCP matches real gcp behavior | [#14569](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14569) | [#14585](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14585) | Completed | 2026-10-29 | 2026-10-29 |
+| 5 | Implement Direct Controller & E2E Fixtures | [#14631](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14631) | - | Open | 2026-10-29 | - |
 | 6 | Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Updates
@@ -22,3 +22,4 @@ Current Step: Step 4 - Ensure MockGCP matches real gcp behavior
 - 2026-10-28: Pull Request #14517 created for Step 3. Awaiting CI completion, review, and merge.
 - 2026-10-29: Step 3 PR #14517 merged. Completed Step 3 and opened Step 4 issue #14569 to match real GCP behavior in MockGCP.
 - 2026-10-29: Pull Request #14585 created for Step 4. Awaiting CI completion, review, and merge.
+- 2026-10-29: Step 4 PR #14585 merged. Completed Step 4 and opened Step 5 issue #14631 to implement direct controller and test fixtures.
