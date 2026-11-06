@@ -1,19 +1,20 @@
 # Greenfield Checklist Migration Journal: AIPlatformCachedContent
 
 ## Current Step
-Step 1b: Triage Judgement Queue and Finalize Direct API Types, Identity, and Reference Types
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking Table
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1a: Prepopulate Direct API Types, Identity, and Judgement Queue | [Issue #12691](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12691) | [PR #14870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14870) | Merged | 2026-09-02 | 2026-11-05 |
-| Step 1b: Triage Judgement Queue and Finalize Direct API Types and Identity | [Issue #15070](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15070) | [PR #15084](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15084) | PR Created | 2026-11-05 | N/A |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | N/A | N/A |
+| Step 1b: Triage Judgement Queue and Finalize Direct API Types and Identity | [Issue #15070](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15070) | [PR #15084](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15084) | Merged | 2026-11-05 | 2026-11-06 |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [Issue #15147](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15147) | N/A | Open | 2026-11-06 | N/A |
 | Step 3: mockGCP generation | N/A | N/A | Not Started | N/A | N/A |
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Not Started | N/A | N/A |
 
 ## Recent Status Updates
+- **2026-11-06 (Orchestrator Run - Step 1b Merged, Step 2 Initiated)**: Step 1b PR #15084 merged successfully into master and Issue #15070 was closed. KRM types, identity, and reference types are finalized. Created child Issue #15147 for Step 2 (Direct Controller, E2E fixtures, and Fuzzer). Updated Step 2 status to 'Open'.
 - **2026-11-06 (Orchestrator Run - PR #15084 Created for Step 1b)**: PR #15084 was created for Step 1b (Issue #15070) to triage the judgement queue and finalize direct KRM types and identity. Updated Step 1b status to 'PR Created'. Standing by for CI resolution and review.
 - **2026-11-05 (Orchestrator Run - Step 1a Merged, Step 1b Initiated)**: Step 1a PR #14870 merged successfully into master. Prepopulated types, identity, and open entries in `apis/aiplatform/judgement_queue.yaml` for `AIPlatformCachedContent` are now present on master. Created child Issue #15070 for Step 1b to triage the judgement queue and finalize direct KRM types and identity.
 - **2026-11-04 (Orchestrator Run - PR Replaced with #14870 - Verified at 09:27 UTC)**: Re-evaluated Step 1 progress. PR #12696 was closed without merging and replaced by new open PR #14870 ("Greenfield: Prepopulate direct KRM types, identity, and generate.sh for AIPlatformCachedContent") linked to Issue #12691. Automated presubmit CI checks are currently running on PR #14870 (207 passed, 0 failures, 44 pending). Updated Step 1 PR link to #14870 with status 'PR Created'. Standing by for CI completion and review.
